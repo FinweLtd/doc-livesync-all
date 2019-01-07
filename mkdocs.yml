@@ -1,0 +1,8 @@
+site_name: LiveSYNC
+nav:
+  - Home: 'README.md'
+  - Contents: 'SUMMARY.md'
+theme:
+#  name: 'gitbook'
+#  name: 'bootstrap4'
+  name: 'material'

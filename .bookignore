@@ -1,0 +1,8 @@
+# Ignore /.idea project folder
+.idea/
+
+# Ignore /site compiled html folder (upload to git pages via 'mkdocs gh-deploy' command in console
+site/
+
+# Ignore mkdocs config file
+mkdocs.yml
