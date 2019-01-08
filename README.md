@@ -14,6 +14,11 @@ The documentation is intended to be used in a compiled form. The source files, w
 the main branch of this repository, consist of a set of textual Markdown (.md) files and related
 images, videos etc. files that are referenced from the text files.
 
+Writing
+-------
+
+All the docs should be in /docs folder. Try to avoid compiler specific Markdown extensions.
+
 Deploying to GitHub Pages via MkDocs
 ------------------------------------
 
@@ -52,8 +57,3 @@ deploying them with 'mkdocs deploy' script.
 GitBook configuration is in book.json file. See also .bookignore for filtering files from the book.
 
 More info about GitBook: https://docs.gitbook.com/
-
-Writing
--------
-
-All the docs should be in /docs folder. Try to avoid compiler specific Markdown extensions.
