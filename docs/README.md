@@ -10,41 +10,41 @@ Training courses are available at request, even on-site at your company.
 [Contact us](mailto:info@finwe.fi) to learn more about upcoming courses and 
 LiveSYNC Certified Expert program.
 
-### [Quick Start](QUICK_START.md)
+### [Quick Start](quick_start.md)
 
 A short introduction to LiveSYNC that gets you going in 15 minutes.
 
-### [Tutorials](TUTORIALS.md)
+### [Tutorials](tutorials.md)
 
 Learn how LiveSYNC can help you work faster and smarter. Tutorials are written to-the-point
 and quickly show how to accomplish common tasks.
 
-### [User Guide](USER_GUIDE.md)
+### [User Guide](user_guide.md)
 
 User Guide contains step-by-step instructions and deepens your understanding by providing
 background knowledge.
 
-### [Articles](ARTICLES.md)
+### [Articles](articles.md)
 
 Articles are written by LiveSYNC experts and focus on specific topics and use cases. Here
 you can learn best practises and find example configurations.
 
-### [FAQ](FAQ.md)
+### [FAQ](faq.md)
 
 Got a question? Check out frequently asked questions to get an answer quickly.
 
-### [Support](SUPPORT.md)
+### [Support](support.md)
 
 [Contact us](mailto:support@finwe.fi) to ask a question from the developers or to send a feature
 request - we are listening.
 
 ## Resources
 
-### [Content Samples](DOWNLOADS.md#content-samples)
+### [Content Samples](downloads.md#content-samples)
 
 Download FREE sample files that demonstrate features and allow experimenting first hand.
 
-### [Templates](DOWNLOADS.md#templates)
+### [Templates](downloads.md#templates)
 
 Download FREE templates to be used as a basis for creating your own configuration.
 
