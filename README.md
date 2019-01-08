@@ -19,6 +19,9 @@ Writing
 
 All the docs should be in /docs folder. Try to avoid compiler specific Markdown extensions.
 
+**IMPORTANT: Do not touch the CNAME file in /docs folder! This must be left exactly as it is, else
+the documentation cannot be found via our custom domain** https://docs.livesync.app
+
 Deploying to GitHub Pages via MkDocs
 ------------------------------------
 
