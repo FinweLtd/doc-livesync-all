@@ -4,8 +4,10 @@ nav:
   - Quick Start: 'QUICK_START.md'
   - Tutorials: 'TUTORIALS.md'
   - User Guide: 'USER_GUIDE.md'
+  - Articles: 'ARTICLES.md'
   - FAQ: 'FAQ.md'
-  - Contents: 'SUMMARY.md'
+  - Support: 'SUPPORT.md'
+  - Downloads: 'DOWNLOADS.md'
 theme:
   name: 'material'
 #  name: 'bootstrap4'
