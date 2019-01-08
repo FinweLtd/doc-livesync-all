@@ -33,7 +33,7 @@ content every time a source file is changed and saved.
 
 MkDocs configuration is in mkdocs.yml file. Use it for selecting theme, configuring navigation etc.
 
-More info about mkdocs: https://www.mkdocs.org/
+MkDocs tool must be installed before it can be used. More info about mkdocs: https://www.mkdocs.org/
 
 Deploying to GitBook via GitHub hooks
 -------------------------------------
@@ -46,7 +46,8 @@ as it is sync'ed with this GitHub repository.
 
 Notice that it is also possible to use GitBook online editor for writing the documentation, and
 to synchronize it back to GitHub repository. However, with this workflow the GitHub Pages version
-must be still manually pulled from the repository and compiled with 'mkdocs deploy'.
+must be still manually compiled by pulling the source files from the repository and compiling and
+deploying them with 'mkdocs deploy' script.
 
 GitBook configuration is in book.json file. See also .bookignore for filtering files from the book.
 
@@ -55,4 +56,4 @@ More info about GitBook: https://docs.gitbook.com/
 Writing
 -------
 
-All the docs should be in /docs folder. Try avoid compiler specific Markdown extensions.
+All the docs should be in /docs folder. Try to avoid compiler specific Markdown extensions.
