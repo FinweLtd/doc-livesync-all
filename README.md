@@ -1,13 +1,17 @@
 LiveSYNC Public Documentation
 =============================
 
-
+Abstract
+--------
 
 This repository contains public documentation for Finwe's LiveSYNC software product. It is intended
 to be used by end-users. Finwe's internal software documentation is in another private repository.
 
 The source files of the documentation consist of a set of textual Markdown files and related 
 images, videos etc. media files that are referenced from the text files.
+
+GitHub Pages via MkDocs
+-----------------------
 
 The documentation can be viewed in compiled HTML format via this project's GitHub Pages. To compile
 the documentation, commit the changes to the repository and run 'mkdocs deploy' script; this will
@@ -19,10 +23,17 @@ the documentation locally in a web browser: http://localhost:8000/
 
 MkDocs configuration is in mkdocs.yml file. More info about mkdocs: https://www.mkdocs.org/
 
+GitBook via GitHub hooks
+------------------------
+
 The documentation can also be viewed in GitBook online service, where it is automatically sync'ed
 from this GitHub repository. Simply commit your changes to the main branch. The result will appear
 here: https://finweltd.gitbook.io/livesync/
 
 GitBook configuration is in book.json file. See also .bookignore for filtering files from the book.
+More info about GitBook: https://docs.gitbook.com/
 
-All the docs should be in /docs folder. More info about GitBook: https://docs.gitbook.com/
+Writing
+-------
+
+All the docs should be in /docs folder. Try avoid compiler specific Markdown extensions.
