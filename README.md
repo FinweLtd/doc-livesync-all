@@ -27,6 +27,20 @@ or to GitBook (third party size), it is not really possible to use server side c
 **IMPORTANT: Do not touch the CNAME file in /docs folder! This must be left exactly as it is, else
 the documentation cannot be found via our custom domain** https://docs.livesync.app
 
+Images
+------
+
+Images should be resize to max 1024 pix wide and copied to /docs/img directory. Please use .jpg
+or .png images; .png only when alpha (transparency) is required.
+
+If you want to use stock images, use archives that provide them royalty free also for commercial
+purposes and without attribution requirement. Here are a few good sources:
+
+https://freestocks.org/
+https://stocksnap.io/
+
+
+
 Deploying to GitHub Pages via MkDocs
 ------------------------------------
 

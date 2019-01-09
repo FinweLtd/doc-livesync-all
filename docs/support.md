@@ -1,9 +1,11 @@
 # Support
 
-Got a question that is not answered in the documentation? A feature request? Or maybe you found
-an error in the docs or wish to suggest an article? 
+![Cover](img/StockSnap_IK7HVCGP2Z_edited.jpg)
 
-Feel free to contact us by leaving a message.
+Got a question that is not answered in the documentation? A feature request? Or maybe you found
+an error in the docs or wish to suggest a topic for an article? 
+
+Feel free to contact us by leaving a message!
 
 <div class="container">
 <style type="text/css" rel="stylesheet">
