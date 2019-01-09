@@ -42,8 +42,6 @@ purposes and without attribution requirement. Here are a few good sources:
 https://freestocks.org/
 https://stocksnap.io/
 
-
-
 Deploying to GitHub Pages via MkDocs
 ------------------------------------
 
