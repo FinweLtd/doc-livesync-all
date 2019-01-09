@@ -7,7 +7,7 @@
 ### Training and certification
 
 Training courses are available at request, even on-site at your company. 
-[Contact us](mailto:info@finwe.fi) to learn more about upcoming courses and 
+[Contact us](support.md) to learn more about upcoming courses and 
 LiveSYNC Certified Expert program.
 
 ### [Quick Start](quick_start.md)
