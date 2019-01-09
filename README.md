@@ -27,6 +27,9 @@ or to GitBook (third party size), it is not really possible to use server side c
 **IMPORTANT: Do not touch the CNAME file in /docs folder! This must be left exactly as it is, else
 the documentation cannot be found via our custom domain** https://docs.livesync.app
 
+**IMPORTANT: Do not touch file google09912a46c2733839.html! This must be left exactly as it is, else
+Google admin tools cannot verify that this domain/website belongs to us.**
+
 Images
 ------
 
