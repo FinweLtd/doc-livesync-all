@@ -19,6 +19,11 @@ Writing
 
 All the docs should be in /docs folder. Try to avoid compiler specific Markdown extensions.
 
+If *absolutely necessary*, it is possible to mix HTML code (and even CSS code) simply by writing
+the tags to their own lines. See /docs/support.md as an example where a contact form has been
+embedded to docs. Notice that when the documentation is deployed to GitHub Pages (static pages)
+or to GitBook (third party size), it is not really possible to use server side code at all.
+
 **IMPORTANT: Do not touch the CNAME file in /docs folder! This must be left exactly as it is, else
 the documentation cannot be found via our custom domain** https://docs.livesync.app
 

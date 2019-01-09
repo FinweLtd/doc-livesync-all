@@ -35,8 +35,8 @@ Got a question? Check out frequently asked questions to get an answer quickly.
 
 ### [Support](support.md)
 
-[Contact us](mailto:support@finwe.fi) to ask a question from the developers or to send a feature
-request - we are listening.
+Contact us to ask a question from the developers, send a feature
+request, suggest an article, or notify us of an error in the docs - we are listening.
 
 ## Resources
 
