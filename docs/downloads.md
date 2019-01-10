@@ -13,6 +13,7 @@ Here you will find an archive of downloadable files. Please read the [license](#
 *Photo Copyright (c) Tapani Rantakokko*
 
 This photo was shot with Canon 6D DSLR camera through a 10mm fisheye lens, and stitched with PtGui.
+The same photo is bundled with the app ("Olos") as a smaller file / lower quality version.
 
 Full spherical 360x180° photo, equirectangular projection, 24-bit JPG 
 
@@ -27,6 +28,7 @@ Full spherical 360x180° photo, equirectangular projection, 24-bit JPG
 *Video Copyright (c) Juha Kela*
 
 This video was shot with 6x GoPro Hero cameras, and stitched with Kolor AVP.
+The same video is bundled with the app ("PowerPark") as a smaller file / lower quality version.
 
 Full spherical 360x180° video, equirectangular projection, MP4
 
@@ -52,7 +54,7 @@ Full spherical 360x180° image, equirectangular projection, 24-bit JPG
 
 ### Test Video
 
-![Image](img/Orion360_test_image_thumb.jpg)
+![Image](img/Orion360_test_video_2d_equi_360x180deg_thumb.jpg)
 
 *Video Copyright (c) Finwe Ltd.*
 
@@ -85,8 +87,21 @@ with ffmpeg. Notice that top half contains left eye image and bottom half right 
 
 ## Templates
 
-TODO
+### settings.ini
+
+![Image](img/settings_thumb.jpg)
+
+settings.ini is an optional configuration file that you can copy to the LiveSYNC root folder (same
+location where content files are copied to). The file contains many configuration options in a
+user-friendly windows ini-file format. Each setting is described with a comment.
+
+[Download latest version](https://raw.githubusercontent.com/FinweLtd/cfg-livesync-player/master/settings.ini)
 
 ## License
 
-TODO
+### Creative Commons
+
+![CC_BY_SA](https://i.creativecommons.org/l/by-sa/3.0/80x15.png)
+
+This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported 
+[License](http://creativecommons.org/licenses/by-sa/3.0/)

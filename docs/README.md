@@ -51,9 +51,9 @@ Download FREE templates to be used as a basis for creating your own configuratio
 ## License
 
 ### Creative Commons
-![CC_NC_SA](img/CC.png) 
-This work is licensed under a Creative Commons 
-Attribution-Noncommercial-Share Alike 3.0 Unported 
+![CC_BY_NC_SA](https://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png)
+
+This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported 
 [License](http://creativecommons.org/licenses/by-nc-sa/3.0/), excluding
 
 * Twitter, Facebook, and other social media posts that link to this content
