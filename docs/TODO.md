@@ -7,12 +7,5 @@ TODO
 - Add more resolution variants to downloadable files
 - Add stereo (3D) test images
 - Add spatial audio (.obb) samples
-
-
-
-
-
-
-
-
+- Add hotspot set
 
