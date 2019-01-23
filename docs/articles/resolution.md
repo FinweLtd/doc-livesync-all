@@ -1,6 +1,6 @@
 # Understanding Resolution in 360°
 
-![Cover](img/StockSnap_UDUTMK0974_edited.jpg)
+![Cover](img_resolution/vr_headset_orion_test.png)
 
 ## Definition
 
@@ -22,15 +22,13 @@ To be specific, in this article we mostly discuss *pixel resolution* ie. the pix
 image. We also sometimes refer to *spatial resolution* ie. how closely lines can be resolved in 
 an image, for example a printed photograph. We do not discuss about *spectral resolution* 
 ie. the ability to resolve spectral features and bands, for example colors. From now on, when we
-use the word *resolution* alone we mean pixel resolution.
+use the words *image resolution* or *resolution* alone we mean pixel resolution.
 
 ![Resolution Illustration](https://upload.wikimedia.org/wikipedia/commons/f/f2/Resolution_illustration.png)
 
 *Pixel resolution illustration by Wikipedia ([1])*
 
-## Describing & Measuring
-
-### Methods
+## Image resolution
 
 There are several methods to describe image resolution. In this article, we will use many of them:
 
@@ -78,24 +76,25 @@ A more common representation uses the imperial notation, pixels per inch (ppi):
 ```
 
 The value calculated above is not correct. For example, if you are reading this from a computer 
-screen, try resizing the width of your browser window: you should see that the image above will 
+screen, try changing the width of your browser window: you should see that the image above will 
 be automatically resized. The resolution of the original image file that your browser has 
 downloaded remains the same and what you see on screen is actually a *copy* of the original image
 that your browser has created and scaled to match with this column's width. That copy probably 
 has a different resolution than the original file does, hence our statement is using wrong
 pixel count and is not true. 
 
-In order to calculate *the resolution of the image that appears on screen*, we need to know the
-pixel density of the display itself. For example, a modern Apple iPad has 264 pixels per inch (ppi)
-([4]) and therefore an image that is 6.4 inches wide should have about 1690 pixels when it is drawn
-on iPad's screen. That happens to be 666 pixels wider than our original image! Where did these 
-extra pixels come from?
+In order to calculate *the resolution of an image that appears on screen*, we need to know its
+physical size and the pixel density of the display. For example, a modern Apple iPad has 264 
+pixels per inch (ppi) ([4]) and therefore an image that is 6.4 inches wide should have about 
+1690 pixels when it is drawn on iPad's screen. That happens to be 666 pixels more than we have
+in the original image! Where did these extra pixels come from?
 
 ```
 264 ppi * 6.4 in = ~1690 px
+1690 px - 1024 px = +666 px 
 ```
 
-### Screen resolution
+## Screen resolution
 
 Let us rephrase what we just learned: When an image is captured and saved into a file, the file
 maintains the original *image resolution* ie. the amount of pixels that were captured and stored 
@@ -108,36 +107,47 @@ has everything to do with physical size, but says nothing about detail. Try to r
 and size can be both  expressed as an amount of pixels, but they are two different things.
 
 Now, although they are different things, they both play apart in the end result. Therefore, 
-it is important to understand the *relation* between the resolution of an image in a file
-and on screen. Consider the image above: what if its (file) resolution would be reduced to
-10 x 10 pixels? Certainly it would become a blurry mess; you cannot express such a complex
+it is important to understand the *relation* between image resolution and screen resolution. 
+Consider our test image again: what if its image resolution would be reduced to
+100 x 100 pixels? Certainly it would lose most of its details; you cannot express such a complex
 image properly with so few pixels. Yet on screen the browser would still scale it to match 
-with the width of this column, no questions asked.
+with the width of this column, no questions asked. This is illustrated below, where a 1024 x 1024
+pixel image is first downscaled to 100 x 100 pixels and then upscaled back to 1024 x 1024 pixels. 
+The result is a blurry mess.
 
-Obviously, your computer must use much more than 10 x 10 pixels to draw the image on screen since
-the display pixels are really small and you need lots of them to draw a wide image. But your 
-computer cannot magically recreate the detail that was permanently lost when we scaled down the 
-original image. Hence, its only option is to copy same (or interpolated) pixels that it loaded 
-from the file side by side to create a larger image ie. a scaled up version. This resulting image 
-on screen will indeed have lots of pixels, only meaning that it has high *screen resolution* ie. 
-large size. Its *image resolution* would still be really low ie. very little detail.
+![Lost detail](img_resolution/loss_of_detail.png)
 
-To make such a blurry image look good, you must either increase detail (image resolution) or 
-decrease size (screen resolution). This is what *spatial resolution*, which we briefly mentioned
-in the beginning, describes: the ability to distinguish detail from an image that has a
-certain physical size. Or, more simply put: the clarity of the image. Of course, spatial resolution
-is not just the value of pixels per inch; the properties of the system that created the image
-define the maximum spatial resolution an image can have. You can make it worse by manipulating
-image resolution and screen resolution, but not better. Well, maybe a little, by applying
-a filter that emphasizes certain features in it.
+*Left: Original image, 1024 x 1024 pixels.*
 
-When we talk about the final version of the image that is intended for being displayed (not edited),
+*Center: Downscaled image, 100 x 100 pixels. Most of the detail has been permanently lost.*
+
+*Right: Upscaled image (1024 x 1024 pixels). Lost detail could not be recovered.*
+
+How did this happen? Obviously, your computer must use much more than 100 x 100 pixels to draw 
+the image on screen since the display pixels are really small and you need lots of them to draw 
+a large image. But your computer cannot magically recreate the detail that was permanently lost 
+when we scaled down the original image. Hence, its only option is to copy same (or interpolated) 
+pixels that it loaded  from the file side by side to create a larger image ie. a scaled up version. 
+This resulting image on screen will indeed have lots of pixels, but that only means it has high 
+*screen resolution* ie. large size. Its *image resolution* is still 100 x 100 pixels and contains 
+very little detail.
+
+To ensure that we get sharp image on screen, we must have enough detail (image resolution) or 
+we must decrease image size (screen resolution). This is what *spatial resolution*, which we 
+briefly mentioned in the beginning, describes: the ability to distinguish detail from an image 
+that has a certain physical size. Or, more simply put: the clarity of the image. Of course, 
+spatial resolution is not just the value of pixels per inch; the properties of the system that 
+created the image define the maximum spatial resolution an image can have. You can make it worse 
+by manipulating image resolution and screen resolution (as we did in the example above), but not 
+better. Well, maybe a little, by applying a filter that emphasizes certain features in the image.
+
+When we prepare the final version of an image that is intended for being displayed (not edited),
 then the optimal relation between image resolution and screen resolution is that they are *equal*:
 screen resolution defines what will be drawn on screen ie. what user will see, therefore higher
 image resolution does not bring any benefit (but can cause downscaling artifacts) and lower image
 resolution leads to upscaling ie. less detail than what an equal resolution would provide.
 
-### Print resolution
+## Print resolution
 
 To complete our analysis of describing pixel resolution for 2D images, let us briefly consider 
 printing: if we printed our image on paper as a square whose dimensions are 100 mm x 100 mm, 
@@ -157,16 +167,20 @@ Wrong again! Obviously a printer cannot print *any* number of points per millime
 resolution of its own, just like a display device does. 
 
 The calculated value is a bit less than what a typical 300 dpi resolution laser printer is 
-capable of. If we wish to use such printer's maximum resolution to get the best possible print 
+capable of. If we wish to use the printer's maximum resolution to get the best possible print 
 quality, we must satisfy with slightly smaller image size than 100 mm x 100 mm:
 
 ```
 1024 px / 300 dpi = 3.41 in ~ 87 mm
 ```
 
-Else, the printer must scale up our image to produce content for the "missing" pixels (actually 
-dots), similar to what a web browser does when it stretches an image to a larger size by 
-copying/interpolating pixels:
+![Print 300dpi](img_resolution/print_300dpi.png)
+
+*1024 x 1024 pixel image (left) printed from Photoshop in 300 dpi with a laser printer (right).*
+
+Else, the printer driver must scale up our image to produce content for the "missing" pixels 
+(actually dots), similar to what a web browser does when it stretches an image to a larger 
+size by copying/interpolating pixels:
 
 ```
 300 dpi * 3.94 in = 1182 px
@@ -177,7 +191,7 @@ copying/interpolating pixels:
 alternating empty space between black printed dots, hence it will not be a 1:1 mapping from
 pixels to dots when you print a photograph.*
 
-### Panorama resolution
+## Panorama resolution
 
 So far we haven't said anything about resolution in 360-degree images. Let's first create one:
 We will use the image above as a single cube face and make 5 more copies of it to produce the
@@ -203,23 +217,58 @@ they illustrate what is exactly above the camera (zenith). The bottom row of pix
 the same and they illustrate what is exactly below the camera (natural direction, nadir).
 
 Therefore, this is a *full spherical 360x180 degree image* and it covers every possible viewing 
-direction that can be seen from the center of the cube.
-
-**Notice that a spherical image is NOT 360x360 degrees; that is mathematically incorrect 
-representation although it is sometimes seen in marketing materials. 720 degree image is
-even more wrong!**
-
-We can immediately see that the proper *aspect ratio* of a full spherical image is always 2:1, 
-as there are horizontally twice the amount of degrees than vertically and we want to treat
-horizontal and vertical degrees equally. This aspect ratio is a bit different than what we
-have used to: 4:3 (standard TV), 16:9 (HD channels), 21:9 (most movies).
+direction that can be seen from the center of the cube. 
 
 *Of course the described camera rotation is just a convention: it could have turned 180 degrees
 horizontally and 360 degrees vertically to produce a spherical image with 1:2 aspect ratio. Also, 
 the rotation angles do not need to align with the main axis at all to produce a spherical image,
 they just need to be perpendicular to each other.*
 
-The width of our equirectangular image above is 1024 pixels and its height is 512 pixels 
+**Notice that a spherical image is NOT 360x360 degrees; that is mathematically incorrect 
+representation although it is sometimes seen in marketing materials. 720 degree image is
+even more wrong!**
+
+To be honest, that projection looks a bit weird at first sight. To understand it better, let us 
+remind ourselves how the map of the World looks like when drawn with this projection:
+
+![Cube Equi](https://upload.wikimedia.org/wikipedia/commons/8/83/Equirectangular_projection_SW.jpg)
+
+*An example of equirectangular projection by Wikipedia ([5])*
+
+Pay attention how the meridians are projected as vertical straight lines of constant spacing,
+and circles of latitude to horizontal straight lines of constant spacing (here every 15 degrees).
+We can immediately see that the proper *aspect ratio* of a full spherical equirectangular image 
+is always 2:1, as there are horizontally twice the amount of degrees (lines) than vertically, 
+and usually we want to treat horizontal and vertical degrees equally in a spherical image.
+
+This aspect ratio is a bit different than what we have used to: 
+
+Aspect ratio | Normalized ratio | Typical use
+---------|--------------------|---------------
+4:3 | 1.33:1 | Traditional TV
+16:9 | 1.78:1 | HD video
+1.85:1 | 1.85:1 | Most movies
+2:1 | 2.00:1 | **Equirectangular panoramas**
+2.39:1 | 2.39:1 | Widescreen movies
+
+Now, scroll back up and take a closer look at our equirectangular image of cube. If you look 
+carefully, you'll notice that this image does not look as sharp as our original cube face, 
+although they are both 1024 pixels wide images and also scaled to same width on screen,
+hence image resolution and screen resolution are exactly the same. What is different, then?
+
+We must remember that we have *added* 5 more cube faces - much more information - to this
+new image without increasing pixel resolution ie. the amount of detail the image can hold. 
+In addition, we have changed the projection, and halved the vertical resolution from 1024 px 
+to only 512 px. 
+
+How can we measure the amount of detail in panoramic images, where the field-of-view (the
+observable area an image covers) is not always the same? As shown above, image resolution
+and screen resolution do not take this into account and therefore we need something else.
+
+Consider that four cube faces (front, right, back, left) cover 360 degree spin at the horizon 
+level. This means that one cube face must cover 90 degrees field-of-view horizontally (360/4=90).
+
+The width of our equirectangular image of cube is 1024 pixels and its height is 512 pixels 
 (2:1 aspect ratio). Therefore, we can calculate its *resolution per degree* as follows and 
 express it in *pixels per degree* (ppd):
 
@@ -227,61 +276,38 @@ express it in *pixels per degree* (ppd):
 1024 px / 360° = ~2.84 ppd
 ```
 
-We can also see that the image does not look as sharp as our original cube face, although
-they are both 1024 pixels wide images. Why is that? We must remember that we have *added* 5 
-more cube faces - much more information - without increasing pixel resolution ie. the 
-amount of detail the image can hold. In addition, we have changed the projection, and
-halved the vertical resolution from 1024 px to 512 px. 
-
-Since we can see the difference with our own eyes, there must be a way to also *measure* it. 
-Both images are 1024 pixels wide, so obviously simple pixel resolution does not contain
-enough information to describe the difference. We must move on to spacial resolution 
-(image clarity), and somehow take into account the amount of pixels *per length unit*.
-But on screen, both images are scaled to match with our column width, so they have the same
-width in pixels both in file and on screen! We must dig deeper.
-
-Consider that four cube faces (front, right, back, left) cover 360 degree spin at the horizon 
-level. This means that one cube face must cover 90 degrees field-of-view horizontally (360/4=90).
-To compare, our original cube face had much higher resolution *per degree* (exactly 4x higher, 
-of course):
+To compare, our original cube that covers only 90 degrees has much higher resolution *per degree*
+(exactly 4x higher, of course):
 
 ```
 1024 px / 90° = ~11.37 ppd
 ```
 
-To make our 360-degree cube contain as much detail as the original cube face (at least on
-the horizon level where the projection does not distort the image much), we'd need 4x the
-resolution that we have now:
+To make our 360-degree cube image carry as much detail as the original 90-degree cube face (at 
+least on the horizon level where the projection does not distort the image much), we'd need 4x 
+the resolution that we have now:
 
 ```
 4096 px / 360° = ~11.37 ppd
 ```
 
-We can now see that *resolution per degree* is a useful method for expressing resolution
-(the amount of detail image holds) when we talk about wide-angle panoramic images. In this 
-article we will use the term *panorama resolution* to reference it. 
-
-A summary of some useful terms and their meaning:
-
-* Pixel resolution = the amount of detail an image can hold in file and in memory
-* Screen resolution = the physical size of an image on screen in screen pixels
-* Spatial resolution = the amount of pixels per length unit (the clarity of an image on screen / paper)
-* Panorama resolution = the amount of pixels per degree (the amount of detail per angle)
+From this simple analysis we can learn that *resolution per degree* is a useful method for 
+expressing resolution (the amount of detail image holds) when we talk about wide-angle 
+panoramic images. In this article we will use the term *panorama resolution* to reference it. 
 
 We have also learned that 360-degree images need much higher *image resolution* than ordinary
 2D photos to provide the same amount of detail per degree ie. to "look the same quality",
-simply because they contain much larger field-of-view ie. much more degrees (sphere surface area)
-to cover with pixels.
+simply because they contain larger field-of-view ie. cover larger area with pixels.
 
-### Retina resolution
+## Retina resolution
 
-In order to make an image look sharp on screen, both the original image resolution AND the screen
+In order to make an image look sharp on screen, both image resolution and screen
 resolution must be high enough: you need enough pixels to store the details and enough pixels
 to draw them on screen so that they remain distinguishable. We have already said that it is best
 if they match perfectly: you can avoid aliasing errors that come from scaling if your image 
 has *exactly* the same amount of pixels in file and on screen. You will also preserve all the detail
 without wasting memory for something that cannot be seen by user. A well known example is matching
-the file resolutions of iOS app icons and button graphics with their screen resolutions so that 
+image resolutions of iOS app icons and button graphics with their screen resolutions so that 
 they will look "perfect" as no scaling artifacts will occur.
 
 Nowadays it is becoming less common to aim for pixel perfect presentation as there are so many 
@@ -304,11 +330,13 @@ surface when it is time to render part of the 360-degree image on screen. Try to
 pixel-to-pixel matching through those operations!
 
 This leads us to a question: what would be the equivalent of pixel perfect presentation in 
-360-degree images? Obviously, we just need an image that has enough resolution so that all
-the processing will not become visible. Then, what resolution is needed to make a 360-degree
-image look "perfect"? There is no single answer, as it depends on many parameters such as 
-display resolution, used field-of-view, viewing distance, and projection. Let's discuss
-a few selected cases.
+360-degree images? Since we cannot know all the internal processing that occurs when a specific
+pipeline renders our image on screen, in practice we just need an image that has *enough* 
+resolution so that all the processing will not become visible in the end result. 
+
+Then, what resolution is needed to make a 360-degree image look "perfect"? There is no single 
+answer, as it depends on many parameters such as display resolution, used field-of-view, 
+viewing distance, and projection. Let's discuss a few selected cases.
 
 When Apple introduced iPhone4, they claimed that their new Retina displays have high enough
 pixel density that the human eye cannot notice pixelation at a typical viewing distance. In
@@ -376,12 +404,18 @@ videos in 8K (or 6K) and providing final output in about 5K.
 4902 px * 2451 px = ~12015115 px ~ 12.0 Mpx
 ```
 
+## Human eye resolution
+
 However, Oculus Go is a nice headset but far from the concept of a retina display. If we want to
 future-proof our content and target for VR headsets that have "retina displays", what resolution
 do we need? This is the same question as what is the resolution of a human eye itself, how many 
-megapixels? 
+megapixels?
 
-According to ([5]), let us consider a view in front of a spectator that is 90 degrees by 90 degrees.
+![Human eye](https://upload.wikimedia.org/wikipedia/commons/d/d0/Three_Main_Layers_of_the_Eye.png)
+
+*Human eye illustration by Wikipedia ([6])*
+
+According to ([7]), let us consider a view in front of a spectator that is 90 degrees by 90 degrees.
 The number of pixels a human eye could see through such window is ~324 Mpx. Remember our cube face
 that was also 90 by 90 degrees? To have full 360-degree view we need 6 cube faces, resulting to 
 6 * 324 Mpx = 1944 Mpx or 1.9 Gpx. If we wanted to use equirectangular projection instead, we
@@ -399,7 +433,7 @@ calculated that 138 Mpx should be enough, right? Well, it is kind of apples and 
 The claim about retina displays is that at the typical viewing distance of 10-12 inches user is
 not suppose to see individual pixels, which is not exactly the same thing as how much details a
 human eye can see. Plus technical limitations combined to aggressive marketing, perhaps. 
-Also, ([5]) adds an interesting scientific point of view:
+Also, ([7]) adds an interesting scientific point of view:
 
 > The eye is not a single frame snapshot camera. It is more like a video stream. The eye moves 
 > rapidly in small angular amounts and continually updates the image in one's brain to "paint" 
@@ -413,10 +447,37 @@ Also, ([5]) adds an interesting scientific point of view:
 In short: with two eyes, smart brain and a little bit of observing time you can see mode details
 than your retina is capable of. Makes sense.
 
+## Display resolution
+
+
+
+
+## VR headset resolution
+
+
+
+## Other technical limitations
+
+
+## Recommendations
+
+
+## Summary
+
+A summary of some useful terms and their meaning:
+
+* Pixel resolution = the amount of detail an image can hold in file and in memory
+* Screen resolution = the physical size of an image on screen in screen pixels
+* Spatial resolution = the amount of pixels per length unit (the clarity of an image on screen / paper)
+* Panorama resolution = the amount of pixels per degree (the amount of detail per angle)
+
+
 ## References
 
 [1]: https://en.wikipedia.org/wiki/Image_resolution
 [2]: https://en.wikipedia.org/wiki/Raster_graphics
 [3]: https://en.wikipedia.org/wiki/Vector_graphics
 [4]: https://www.apple.com/lae/ipad/compare/
-[5]: http://clarkvision.com/imagedetail/eye-resolution.html
+[5]: https://en.wikipedia.org/wiki/Equirectangular_projection
+[6]: https://en.wikipedia.org/wiki/Retina
+[7]: http://clarkvision.com/imagedetail/eye-resolution.html
