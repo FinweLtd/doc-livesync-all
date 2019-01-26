@@ -188,7 +188,7 @@ Equirectangular projection looks perhaps a bit weird at first sight. To understa
 
 In our previous example, we started from a *3D cube*. We saw how straight lines got bent when the equirectangular projection was applied. This time we start from a *3D sphere* (the Earth). Notice how the meridians are projected as *vertical straight lines of constant spacing*. And circles of latitude as *horizontal straight lines of constant spacing*.
 
-The equirectangular projection has many fallacies. It is not an equal area projection (see how large the Antarctic appears!) It is not conformal (angles are not preserved!) It is wasteful (lots of redundant pixels)! Yet, the equirectangular projection is the de-facto standard in 360-degree imaging. This is probably related to the particularly simple relationship between the position of a pixel in the image and corresponding point on the surface of a sphere. It makes the life of software developers easy.
+The equirectangular projection has many fallacies. It is not an equal area projection (see how large the Antarctic appears). It is not conformal (angles are not preserved). It is wasteful (lots of redundant pixels). Yet, the equirectangular projection is the de-facto standard in 360-degree imaging. This is probably related to the particularly simple relationship between the position of a pixel in the image and corresponding point on the surface of a sphere. It makes the life of software developers easy.
 
 Consider a full spherical equirectangular image whose resolution is 1024 x 512 pixels. (The map above will do.) Choose *any* pixel in the image. Now, if you want to move 30 degrees east, you can calculate this in pixels as shown below. To move in a vertical direction, you use 180° degrees instead of 360°. If you pass the edge of the image, continue in the same direction from the opposite edge of the image. That's it. Simple linear relationship. It may not be obvious, but other projections are considerably more complex to handle.
 
@@ -218,6 +218,33 @@ Aspect ratio | Normalized ratio | Typical use
 
 When you deliver 360-degree images or videos using the equirectangular projection, use 2:1 aspect ratio. Image width should be two times its height. For example, 1920 x 960 has proper aspect ratio 2:1. Commonly used FullHD resolution 1920 x 1080 is 16:9. It is *taller*. With that resolution, your image has more capacity for detail vertically than horizontally. 360-degree video players can handle that, but from the content point of view it makes little sense. Likewise, if you aim for 4K quality use 3840x1920 (2:1), not 3840x2160 (16:9).
 
+![Aspect ratio](img_resolution/aspect_ratio.jpg)
+
+*Left: 360x180 equirectangular image in correct aspect ratio 2:1. Right: The same image in incorrect 16:9 aspect ratio.*
+
+You may wonder what harm is in using one of 16:9 resolutions. The answer is: not much. Consider a case where you need to downscale a video from 6K camera to 4K output. With 3840x2160 (16:9) you have better panorama resolution vertically than horizontally. You can do that, but why would you? Often this happens accidentally when you transcode a video into a different format. The default values in video software tend to lead to a 16:9 aspect ratio. If you are not careful, your 3840x1920 (2:1) video may become 3840x2160 (16:9). In such a case, you will add redundant data and create a larger file size without any benefit.
+
+### Field-of-view
+
+We often refer to full spherical panorama images as 360x180 degree image. Or shortly, 360-degree image. What exactly does this value describe? The correct term is *field-of-view* or shortly FOV.
+
+Field-of-view is simply the size of an observable area, described in degrees ([8]). You have probably used a camera that has a zoom lens. When you utilize the zoom feature, you are effectively changing the field-of-view. When you zoom *in*, objects appear closer but the view becomes narrower. Hence, you have smaller field-of-view. When you zoom *out*, you see wider area through the viewfinder. You have larger field-of-view.
+
+![FOVs](https://upload.wikimedia.org/wikipedia/commons/7/72/Angle_of_view.svg)
+
+*Horizontal, vertical, and diagonal field-of-view illustraded by Wikipedia ([8])*
+
+We must be careful with field-of-view values, though. It can be horizontal, vertical, or diagonal measure of a rectangular viewable area. Unfortunately, it is not always mentioned *which* of these the given number is referring to. If you know one value and the aspect ratio, you can calculate the others using simple trigonometry.
+
+Abbreviation | Meaning
+-------------|---------------
+FOV | Field-of-view in general (ambiguous)
+HFOV | Horizontal field-of-view
+VFOV | Vertical field-of-view
+DFOV | Diagonal field-of-view
+
+When we view 360-degree content, there are effectively two different FOV values that play a part. *Image field-of-view* refers to the total observable area in the whole image frame. For example, in a spherical panorama image HFOV is 360 degrees and VFOV is 180 degrees. Diagonal FOV is not used. *Viewport field-of-view* is the part that is visible in the panorama image viewer or video player. For example, a pair of VR glasses could have HFOV 94 degrees. In many players this value is adjustable: user can zoom by changing the viewport's FOV.
+
 ### Panorama resolution
 
 Now, scroll back up and take a closer look at our equirectangular image of a cube. If you observe it carefully, you will notice that this image does not look as sharp as our original cube face. They are both 1024 pixels wide images and also scaled to the same width on the screen. Hence, both image resolution and screen resolution are exactly the same (horizontally). What is different?
@@ -232,32 +259,33 @@ The width of our equirectangular image of a cube is 1024 pixels and its height i
 
 ```
 1024 px / 360° = ~2.84 ppd
+512 px / 180° = ~2.84 ppd
 ```
 
 To compare, our original cube covers only 90 degrees and has a higher resolution per degree:
 
 ```
-1024 px / 90° = ~11.37 ppd
+1024 px / 90° = ~11.38 ppd
 ```
 
 How can we make our 360-degree cube image carry as much detail as the original 90-degree cube face? Let us focus on the horizon level where the projection does not distort the image much. We need 4x the resolution that we have now:
 
 ```
-4096 px / 360° = ~11.37 ppd
+360° * 11.38 ppd = ~4096 px
 ```
 
-What if we made a 180-degree version, assuming viewers will focus to the front direction? Simple:
+What if we made a 180-degree version, assuming viewers will focus to the front direction? How much resolution do we need to maintain detail? Simple:
 
 ``` 
-1024 px / 180° = ~5.69 ppd 
-2048 px / 180° = ~11.37 ppd
+180° * 11.38 ppd = ~2048 px
 ``` 
 
 *Resolution per degree* appears to be a useful method for expressing the amount of detail in panoramic images. The benefit is that values are comparable despite used field-of-view. In this article, we will use the term *panorama resolution* to reference it.
 
-We have also learned that 360-degree images need much higher *image resolution* than ordinary 2D images to "look the same quality". Simply because they contain larger field-of-view ie. cover a larger area with pixels. This is often hard to understand for end users. People have a mental model of what "FullHD" or "4K" is supposed to look like. But through a 360-degree player, you are likely seeing about 1/8th of the total amount of pixels at any moment of time!
+*Notice that there are projections that do not provide constant resolution per degree throughout the image. To be specific, we probably should use the term *equirectangular resolution*. Here we use the easier and shorter term because equirectangular projection is so widely used.*
 
-*Field-of-view* (FOV) is the size of an observable area, described in degrees. We must be careful as the value can be horizontal, vertical, or diagonal measure of a rectangular area. When we view 360-degree content, there are effectively two FOVs that play a part. Image field-of-view refers to an observable area in the the whole image frame. Viewport field-of-view is a fraction of it, the part that is visible in the player. The latter can be user adjustable; is is effectively zoom level.
+We have also learned that 360-degree images need much higher *image resolution* than ordinary 2D images to "look the same quality". This is often hard to understand for end users. People have a mental model of what "FullHD" or "4K" content is supposed to look like. But through a 360-degree player, you are likely seeing about 1/8th of the total amount of pixels at any moment of time!
+
 
 Let us rephrase the primary concepts of resolution for 360-degree images:
 
@@ -270,6 +298,10 @@ Let us rephrase the primary concepts of resolution for 360-degree images:
 * Screen resolution = viewport size on screen, in pixels
 
 * Viewport field-of-view = size of an observable area through a viewport, in degrees
+
+## Towards perfect resolution
+
+### Pixel perfect
 
 
 
@@ -428,6 +460,11 @@ apparently humans can see *more* details than our retina alone is able to distin
 
 ### VR headset resolution
 
+Cardboard
+GearVR
+OculusGo
+Varjo
+
 ## Technical limitations
 
 ### Video encoder
@@ -458,4 +495,4 @@ A summary of some useful terms and their meaning:
 [5]: https://en.wikipedia.org/wiki/Equirectangular_projection
 [6]: https://en.wikipedia.org/wiki/Retina
 [7]: http://clarkvision.com/imagedetail/eye-resolution.html
-
+[8]: https://en.wikipedia.org/wiki/Field_of_view
