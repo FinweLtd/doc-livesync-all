@@ -10,41 +10,41 @@ Training courses are available at request, even on-site at your company.
 [Contact us](support.md) to learn more about upcoming courses and 
 LiveSYNC Certified Expert program.
 
-### [Quick Start](quick_start.md)
+### [Quick Start](quick_start/quick_start.md)
 
 A short introduction to LiveSYNC that gets you going in 15 minutes.
 
-### [Tutorials](tutorials.md)
+### [Tutorials](tutorials/tutorials.md)
 
 Learn how LiveSYNC can help you work faster and smarter. Tutorials are written to-the-point
 and quickly show how to accomplish common tasks.
 
-### [User Guide](user_guide.md)
+### [User Guide](user_guide/user_guide.md)
 
 User Guide contains step-by-step instructions and deepens your understanding by providing
 background knowledge.
 
-### [Articles](articles.md)
+### [Articles](articles/articles.md)
 
 Articles are written by LiveSYNC experts and focus on specific topics and use cases. Here
 you can learn best practises and find example configurations.
 
-### [FAQ](faq.md)
+### [FAQ](faq/faq.md)
 
 Got a question? Check out frequently asked questions to get an answer quickly.
 
-### [Support](support.md)
+### [Support](support/support.md)
 
 Contact us to ask a question from the developers, send a feature
 request, suggest an article, or notify us of an error in the docs - we are listening.
 
 ## Resources
 
-### [Content Samples](downloads.md#content-samples)
+### [Content Samples](downloads/downloads.md#content-samples)
 
 Download FREE sample files that demonstrate features and allow experimenting first hand.
 
-### [Templates](downloads.md#templates)
+### [Templates](downloads/downloads.md#templates)
 
 Download FREE templates to be used as a basis for creating your own configuration.
 

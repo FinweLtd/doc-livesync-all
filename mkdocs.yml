@@ -1,14 +1,12 @@
 site_name: LiveSYNC™ Learning Center
 nav:
   - Home: 'README.md'
-  - Quick Start: 'quick_start.md'
-  - Tutorials: 'tutorials.md'
-  - User Guide: 'user_guide.md'
-  - Articles: 'articles.md'
-  - FAQ: 'faq.md'
-  - Support: 'support.md'
-  - Downloads: 'downloads.md'
+  - Quick Start: 'quick_start/quick_start.md'
+  - Tutorials: 'tutorials/tutorials.md'
+  - User Guide: 'user_guide/user_guide.md'
+  - Articles: 'articles/articles.md'
+  - FAQ: 'faq/faq.md'
+  - Support: 'support/support.md'
+  - Downloads: 'downloads/downloads.md'
 theme:
   name: 'material'
-#  name: 'bootstrap4'
-#  name: 'gitbook'

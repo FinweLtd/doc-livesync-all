@@ -17,11 +17,25 @@ images, videos etc. files that are referenced from the text files.
 Writing
 -------
 
-All the docs should be in /docs folder. Try to avoid compiler specific Markdown extensions.
+All the docs should be under /docs folder. 
+
+Try to avoid compiler specific Markdown extensions.
+
+To avoid typos and keep the grammar in good shape, it is a good idea to check everything with
+tools such as Grammarly and Hemingway Editor. Unfortunately, they cannot be integrated to text
+editors or other apps; you must copy-paste text back and forth. It is still worth it!
+
+https://www.grammarly.com
+http://www.hemingwayapp.com/
+
+Mkdocs does not have any kind of multi-language support. To keep the markdown files simply, our
+approach is simply to fork this documentation site and re-write everything to create a copy of
+the site in another language. Remember that also screen captures usually need to be taken again,
+hence there is not much other than site structure and some generic images that remains the same.
 
 If *absolutely necessary*, it is possible to mix HTML code (and even CSS code) simply by writing
-the tags to their own lines. See /docs/support.md as an example where a contact form has been
-embedded to docs. Notice that when the documentation is deployed to GitHub Pages (static pages)
+the tags to their own lines. See /docs/support/support.md as an example where a contact form has 
+been embedded to docs. Notice that when the documentation is deployed to GitHub Pages (static pages)
 or to GitBook (third party size), it is not really possible to use server side code at all.
 
 **IMPORTANT: Do not touch the CNAME file in /docs folder! This must be left exactly as it is, else
@@ -33,8 +47,9 @@ Google admin tools cannot verify that this domain/website belongs to us.**
 Images
 ------
 
-Images should be resize to max 1024 pix wide and copied to /docs/img directory. Please use .jpg
-or .png images; .png only when alpha (transparency) is required.
+Images should be resized to max 1024 pix wide and copied to /docs/img directory or similar
+image directories in the directory tree. Please use .jpg or .png images; .png only when alpha 
+(transparency) is required as .jpg files are smaller and download much faster.
 
 If you want to use stock images, use archives that provide them royalty free also for commercial
 purposes and without attribution requirement. Here are a few good sources:
@@ -54,14 +69,18 @@ and update the compiled files into the repository's gh-pages branch, where from 
 automatically picks them up.
 
 Notice that you can also preview the documentation live before publishing it by running 
-'mkdocs serve' script and opening the documentation locally in a web browser: http://localhost:8000/
+'mkdocs serve' script and opening the documentation locally in a web browser (highly recommended): 
+
+http://localhost:8000/
 
 Local previewing is very handy when writing the documentation, as the web browser will auto-update
 content every time a source file is changed and saved.
 
 MkDocs configuration is in mkdocs.yml file. Use it for selecting theme, configuring navigation etc.
 
-MkDocs tool must be installed before it can be used. More info about mkdocs: https://www.mkdocs.org/
+MkDocs tool must be installed before it can be used. More info about mkdocs: 
+
+https://www.mkdocs.org/
 
 Deploying to GitBook via GitHub hooks
 -------------------------------------
@@ -80,3 +99,7 @@ deploying them with 'mkdocs deploy' script.
 GitBook configuration is in book.json file. See also .bookignore for filtering files from the book.
 
 More info about GitBook: https://docs.gitbook.com/
+
+NOTE: We are currently not making any use of this option. It seems that GitBook cannot produce
+a similar structure as easily as it initially seemed, and there is little benefit as site generated
+with MkDocs is so good.
