@@ -128,9 +128,13 @@ content every time a source file is changed and saved.
 
 MkDocs configuration is in mkdocs.yml file. Use it for selecting theme, configuring navigation etc.
 
-MkDocs tool must be installed before it can be used. More info about mkdocs: 
+MkDocs tool must be installed before it can be used. More info about MkDocs:
 
 https://www.mkdocs.org/
+
+We use Google Material Design -style *Material* theme. It is a truly amazing theme for MkDocs,with many great extensions. Read more about it from here:
+
+https://squidfunk.github.io/mkdocs-material/
 
 Deploying to GitBook via GitHub hooks
 -------------------------------------
@@ -151,5 +155,4 @@ GitBook configuration is in book.json file. See also .bookignore for filtering f
 More info about GitBook: https://docs.gitbook.com/
 
 NOTE: We are currently not making any use of this option. It seems that GitBook cannot produce
-a similar structure as easily as it initially seemed, and there is little benefit as site generated
-with MkDocs is so good.
+a similar structure as easily as it initially seemed, and there is little benefit as site generated with MkDocs is so good.

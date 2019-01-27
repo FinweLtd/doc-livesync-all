@@ -99,7 +99,7 @@ Currently, you can use a web browser for accessing this site as explained above.
 ## Navigating
 
 
-### Menu
+### Site menu
 
 Different areas of the *LiveSYNC Learning Center* are accessible via *the site menu*. The site menu appears in one of two different ways:
 
@@ -127,11 +127,15 @@ This option is typical for phones, tablets, and VR headsets.
 
 Each page on this site has an automatically generated *table-of-contents* (TOC). You can navigate *within a page* by clicking the titles in the page's TOC.
 
-The TOC will appear on the right side of the page, but only if the browser window is wide enough. If not, it will not appear at all. In this case, scrolling is the only navigation method within a page.
+The TOC will appear on the right side of the page, but only if the browser window is wide enough. If not, it will be integrated to the site menu.
 
 ![Cover](img/table_of_contents.jpg)
 
-*On wide screens, table-of-contents appears. On narrow screens, it is not accessible at all.*
+*On wide screens, table-of-contents appears on the right.*
+
+![Cover](img/integrated_toc.jpg)
+
+*On narrow screens, table-of-contents appears integrated to the site menu.*
 
 ### Navigation arrows
 
@@ -221,10 +225,19 @@ Sometimes, a horizontal rule is used for separating things:
 Throughout the documentation, you'll find various types of notes complementing the regular text:
 
 !!! note
-    A note is designed to provide an important piece of information. It will help your understanding of the topic being discussed.
+    A note is designed to provide an important piece of information.
 
 !!! tip
     A tip is something that will help when you need to perform the task being described. Alternatively, it can be something can make your life easier when using the LiveSYNC tool.
+
+!!! example
+    An example applies theory to practice. It will help your understanding of the topic being discussed.
+
+!!! question
+    A question is a short practice task for the reader.
+
+!!! summary
+    A summary is a collection of the key points, typically at the end of a section.
 
 !!! caution
     A caution is something you should certainly pay attention to. It warns of a hidden danger or caveat.
