@@ -2,13 +2,21 @@
 
 ![Cover](img/StockSnap_HMHAGY1BYE_edited.jpg)
 
+This site contains the documentation for *LiveSYNC Presentation Solution*, [a software tool](http://www.livesync.info) developed by [Finwe Ltd](https://www.finwe.fi). Here you will find tutorials and guides for self-learning and various downloadable resources.
+
 ## Solutions for learning
 
+<!--
 ### Training and certification
 
 Training courses are available at request, even on-site at your company. 
-[Contact us](support.md) to learn more about upcoming courses and 
+[Contact us](support/support.md) to learn more about upcoming courses and 
 LiveSYNC Certified Expert program.
+-->
+
+### [How to Use This Site](site_howto/site_howto.md)
+
+Read about different options for accessing this site, learn how to navigate, and get familiar with the conventions used on this site.
 
 ### [Quick Start](quick_start/quick_start.md)
 
@@ -58,3 +66,13 @@ This work is licensed under a Creative Commons Attribution-Noncommercial-Share A
 
 * Twitter, Facebook, and other social media posts that link to this content
 * Downloadable resource files, which are distributed under different license
+
+<!--
+## Cookies
+
+This site is a static website generated from Markdown format text files. We do not store any data to your computing device using cookies. However, other content linked from this site may do so.
+
+## Privacy
+
+This site is a static website, generated from Markdown format text files. We do not store any data from your visits on this site on our servers.
+-->

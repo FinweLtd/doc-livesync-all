@@ -2,5 +2,7 @@
 
 ![Cover](img/StockSnap_CKRPG6ZEVZ_edited.jpg)
 
-TODO
+## [Presentation](presentation.md)
+
+This is a quick start guide for giving a presentation with LiveSYNC.
 

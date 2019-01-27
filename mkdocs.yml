@@ -10,3 +10,5 @@ nav:
   - Downloads: 'downloads/downloads.md'
 theme:
   name: 'material'
+markdown_extensions:
+  - admonition

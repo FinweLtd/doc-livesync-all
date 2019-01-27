@@ -3,7 +3,8 @@
 ![Cover](img/StockSnap_SWRREC0K3A_edited.jpg)
 
 This is a collection of frequently asked questions, answered by our experts. If you cannot find
-an answer to your question, please contact us via the form on the [support page](support.md).
+an answer to your question, please contact us via the form on the 
+[support page](../support/support.md).
 
 **TIP: Try the search feature in the top right corner!**
 
@@ -77,7 +78,7 @@ No. Desktop computer operating systems are currently not supported.
 ### Can I install LiveSYNC on my GearVR/OculusGo headset?
 
 Yes, but currently you will need an invite to our Beta channel in the Oculus Store. Please use
-the contact form in the [support page](support.md) for requesting an invite.
+the contact form in the [support page](../support/support.md) for requesting an invite.
 
 When you get an invite email from Oculus, click the link in the email to accept the invitation. 
 Then on your GearVR/Oculus device, navigate to Oculus Store and type 'livesync' to the search field. 
@@ -109,10 +110,10 @@ Yes. Please follow the instructions below:
 the beta version by following instructions on that page.
 
 - iOS: We have a closed beta channel in Apple TestFlight. If you wish to participate, please use
-the contact form in the [support page](support.md) for requesting an invite.
+the contact form in the [support page](../support/support.md) for requesting an invite.
 
 - GearVR/OculusGo: We have a closed beta channel in Oculus Store. If you wish to participate, please
- use the contact form in the [support page](support.md) for requesting an invite. 
+ use the contact form in the [support page](../support/support.md) for requesting an invite. 
  **Notice: We need your Oculus username/email for sending the invite.**
 
 ### Can I install BOTH the beta version and the store version into the same device?

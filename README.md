@@ -19,13 +19,35 @@ Writing
 
 All the docs should be under /docs folder. 
 
-Try to avoid compiler specific Markdown extensions.
+The documentation is written Markdown syntax. Read about it from here:
+
+https://daringfireball.net/projects/markdown/syntax
+
+Try to avoid compiler specific Markdown extensions. As an exception to this rule, we use admonition extension for easily creating notes, warnings, etc. that are typical to user guides:
+
+https://python-markdown.github.io/extensions/admonition/
+
+Examples (these may not show up correctly here but will work in rendered documentation site)
+that you can use:
+
+!!! note
+    You should note that the title will be automatically capitalized.
+
+!!! caution
+    Life is dangerous. People do not survive of it.
+
+!!! danger
+    Don't try this at home!
+
+!!! tip
+    It is a good idea to sleep sometimes.
 
 To avoid typos and keep the grammar in good shape, it is a good idea to check everything with
 tools such as Grammarly and Hemingway Editor. Unfortunately, they cannot be integrated to text
 editors or other apps; you must copy-paste text back and forth. It is still worth it!
 
 https://www.grammarly.com
+
 http://www.hemingwayapp.com/
 
 Mkdocs does not have any kind of multi-language support. To keep the markdown files simply, our
@@ -44,6 +66,10 @@ the documentation cannot be found via our custom domain** https://docs.livesync.
 **IMPORTANT: Do not touch file google09912a46c2733839.html! This must be left exactly as it is, else
 Google admin tools cannot verify that this domain/website belongs to us.**
 
+If you need to add a comment, use this syntax:
+
+[//]: # (Comment text)
+
 Images
 ------
 
@@ -55,7 +81,31 @@ If you want to use stock images, use archives that provide them royalty free als
 purposes and without attribution requirement. Here are a few good sources:
 
 https://freestocks.org/
+
 https://stocksnap.io/
+
+Using Android Studio as text editor
+-----------------------------------
+
+Android Studio IDE is the de facto IDE for software development for Android devices. It is based
+on Intellij IDEA and therefore supports plugins developed for it.
+
+The benefits of using Android Studio for writing documentation with MkDocs:
+
+* Familiar tool (for Android developers)
+
+* Good text editor with built-in spell checker
+
+* Easy integration with GitHub repository: pull/commit/push, comparison, branches etc.
+
+* Possibility to put MkDocs 'deploy' and 'serve' commands Tools/External tools menu
+
+* Possibility to add markdown plugin to see rendered markdown side-by-side when editing markdown files
+
+* Possibility to add web browser plugin and see the result side-by-side when editing markdown files
+
+https://plugins.jetbrains.com/plugin/10750-embedded-web-browser-for-idea
+NOTE: currently the browser plugin does not seem to work.
 
 Deploying to GitHub Pages via MkDocs
 ------------------------------------
