@@ -75,7 +75,7 @@ No. Windows is currently not supported.
 
 No. Desktop computer operating systems are currently not supported. 
 
-### Can I install LiveSYNC on my GearVR/OculusGo headset?
+### Can I install LiveSYNC on my GearVR/Oculus Go headset?
 
 Yes, but currently you will need an invite to our Beta channel in the Oculus Store. Please use
 the contact form in the [support page](../support/support.md) for requesting an invite.
@@ -96,7 +96,7 @@ Yes. Both iOS and Android versions have built-in support for VR mode on phones (
 During channel configuration select 'VR' for viewing mode, or during playback long tap the screen to
 toggle between normal and VR mode.
 
-*If you have a GearVR headset, please use our separate OculusGo version from Oculus Store instead 
+*If you have a GearVR headset, please use our separate Oculus Go version from Oculus Store instead
 (invite only). The rendering quality and head tracking are far superior!*
 
 ## Beta versions
@@ -112,7 +112,7 @@ the beta version by following instructions on that page.
 - iOS: We have a closed beta channel in Apple TestFlight. If you wish to participate, please use
 the contact form in the [support page](../support/support.md) for requesting an invite.
 
-- GearVR/OculusGo: We have a closed beta channel in Oculus Store. If you wish to participate, please
+- GearVR/Oculus Go: We have a closed beta channel in Oculus Store. If you wish to participate, please
  use the contact form in the [support page](../support/support.md) for requesting an invite. 
  **Notice: We need your Oculus username/email for sending the invite.**
 
@@ -148,7 +148,7 @@ works with LiveSYNC, too.
 
 - On iOS devices, use iTunes application to copy your media files under LiveSYNC app.
 
-- On Android/GearVR/OculusGo devices, use file manager to copy your media files under
+- On Android/GearVR/Oculus Go devices, use file manager to copy your media files under
 /Movies/LiveSYNC folder (this should be generated automatically upon first start)
 
 ### Can I use an SD card on my Android device for storing content files?

@@ -22,7 +22,7 @@ Operating system | Android 5.0 (API 21) or later | Android 6.0 (API 23) or later
 
 Feature | Minimum requirement | Recommendation
 ---------|--------------------|---------------
-Form factor | GearVR or OculusGo | OculusGo
+Form factor | GearVR or Oculus Go | Oculus Go
 Operating system | Android 7.0 (API 24) or later | Android 7.0 (API 24) or later
 
 ### Download and install LiveSYNC

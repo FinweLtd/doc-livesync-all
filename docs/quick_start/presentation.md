@@ -19,10 +19,10 @@ The Director Mode is currently available for iOS and Android. Thus, you can use 
 
 #### Audience Mode
 
-The Audience Mode is currently available for iOS, Android, GearVR, and OculusGo. Thus, you can view a presentation either from a phone screen, a tablet screen, or via a phone based or standalone VR headset.
+The Audience Mode is currently available for iOS, Android, GearVR, and Oculus Go. Thus, you can view a presentation either from a phone screen, a tablet screen, or via a phone based or standalone VR headset.
 
 !!! note
-    VR mode is available also for iOS and Android phones. A Google Cardboard or a compatible VR headset can be used, but user experience is much superior with a high quality headset and dedicated app version (GearVR, OculusGo).
+    VR mode is available also for iOS and Android phones. A Google Cardboard or a compatible VR headset can be used, but user experience is much superior with a high quality headset and dedicated app version (GearVR, Oculus Go).
 
 #### Networking
 
@@ -64,13 +64,13 @@ On your Android device, open *Play Store*, and type *livesync* to the search fie
 
 You can also use this [direct link](https://play.google.com/store/apps/details?id=fi.finwe.livesync.player.android) to find the app.
 
-#### Oculus (GearVR & OculusGo)
+#### Oculus (GearVR & Oculus Go)
 
 LiveSYNC has not officially launched on these platforms yet. However, you can already start using it. Currently you will need *an invite* to our Beta channel in the Oculus Store. Please use
 the contact form in the [support page](../support/support.md) for requesting an invite.
 
 When you get an invite email from Oculus, click the link in the email to accept the invitation.
-Then on your GearVR/OculusGo device, navigate to Oculus Store and type *livesync* to the search field. Select *LiveSYNC Oculus Go*. If you cannot find it, don't forget to check also the *Not installed* tab. The app can be installed for FREE.
+Then on your GearVR/Oculus Go device, navigate to Oculus Store and type *livesync* to the search field. Select *LiveSYNC Oculus Go*. If you cannot find it, don't forget to check also the *Not installed* tab. The app can be installed for FREE.
 
 ### Step 3: Configuration
 
@@ -117,7 +117,7 @@ To configure a device for the Audience Mode follow these steps:
 Your channel configuration has been created and is visible on the app's *Channels* screen.
 
 !!! note
-    On GearVR/OculusGo Director Mode is not available and Audience Mode configuration is simpler.
+    On GearVR/Oculus Go Director Mode is not available and Audience Mode configuration is simpler.
 
 ### Step 4: Presentation files
 
@@ -158,7 +158,7 @@ Copy the presentation files using Windows Explorer (PC) or Android File Transfer
 
 4. Drag'n drop files and folders under /Movies/LiveSYNC
 
-#### Oculus (GearVR & OculusGo)
+#### Oculus (GearVR & Oculus Go)
 
 Copy the presentation files using Windows Explorer (PC) or Android File Transfer application.
 

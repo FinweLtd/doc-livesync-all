@@ -462,7 +462,7 @@ apparently humans can see *more* details than our retina alone is able to distin
 
 Cardboard
 GearVR
-OculusGo
+Oculus Go
 Varjo
 
 ## Technical limitations

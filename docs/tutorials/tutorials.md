@@ -2,4 +2,6 @@
 
 ![Cover](img/StockSnap_T2OBBCZTQU_edited.jpg)
 
-TODO
+## [Using LiveSYNC on Oculus Go](oculus_go.md)
+
+This tutorial focuses on using LiveSYNC on Oculus Go standalone VR headset.
