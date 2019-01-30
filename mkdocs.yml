@@ -1,14 +1,37 @@
 site_name: LiveSYNC™ Learning Center
 nav:
   - Home: 'README.md'
-  - Quick Start: 'quick_start/quick_start.md'
-  - Tutorials: 'tutorials/tutorials.md'
-  - User Guide: 'user_guide/user_guide.md'
-  - Articles: 'articles/articles.md'
-  - FAQ: 'faq/faq.md'
-  - Support: 'support/support.md'
-  - Downloads: 'downloads/downloads.md'
+  - How to use this site: 'site_howto/site_howto.md'
+  - Quick Start:
+    - Index: 'quick_start/quick_start.md'
+    - Presentation: 'quick_start/presentation.md'
+  - Tutorials:
+    - Index: 'tutorials/tutorials.md'
+    - LiveSYNC on Oculus Go: 'tutorials/oculus_go.md'
+  - User Guide:
+    - Index: 'user_guide/user_guide.md'
+    - 1. Introduction: 'user_guide/introduction.md'
+    - 2. Installing: 'user_guide/installing.md'
+    - 3. Managing assets: 'user_guide/asset_management.md'
+    - 4. Workspace: 'user_guide/workspace.md'
+    - 5. Workflows: 'user_guide/workflows.md'
+    - 6. Video content: 'user_guide/video_content.md'
+    - 7. Photo content: 'user_guide/photo_content.md'
+    - 8. Hotspots: 'user_guide/hotspots.md'
+    - 9. Presenting: 'user_guide/presenting.md'
+    - 10. Configuration: 'user_guide/configuration.md'
+  - Articles:
+    - Index: 'articles/articles.md'
+    - Understanding resolution: 'articles/resolution.md'
+  - FAQ:
+    - Index: 'faq/faq.md'
+  - Support:
+    - Index: 'support/support.md'
+  - Downloads:
+    - Index: 'downloads/downloads.md'
 theme:
   name: 'material'
+  feature:
+    tabs: true
 markdown_extensions:
   - admonition

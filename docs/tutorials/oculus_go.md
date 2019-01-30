@@ -2,7 +2,7 @@
 
 ![Cover](img/oculus_go.jpg)
 
-## Device
+## The Device
 
 #### What is it?
 
@@ -71,7 +71,7 @@ Alternatively, you can use these direct links for [Android](https://play.google.
 
 6. Plug your Oculus Go into a power source and press *Continue*
 
-7. After search completes found headsets are listed. If multiple devices were found nearby, choose the one that matches the serial number in your headset (under the barcode), and press *Continue*
+7. After search completes found headsets are listed. If multiple devices were found nearby, choose the one that matches the serial number in your headset (its below the barcode under the strap), and press *Continue*
 
 8. Select a Wifi access point that will be used for connecting the headset to the network, and press *Continue*
 
@@ -157,7 +157,7 @@ Once you feel familiar with Oculus Go, it is time to install the LiveSYNC app. T
 
 Presenting with the LiveSYNC tool works as follows:
 
-* The presenter controls the presentation with a separate control device (typically an iOS or Android tablet). The presenter will reserve *a communication channel* for the presentation.
+* The presenter controls the presentation with a separate control device (typically an iOS or an Android tablet). The presenter will reserve *a communication channel* for the presentation.
 
 * Each member of the audience uses a personal viewer device (iOS/Android phone or tablet, or GearVR/Oculus Go headset). The viewer devices will *join the communication channel*, whose number the presenter will share.
 
