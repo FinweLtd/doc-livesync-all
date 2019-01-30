@@ -103,25 +103,27 @@ Currently, you can use a web browser for accessing this site as explained above.
 
 Different areas of the *LiveSYNC Learning Center* are accessible via *the site menu*. The site menu appears in one of two different ways:
 
-#### Expanded menu
+#### Tabs & menu
 
-If your browser window is wide, the menu appears permanently expanded on the left side of the page. Simply click any of the titles to navigate to another area of the site.
+If your browser window is wide, different areas appear as *tabs* in the top bar. Simply click any of the tabs to navigate to another area of the site. When you scroll down, tabs disappear to save space. Scroll back up to reveal them again.
+
+The pages of an active area appear in a menu at the left side of the page. Click a title to navigate to another page.
 
 This option is typical for desktop and laptop computers.
 
-![Cover](img/expanded_menu.jpg)
+![Cover](img/tabs_and_menu.jpg)
 
-*On wide screens, the site menu appears expanded.*
+*On wide screens, different site areas appear as tabs in the top bar. Pages that belong to an area are listed on the left.*
 
 #### Collapsed menu
 
-If your browser window is narrow, the menu appears as a collapsed *hamburger menu* in *the top bar*. Click the hamburger icon to temporarily expand the site menu. Then, click any of the titles to navigate to another area of the site. Once selected, the menu will collapse again.
+If your browser window is narrow, the menu appears as a collapsed *hamburger menu* in *the top bar*. Click the hamburger icon to temporarily expand the site menu. Different areas of the site appear as submenus, which you can open by clicking them. To navigate to a page, click its title. Once selected, the menu will collapse again.
 
 This option is typical for phones, tablets, and VR headsets.
 
 ![Cover](img/collapsed_menu.jpg)
 
-*On narrow screens, the site menu appears collapsed. It can be opened by clicking the hamburger menu icon.*
+*On narrow screens, the site menu appears collapsed. It can be opened by clicking the hamburger menu icon. Clicking a submenu reveals pages that belong to that area. Clicking a page title opens that page.*
 
 ### Table of contents
 

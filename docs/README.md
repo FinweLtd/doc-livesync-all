@@ -2,30 +2,29 @@
 
 ![Cover](img/StockSnap_HMHAGY1BYE_edited.jpg)
 
-This site contains the documentation for *LiveSYNC Presentation Solution*, [a software tool](http://www.livesync.info) developed by [Finwe Ltd](https://www.finwe.fi). Here you will find tutorials and guides for self-learning and various downloadable resources.
+This site contains the documentation for *LiveSYNC Presentation Solution*, [a software tool](http://www.livesync.info) developed by [Finwe Ltd](https://www.finwe.fi). Here you will find material for self-learning and problem-solving, as well as various downloadable resources.
 
 ## Solutions for learning
 
 <!--
 ### Training and certification
 
-Training courses are available at request, even on-site at your company. 
-[Contact us](support/support.md) to learn more about upcoming courses and 
+Training courses are available at request, even on-site at your company.
+[Contact us](support/support.md) to learn more about upcoming courses and
 LiveSYNC Certified Expert program.
 -->
 
 ### [How to Use This Site](site_howto/site_howto.md)
 
-Read about different options for accessing this site, learn how to navigate, and get familiar with the conventions used on this site.
+Read about different options for accessing this site, learn how to navigate, and get familiar with the used conventions.
 
 ### [Quick Start](quick_start/quick_start.md)
 
-A short introduction to LiveSYNC that gets you going in 15 minutes.
+Quick start guides are short introductions that summarize the steps to take to accomplish a task. These will get you going in minutes. Start from here if you are in a hurry.
 
 ### [Tutorials](tutorials/tutorials.md)
 
-Learn how LiveSYNC can help you work faster and smarter. Tutorials are written to-the-point
-and quickly show how to accomplish common tasks.
+Tutorials focus on a specific topic and collect the relevant information in one place.
 
 ### [User Guide](user_guide/user_guide.md)
 
@@ -34,8 +33,7 @@ background knowledge.
 
 ### [Articles](articles/articles.md)
 
-Articles are written by LiveSYNC experts and focus on specific topics and use cases. Here
-you can learn best practises and find example configurations.
+Articles are written by LiveSYNC experts. They focus on broader topics and specific use cases. Here you can learn best practices and find example configurations.
 
 ### [FAQ](faq/faq.md)
 
@@ -43,8 +41,7 @@ Got a question? Check out frequently asked questions to get an answer quickly.
 
 ### [Support](support/support.md)
 
-Contact us to ask a question from the developers, send a feature
-request, suggest an article, or notify us of an error in the docs - we are listening.
+Contact us to ask a question from the developers, send a feature request, suggest an article, or notify us of an error in the docs - we are listening.
 
 ## Resources
 
@@ -61,11 +58,11 @@ Download FREE templates to be used as a basis for creating your own configuratio
 ### Creative Commons
 ![CC_BY_NC_SA](https://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png)
 
-This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported 
+This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported
 [License](http://creativecommons.org/licenses/by-nc-sa/3.0/), excluding
 
 * Twitter, Facebook, and other social media posts that link to this content
-* Downloadable resource files, which are distributed under different license
+* Downloadable resource files, which are distributed under a different license
 
 <!--
 ## Cookies
