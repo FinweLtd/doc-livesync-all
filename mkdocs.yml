@@ -4,10 +4,22 @@ nav:
   - How to use this site: 'site_howto/site_howto.md'
   - Quick Start:
     - Index: 'quick_start/quick_start.md'
-    - Presentation: 'quick_start/presentation.md'
+    - Presentation:
+      - Devices: 'quick_start/presentation_devices.md'
+      - Software: 'quick_start/presentation_software.md'
+      - Configuration: 'quick_start/presentation_configuration.md'
+      - Files: 'quick_start/presentation_files.md'
+      - Channel: 'quick_start/presentation_channel.md'
+      - Joining: 'quick_start/presentation_joining.md'
+      - Presenting: 'quick_start/presentation_presenting.md'
   - Tutorials:
     - Index: 'tutorials/tutorials.md'
-    - LiveSYNC on Oculus Go: 'tutorials/oculus_go.md'
+    - LiveSYNC on Oculus Go:
+      - The device: 'tutorials/oculus_go_device.md'
+      - Setup: 'tutorials/oculus_go_setup.md'
+      - Preparing: 'tutorials/oculus_go_preparing.md'
+      - Presenting: 'tutorials/oculus_go_presenting.md'
+      - Tips: 'tutorials/oculus_go_tips.md'
   - User Guide:
     - Index: 'user_guide/user_guide.md'
     - 1. Introduction: 'user_guide/introduction.md'
