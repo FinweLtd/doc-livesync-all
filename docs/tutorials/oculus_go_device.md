@@ -1,6 +1,8 @@
-# Using LiveSYNC on Oculus Go
+# LiveSYNC on Oculus Go
 
 ![Cover](img/oculus_go.jpg)
+
+*Oculus Go standalone VR headset.*
 
 ## The Device
 
@@ -8,17 +10,23 @@
 
 [**Oculus Go**](https://www.oculus.com/go/) is an affordable standalone VR headset from [Oculus](https://www.oculus.com), a company owned by [Facebook](https://www.facebook.com).
 
-It has many similarities to [**GearVR**](https://www.samsung.com/global/galaxy/gear-vr/), a product made by [Samsung](https://www.samsung.com). In fact, GearVR uses technology and software from Oculus and is marketed under *Powered by Oculus* term.
+Oculus was founded in 2012 and allegedly started the current VR boom. Oculus released their first headset **Oculus DK1** for developers back in 2013. Facebook famously acquired the company in 2014 for US$2.3 billion. Oculus is considered one of the leading VR companies.
 
-The main difference is that Oculus Go is a new standalone device, whereas GearVR consists of an older style combination of a VR frame and a compatible Samsung phone.
+Oculus Go was released 5 years after DK1 in may 2018. It is mainly targeted for 360-degree media and simple VR games. The headset has many similarities to [**GearVR**](https://www.samsung.com/global/galaxy/gear-vr/), a product made by [Samsung](https://www.samsung.com). In fact, GearVR uses technology and software from Oculus. It is also marketed under *Powered by Oculus* term. GearVR was released already in November 2015. It is still very similar to the original version, despite of minor yearly updates.
 
-In both cases applications are installed from [Oculus Store](https://www.oculus.com/experiences/go/) and same app builds can work on both products. Also the user experience, visual quality and interaction mechanism are almost the same.
+The main difference between GearVR and Oculus Go? Oculus Go is a new standalone device whereas GearVR consists of a combination of a VR frame and a compatible Samsung phone. In both cases applications are installed from [Oculus Store](https://www.oculus.com/experiences/go/) and same app builds can work on both products. The user experience, visual quality and interaction mechanism are almost the same.
 
-Both products are 3DOF devices (three degrees of freedom), ie. you can look around in VR by turning your head, but you cannot walk in VR by physically taking steps. There are no need for a computer and no wires. You can simply take the headset out of your bag, put it on your face and start using it. Bundled hand remote is used as a pointer when selecting objects from screen.
+Both products are 3DOF devices (three degrees-of-freedom). This means that user can look around in VR by turning his head, but not walk in VR by physically taking steps. In September 2018, Oculus announced a new headset **Oculus Quest**. It will be a 6DOF device and thus able to track walking. Yet, it is more expensive, mainly targeted for games, and brings little benefit for 360-media users. Thus, Oculus Go is not going to become outdated anytime soon.
+
+Compared to PC or game console based VR, mobile headsets have less rendering power. From 360-degree media point-of-view this is not very significant. Mobile headsets also have a couple of huge benefits: no computer, no wires. You can go anywhere you like, take the headset out of your bag, put it on your face, and start using it right away.
+
+Usage is simple: a hand remote is bundled with the headset. You use it as a pointer when selecting objects from screen, or swipe the touchpad with your finger. Built-in speakers are cleverly hidden inside the head strap. They provide stereo or spatial audio without a need to plug in external headphones.
+
+All in all, Oculus Go is a great VR headset especially for 360-degree media.
 
 ### Should I get an Oculus Go or a GearVR?
 
-If you already own a [compatible](https://www.samsung.com/global/galaxy/gear-vr/) Samsung phone, purchasing only the VR frame is an affordable choice (about $110). GearVR headset is a lightweight addition to your bag if you travel a lot and carry a large-screen phone anyway.
+If you already own a [compatible](https://www.samsung.com/global/galaxy/gear-vr/) Samsung phone, purchasing only the VR frame is an affordable choice (about $110). GearVR headset is a lightweight addition to your bag, which you will probably value if you travel a lot and carry a large-screen phone anyway.
 
 However, in most cases Oculus Go is a better choice. Since it is a standalone device it has a battery of its own and you can dedicate the device for its sole purpose: VR. You will also save a fortune if you need a large number of headsets.
 
