@@ -15,7 +15,7 @@ As a reminder, presenting with the LiveSYNC tool works as follows:
 !!! note
     Here we assume that you have already set up a channel in Director Mode on your control device (tablet). As an example, we will use channel number *5034*. Refer to [User Guide](../user_guide/configuration.md) for more information.
 
-To view a presentation, the headset must join the same channel that the control device is using. Follow these steps to configure a new presentation channel for your Oculus Go headset:
+To view a presentation, the headset must join the same channel that the control device is using. Follow these steps to configure a new presentation channel to your Oculus Go headset:
 
 1. On your Oculus Go device, start the LiveSYNC app, and select '+' from the *Home* screen. Point it with the hand remote controller and click the controller's selection button.
 
@@ -33,7 +33,7 @@ To view a presentation, the headset must join the same channel that the control 
     If you have multiple control devices (tablets), you can configure a separate channel for each by repeating the steps 1-3. This way you can easily choose which channel number to join ie. whose presentation to follow.
 
 !!! example
-    Joan's marketing team is participating in a trade show. Their company is launching a new product, and Joan's team is using a 360-degree video to showcase it at their booth. They are controlling six Oculus Go headsets with LiveSYNC. To minimize the waiting time they run two groups of three headsets in parallel and control the groups with two iPads. Whenever one of the representatives needs a break, they want to temporarily connect all six headsets to one iPad. Their iPads are using channels 2054 and 5039. Joan configures both channels to all six headsets. Now they can quickly swap a headset from one iPad to the other.
+    Joan's marketing team is participating in a trade show. Their company is launching a new product. Joan's team is using a 360-degree video to showcase it at their booth. They are controlling six Oculus Go headsets with LiveSYNC. To reduce waiting time, they run two groups of three headsets in parallel. The groups are controlled with two iPads. When one of the representatives needs a break, they will temporarily connect all headsets to one iPad. Their iPads are using channels 2054 and 5039. Joan configures both channels to all six headsets. Now they can quickly swap a headset from one iPad to the other.
 
 !!! note
     Bluetooth connections are local and hence a channel number is reserved from a control device's own pool. Thus, you can reuse a configured channel as many times as you want.
@@ -62,7 +62,7 @@ To test a configured channel, perform the following steps:
 3. The headset connects to the control device automatically as soon as it is available and within reach. **User does not have to do anything**.
 
     !!! note
-        Usually, this takes only a few seconds. However, with Bluetooth technology and multiple devices, it can take up to tens of seconds. The devices share the same radio frequencies. Because of this connection times become longer when the number of devices increases.
+        Usually, this takes only a few seconds. However, with Bluetooth technology and multiple devices, it can take up to tens of seconds. The devices share the same radio frequencies. Because of this, connection times become longer when the number of devices increases.
 
       ![LiveSYNC Lobby](img/livesync_lobby_opening.png)
 
@@ -94,13 +94,13 @@ To test a configured channel, perform the following steps:
     4. If the problem is still not solved, try to use a smaller amount of devices. Bluetooth 4.x compatible control devices typically allow connecting to 4-8 devices simultaneously.
 
 !!! warning
-    The Oculus accompanying app uses Bluetooth for communicating with the Oculus Go headset. When the app is running, it tends to keep a Bluetooth connection open or automatically open a new connection when the headset appears within range. This can interfere with LiveSYNC when you try to connect to a channel using Bluetooth. The Oculus app does not provide a method for manually disconnecting and does not automatically disconnect when it is sent to background. Thus, we recommend that you **kill the Oculus app after use to disconnect it from the headset**:
+    The Oculus accompanying app uses Bluetooth for communicating with the Oculus Go headset. When the app is running, it tends to keep a Bluetooth connection open. Or, automatically opens a new connection when the headset appears within range. This can interfere with LiveSYNC when you try to connect to a channel using Bluetooth. The Oculus app does not provide a method for manually disconnecting. Also, it does not automatically disconnect when it is sent to the background. Thus, we recommend that you **kill the Oculus app after use to disconnect it from the headset**:
 
-    1. Launch the recent applications menu (a.k.a task list / overview). How to do this depends on Android version and phone brand. Often it is a simple square icon or an icon that resembles two rectangles overlapping each other. In portrait orientation, the button is located at the bottom of the screen next to the home button.
+    1. Launch the recent applications menu (a.k.a task list / overview). How to do this depends on the Android version and phone brand. Often it is a simple square icon or an icon that resembles two rectangles overlapping each other. In portrait orientation, the button is located at the bottom of the screen next to the home button.
 
     2. Scroll through the apps until you find the Oculus app.
 
-    3. Drag the app off the screen. In portrait orientation, swipe it to the right. When it disappears from screen it will be closed and the Bluetooth connection will be freed.
+    3. Drag the app off the screen. In portrait orientation, swipe it to the right. When it disappears from the screen it will be closed and the Bluetooth connection will be freed.
 
 ### Presentation test
 
@@ -143,14 +143,17 @@ Next, we will go through how to copy content files to your Oculus Go headset.
 
 2. Put on your headset and select *Accept* to confirm you want to allow your computer to access files on the headset.
 
-2. Once Windows detects the headset, it appears as a new device in *Explorer*. For example, on Windows 10 you'll find it under *This PC* -> *VR-Headset*.
+2. Once Windows detects the headset and you choose to handle this device by exploring its files, it appears as a new device in *Explorer*. For example, on Windows 10 you'll find it under *This PC* -> *VR-Headset*.
 
-3. Copy your content files and folders to your Oculus Go just like you'd copy them into a USB flash drive. The correct location is **\Movies\LiveSYNC** folder. This folder will be created automatically when LiveSYNC is run. Notice that the directory cannot be created if you haven't granted file access permission.
+3. Copy your content files and folders to your Oculus Go just like you'd copy them into a USB flash drive. The correct location is **\Movies\LiveSYNC** folder. This folder will be created automatically when the LiveSYNC app is run. Notice that the directory cannot be created if you haven't granted file access permission.
+
+    ![Windows Explorer](img/windows_explorer.png)
 
 !!! note
-    If your PC does not recognize the headset when you connect it with a USB cable, check that *Developer Mode* is not enabled in your headset. On the Oculus companion app, navigate to *Settings* -> Your Oculus Go -> *More Settings* -> *Developer Mode*.
+    If your PC does not recognize the headset when you connect it with a USB cable, check that *Developer Mode* isn't enabled in your headset. On the Oculus companion app, navigate to *Settings* -> Your Oculus Go -> *More Settings* -> *Developer Mode*. Read more from [Tips & Tricks](oculus_go_tips.md).
 
-    If it is enabled, the device will be detected in a different a USB mode, and it will not appear in Explorer. You can temporarily disable *Developer Mode*. Or, use *Android Debug Bridge* (ADB) command line tool for transferring files.
+    If it is enabled, the device will be detected in a different a USB mode, and it will not appear in Explorer. You can temporarily disable *Developer Mode*. Or, use the *Android Debug Bridge* (ADB) command line tool for transferring files.
+
 
 #### Mac
 
@@ -166,18 +169,18 @@ Next, we will go through how to copy content files to your Oculus Go headset.
 
 5. Copy your content files and folders to your Oculus Go by dragging them from your Mac's *Finder* window. The correct location is **\Movies\LiveSYNC** folder. This folder will be created automatically when the LiveSYNC app is run. Notice that the directory cannot be created if you haven't granted file access permission.
 
-![Android File Transfer](img/android_file_transfer.png)
+    ![Android File Transfer](img/android_file_transfer.png)
 
 !!! note
     If your headset is not detected and you are using a USB hub or an extension cable, try connecting the headset's cable directly to your computer. If this doesn't help, try connecting the cable to a different USB port.
 
-#### No LiveSYNC folder?
+#### Storage Permission
 
-In case you cannot find the *LiveSYNC* folder under *Movies*:
+Check permissions in case you cannot find the *LiveSYNC* folder under *Movies*, or the LiveSYNC app cannot find your own files from that folder.
 
 * */LiveSYNC* folder is automatically generated when the app is run (if the folder is not found).
 
-* To be able to create the folder under */Movies*, the LiveSYNC app needs ** permission from the user to access the file system** (read/write). This permission is asked when you attempt to join a presentation. The permission remains until you manually remove it or re-install the app.
+* To be able to create the folder under */Movies*, the LiveSYNC app needs ** permission from the user to access the file system** (read/write). This permission is first asked when you attempt to join a presentation. The permission remains until you manually remove it or re-install the app.
 
 * You can also set the permission on your headset via *Oculus Home* as follows:
 
@@ -194,5 +197,24 @@ In case you cannot find the *LiveSYNC* folder under *Movies*:
     ![LiveSYNC Permissions](img/oculus_go_livesync_permissions.png)
 
 !!! note
-    You can also use Explorer on Windows or Android File Transfer on Mac to create the folder yourself, but LiveSYNC will still need the *Storage* permission for reading the files from this location.
+    You can also use Explorer on Windows or Android File Transfer on Mac to create the folder yourself. LiveSYNC will still need the *Storage* permission for reading the files from this location.
 
+#### File naming conventions
+
+The folder */Movies/LiveSYNC* is the content root folder for the LiveSYNC app on all Android-based devices (Oculus Go runs on Android OS). When you copy your content files there, **make sure to use exactly the same filenames that you use on your control device**. For example, the names are case sensitive: *MyVideo.mp4* is not the same as *myvideo.mp4*.
+
+If the filenames do not match, the LiveSYNC app running on your Oculus Go headset cannot find the file that the control device tells it to load. When this happens, a textual error notification will appear on the headset and also in the control device's live view for this particular headset. Notice that while the filenames must match, the file content *can* be different.
+
+!!! example
+    Matt is using an old iPad as a control device for his presentation. The iPad can play FullHD resolution videos, but not 4K. Matt encodes two different versions of his video: 1920x960 for his iPad and 3840x1920 for his Oculus Go. He renames the files so that they have the same filename *Christmas.mp4* on his iPad and on his Oculus Go. LiveSYNC detects them as the same video and correctly loads them on both devices.
+
+You can copy your 360-degree photos and videos directly to */Movies/LiveSYNC* folder, but you can also create *one level* of subfolders. This helps in organizing your content. Notice that if you use subfolders on your control device, you *must* use them also on your viewing devices.
+
+!!! example
+    */Movies/LiveSYNC/Christmas2018* is a valid location for your 360-degree Christmas photos from 2018.
+
+    */Movies/LiveSYNC/2018/Christmas* has two directory levels under the LiveSYNC root folder and is thus invalid.
+
+!!! info
+    With the LiveSYNC tool, you can present normal 2D photos and videos, 2D and 3D 360-degree photos and videos, and use your own tag images. File naming conventions allow LiveSYNC to correctly detect files. For example, whether an image file is a 2D photo, a 2D 360 photo, a 3D 360 photo, or a tag icon.
+    These rules are described in the [User Guide](../user_guide/asset_management.md) and they apply also to LiveSYNC on Oculus Go.

@@ -18,7 +18,7 @@ Connect all viewing devices to the control device as follows:
 
 ![LiveSYNC Mosaic](img/livesync_mosaic_multiple.png)
 
-*Connected devices appear in the *Mosaic* view. Here it is easy to observe what every member of the audience is looking at*.
+*Connected devices appear in the *Mosaic* view. It is easy to observe what every member of the audience is looking at*.
 
 !!! note
     The grid is automatically resized so that maximum amount of screen real estate is used.
