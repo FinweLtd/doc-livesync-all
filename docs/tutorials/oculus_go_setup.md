@@ -2,7 +2,7 @@
 
 ## Setup
 
-### Oculus app
+### The Oculus app
 
 When you receive your Oculus Go headset, unpack it and start the initial setup procedure. It might be a bit surprising, but you must install *an application to your phone*:
 
@@ -19,7 +19,7 @@ Alternatively, you can use these direct links for [Android](https://play.google.
 
 ![Oculus app](img/screenshot_oculus_1.png)
 
-*Oculus Go accompanying app on Android phone.*
+*The Oculus Go accompanying app on an Android phone.*
 
 ### Pairing & setup
 
@@ -35,9 +35,9 @@ Follow these steps to pair your phone with the headset and go through the initia
 
 5. Turn on your Oculus Go device. Press *Continue*.
 
-6. Plug your Oculus Go into a power source. Press *Continue*.
+6. Plug your Oculus Go into a power source. Press *Continue*.
 
-7. After search completes, found headsets are listed. If multiple devices were found nearby, choose the one with matching serial number. The number is below the barcode under the head strap. Press *Continue*.
+7. After search completes, found headsets are listed. If multiple devices were found nearby, choose the one with the matching serial number. The number is printed below a QR code under the fabric of the head strap, near the USB connector. Press *Continue*.
 
 8. Select a Wifi access point that will be used for connecting the headset to the network. Press *Continue*.
 
@@ -45,7 +45,7 @@ Follow these steps to pair your phone with the headset and go through the initia
 
 10. Select language to use in VR. Press *Continue*.
 
-11. Add a payment method (a credit card or a PayPal account), or press *Skip*.
+11. Add a payment method (a credit card or a PayPal account), or press *Skip*. You will need a payment method only for making purchases from the Oculus Store.
 
 12. Go through safety etc. information. Press *Continue*.
 
@@ -55,26 +55,32 @@ For more information, see the questions and answers [here](https://support.oculu
 
 ![Oculus app Settings](img/screenshot_oculus_2.png)
 
-*Once the pairing and setup is complete, your headset(s) will appear in *Settings* tab.*
+*Once pairing and setup has completed your headset(s) will appear in the *Settings* tab.*
 
 ### First time use
 
-Go to your Oculus Go device. Put the headset on your face. There is *an infrared proximity sensor* inside the headset (between the lenses). The headset will wake up automatically and you will hear a greeting sound.
+Go to your Oculus Go device. Make sure that power is on and then put the headset on your face. There is *an infrared proximity sensor* inside the headset (between the lenses). The headset will wake up automatically and you will hear a greeting sound. Adjust the head strap so that you feel comfortable.
 
-Grab the hand controller and point straight ahead to the direction you are looking at. Then, *press and hold* the Oculus button (ring symbol) on the hand controller.
+Grab the hand remote controller, look straight ahead, and point with the controller to the direction you are looking at. Then, *press and hold* the Oculus button (the one with the ring symbol) on the controller. This procedure will calibrate the controller.
 
 ![Oculus Go calibration](img/screenshot_oculus_go_1.png)
 
-*Whenever the device wakes up from sleep you must calibrate the hand remote.*
+*Whenever the device wakes up from sleep you must calibrate the hand remote controller.*
 
 !!! note
-    Every time the headset wakes up from sleep it will present *a calibration dialog*. Calibration is necessary, because the headset and the hand remote are two independent devices. They are both only aware of *rotation around their own center point*. Moreover, the devices do not know what actual direction they are pointing at (for example, North, South-East, etc.). Hence, they need to be calibrated by making them point to the same direction and then pressing a button to signal this. Unfortunately, this needs to be repeated every time the headset wakes up. Sensors are turned off to save power during sleep, hence they will lose the tracking.
+    Every time the headset wakes up from sleep it will present *the calibration dialog*. Calibration is necessary, because the headset and the hand remote controller are two independent devices. They are both only aware of *rotation around their own center point*. Moreover, the devices do not know what actual direction they are pointing at (for example, North, South-East, etc.). Hence, they need to be calibrated by making them point to the same direction and then pressing a button to signal this. Unfortunately, this needs to be repeated every time the headset wakes up. Sensors are turned off to save power during sleep, hence they will lose the tracking.
 
 After calibration and first time use tutorial you will enter *Oculus Home*. Here you can install new apps, start installed apps, configure the headset, and use services offered by Oculus.
 
 ![Oculus Home](img/screenshot_oculus_go_2.png)
 
 *The Oculus Home.*
+
+!!! note
+    The image above is a screenshot from the headset's internal display. The device renders a heavily distorted double barrel view on the screen. You will not see the barrels nor the distortion when you wear the headset and look through the lenses. In addition, your brain will combine left and right eye images together. You will experience VR as a 3D world, although your field-of-view in VR is narrower than in real life.
+
+    In this documentation, we frequently use either double barrel view or single barrel view in screenshots from a VR headset. A single barrel view is simply a double barrel view cut in half to save screen space.
+
 
 !!! tip
     We recommend that you spend some time to play around with the device. Get familiar with the hand remote and Oculus Home. Try a couple of pre-installed apps. Ask your boss a permission to take it home for the weekend and watch a couple of movies from Netflix or Youtube VR.
@@ -113,8 +119,11 @@ Once you feel familiar with Oculus Go, it is time to install the LiveSYNC app. T
 
     ![Install via headset, library](img/livesync_install_via_headset_2.jpg)
 
-5. When the installation has completed you will find *LiveSYNC Oculus Go* listed in the headset: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu.
+5. When the installation has completed you will find *LiveSYNC Oculus Go* listed in the apps grid: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu.
 
-6. Start *LiveSYNC Oculus Go* by selecting it from the apps grid. Notice that version number appears in the splash screen below the LiveSYNC logo.
+6. Start *LiveSYNC Oculus Go* by selecting it from the apps grid.
 
     ![LiveSYNC splash](img/livesync_splash.png)
+
+!!! note
+    Notice that the app's version number appears in the splash screen, in the small print below the LiveSYNC logo. Here you can easily check which version you are running. The LiveSYNC app is updated frequently.
