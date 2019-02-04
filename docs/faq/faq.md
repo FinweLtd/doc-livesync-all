@@ -12,7 +12,7 @@ an answer to your question, please contact us via the form on the
 
 ### What iOS devices are supported?
 
-LiveSYNC can be installed on iPhones and iPads, but currently not on AppleTV. The app requires 
+LiveSYNC can be installed on iPhones and iPads, but currently not on AppleTV. The app requires
 iOS 8.0 or later.
 
 While LiveSYNC works fairly well also on iOS devices that are several years old, some feature 
