@@ -34,6 +34,7 @@ nav:
     - 9. Tags & hotspots: 'user_guide/hotspots.md'
     - 10. Workflows: 'user_guide/workflows.md'
     - 11. Editor: 'user_guide/editor.md'
+    - 12. Troubleshooting: 'user_guide/troubleshooting.md'
   - Articles:
     - Index: 'articles/articles.md'
     - Understanding resolution: 'articles/resolution.md'
