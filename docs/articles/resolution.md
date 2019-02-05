@@ -452,32 +452,28 @@ apparently humans can see *more* details than our retina alone is able to distin
 > spatial detail in an image that would be required to show what the human eye could see when you
 > view a scene.
 
-## Hardware
+<!--
+[//]: # ## Hardware
 
-### Camera resolution
+[//]: # ### Camera resolution
 
-### Display resolution
+[//]: # ### Display resolution
 
-### VR headset resolution
+[//]: # ### VR headset resolution
 
-Cardboard
-GearVR
-Oculus Go
-Varjo
+[//]: # ## Technical limitations
 
-## Technical limitations
+[//]: # ### Video encoder
 
-### Video encoder
+[//]: # ### OpenGL
 
-### OpenGL
+[//]: # ### Network
 
-### Network
+[//]: # ## Best practices
 
-## Best practices
+[//]: # ## Recommendations
 
-## Recommendations
-
-## Summary
+[//]: # ## Summary
 
 A summary of some useful terms and their meaning:
 
@@ -486,7 +482,8 @@ A summary of some useful terms and their meaning:
 * Spatial resolution = the amount of pixels per length unit (the clarity of an image on screen / paper)
 * Panorama resolution = the amount of pixels per degree (the amount of detail per angle)
 
-## References
+[//]: # ## References
+-->
 
 [1]: https://en.wikipedia.org/wiki/Image_resolution
 [2]: https://en.wikipedia.org/wiki/Raster_graphics
