@@ -181,6 +181,22 @@ The documentation is currently available only in English. Translating the docume
 
 You can contact us via our [contact form](../support/support.md).
 
+### Product variants
+
+Different customer segments need different features. For example, most 360-degree video professionals are interested in using LiveSYNC's presentation capabilities. On the other hand, industrial users focus on tagging and reporting. Thus, the LiveSYNC app is offered in multiple variants. The variants have a common core, but available features vary. The purchased license defines what features are available in a particular app installation.
+
+The documentation site is common to all versions. This means that parts of the documentation discuss features that are available only for a subset of customers.  To differentiate such parts, they are clearly marked with *banners*. For example, users who do not have the Enterprise version of the app should skip sections that are marked with this banner:
+
+![Enterprise feature](../img/enterprise_feature.png)
+
+*An example of a product variant specific documentation. The content below this banner, up to the next section/title, is relevant only for users of the Enterprise version of the LiveSYNC app.*
+
+### Product versions
+
+The LiveSYNC solution is continuously under development and updates are released frequently. We recommend that you keep the app up-to-date. There is one exception to this rule. Do you have an important presentation coming up soon and everything is already set up and working smoothly? Then we recommend that you do not update the app before the presentation.
+
+The documentation site contains documentation for the *latest* version of the LiveSYNC app.
+
 ### Conventions
 
 The goal when writing the documentation was to make it as readable as possible. Hence, we use many conventions throughout the text.

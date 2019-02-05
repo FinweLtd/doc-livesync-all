@@ -103,22 +103,15 @@ Once you feel familiar with Oculus Go, it is time to install the LiveSYNC app. T
     ![Invite email](img/screenshot_invite_email.png)
 
 4. After accepting the invite you have multiple options how to install the application:
+
     1. Using the accompanying Oculus app on your phone: tap the magnifier class icon to open search, type *livesync* and select *LiveSYNC Oculus Go*, then click *Install on ...* button.
-
     ![Install via phone, search](img/livesync_install_via_phone.png)
-
     2. You can also select *Library* tab from the bottom bar and see if *LiveSYNC Oculus Go* already appears in the apps list. Select it from the list and then click *Install on ...* button.
-
     ![Install via phone, library](img/livesync_install_via_phone_2.png)
-
     3. Using the Oculus Go device, select *Search* from the bottom bar, type *livesync*, select *LiveSYNC Oculus Go*, then click *Get*.
-
     ![Install via headset, search](img/livesync_install_via_headset.jpg)
-
     4. You can also select *Library* tab from the bottom bar and then *Not Installed* page from the left side menu to see if *LiveSYNC Oculus Go* already appears in the apps list. Select it from the list and then click *Get*.
-
     ![Install via headset, library](img/livesync_install_via_headset_2.jpg)
-
 5. When the installation has completed you will find *LiveSYNC Oculus Go* listed in the apps grid: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu.
 
 6. Start *LiveSYNC Oculus Go* by selecting it from the apps grid.

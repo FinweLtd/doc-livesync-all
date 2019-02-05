@@ -4,23 +4,29 @@
 
 Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers, get step-by-step instructions, and develop your skills.
 
+!!! warning
+    The User Guide is currently under construction.
+
 ## [1. Introduction](introduction.md)
 
 ## [2. Installing](installing.md)
 
 ## [3. Configuration](configuration.md)
 
-## [4. Workspace](workspace.md)
+## [4. Managing assets](asset_management.md)
 
-## [5. Presenting](presenting.md)
+## [5. Workspace](workspace.md)
 
-## [6. Managing assets](asset_management.md)
+## [6. Presenting](presenting.md)
 
 ## [7. Photo content](photo_content.md)
 
 ## [8. Video content](video_content.md)
 
-## [9. Hotspots](hotspots.md)
+## [9. Tags & hotspots](hotspots.md)
 
 ## [10. Workflows](workflows.md)
 
+## [11. Editor](editor.md)
+
+## [12. Troubleshooting](troubleshooting.md)
