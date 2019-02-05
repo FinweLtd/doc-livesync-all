@@ -16,7 +16,7 @@ nav:
   - Tutorials:
     - Index: 'tutorials/tutorials.md'
     - LiveSYNC on Oculus Go:
-      - The device: 'tutorials/oculus_go_device.md'
+      - Device: 'tutorials/oculus_go_device.md'
       - Setup: 'tutorials/oculus_go_setup.md'
       - Preparing: 'tutorials/oculus_go_preparing.md'
       - Presenting: 'tutorials/oculus_go_presenting.md'

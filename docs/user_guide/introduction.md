@@ -188,3 +188,29 @@ This is LiveSYNC - and we are only getting started. Welcome aboard!
 ### Key Concepts
 
 TODO
+
+### Understanding view mirroring
+
+How does LiveSYNC actually work? What is possible and what is not? In general, there are two ways to mirror a live view of one device's screen to another:
+
+1. **Streaming video (screencasting) **
+
+    *Principle: Digitally record screenshots from the device's screen, encode them into a video stream, and send this stream to another device over a network connection.*
+
+    One benefit of this approach is that the mirrored view is an *exact* copy of what the other device is drawing on its screen. Another is that the mirroring feature can be implemented on the platform level and is thus available for all apps or the whole desktop environment.
+
+    There are many downsides, too. Because it is essentially streaming high resolution video from one device to another, the method consumes a fair amount of CPU/GPU resources and power in *both* devices. It also requires a lot of network bandwidth when there is movement on screen, and it does not scale well: the network and the video decoder in the receiving end quickly become a bottleneck when more devices connect.
+
+    Furthermore, when using a VR headset, we do not actually *want* to stream an exact copy of what is on screen. Instead of the distorted double barrel view we want to mirror a normal view.
+
+2. **Streaming commands**
+
+    *Principle: Integrate deep into the app and transmit only commands that allow the receiving end to reconstruct the view from the same assets.*
+
+    The benefits of this method include low CPU/GPU and power consumption, trivial use of network bandwidth, and scalability. It is also possible to render the mirrored view a bit differently compared to the source device.
+
+    The downside is that all devices must have local copies of the assets required for reconstructing the view. Also, with video content the resources of the control device can become a limitation in certain use cases. A control device may not have enough hardware resources to decode and play multiple videos simultaneously. Or, the same video simultaneously from different stream positions. This is not a problem, though, when all devices watch the same content in sync.
+
+Many devices have type 1 screen mirroring built-in. This is often handy for mirroring your phone's screen on TV at home. Or, in a meeting room at the office. However, mirroring a view by streaming video over Wifi becomes often impossible in crowded places. Wifi does not work well enough and/or the organizers do not even allow using own Wifi hotspots.
+
+As you probably guessed already, LiveSYNC uses type 2 method: streaming commands. This approach allows operation in crowded trade shows, especially when Bluetooth technology is used for communication. Also, observing a large number of viewer devices is possible. Etc.
