@@ -27,6 +27,6 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 
 ## [10. Workflows](workflows.md)
 
-## [11. Editor](workflows.md)
+## [11. Editor](editor.md)
 
-## [12. Troubleshooting](workflows.md)
+## [12. Troubleshooting](troubleshooting.md)
