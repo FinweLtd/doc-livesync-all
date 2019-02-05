@@ -17,6 +17,3 @@ Once your presentation is over, tap the *Home* button in the top left corner to 
 !!! note
     If you haven't purchased a license, watermarks will be shown when you are presenting your own content files. This concerns both the control and the viewer devices. Only the control device requires a license. Watermarks will not appear on viewer devices when they are connected to a control device that has a valid license.
 
-## What's next
-
-You have barely scratched the surface of what you can do with the LiveSYNC tool. Learn more by reading some of the [tutorials](../tutorials/tutorials.md) or dive into the [User Guide](../user_guide/user_guide.md).

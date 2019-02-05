@@ -4,6 +4,9 @@
 
 Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers, get step-by-step instructions, and develop your skills.
 
+!!! warning
+    The User Guide is currently under construction.
+
 ## [1. Introduction](introduction.md)
 
 ## [2. Installing](installing.md)
