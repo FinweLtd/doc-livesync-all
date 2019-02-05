@@ -11,7 +11,7 @@ Take a look at our [video tutorial](https://vimeo.com/222670351) to see how file
 
 #### File naming convention 
 
-LiveSYNC requires filename convention for 3D 360 over-and-under or side-by-side sterio videos. 
+LiveSYNC requires filename convention for 3D 360 over-and-under or side-by-side stereo videos. 
 
 * for 2D 360 videos, no changes are required - mono panorama is assumed by default.
 * for 3D 360 over-and-under videos, append _3DOU to video filename before .mp4 extension.
