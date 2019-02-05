@@ -12,6 +12,7 @@ nav:
       - Channel: 'quick_start/presentation_channel.md'
       - Joining: 'quick_start/presentation_joining.md'
       - Presenting: 'quick_start/presentation_presenting.md'
+      - Exporting: 'quick_start/presentation_exporting.md'
   - Tutorials:
     - Index: 'tutorials/tutorials.md'
     - LiveSYNC on Oculus Go:
