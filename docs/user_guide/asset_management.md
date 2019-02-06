@@ -14,5 +14,7 @@ Take a look at our [video tutorial](https://vimeo.com/222670351) to see how file
 LiveSYNC requires filename convention for 3D 360 over-and-under or side-by-side stereo videos. 
 
 * for 2D 360 videos, no changes are required - mono panorama is assumed by default.
-* for 3D 360 over-and-under videos, append _3DOU to video filename before .mp4 extension.
-* for 3D 360 side-by-side videos, append _3DSBS to video filename before .mp4 extension. 
+* for 3D 360 over-and-under videos, append _3DOU OR for 3D 360 tob-and-bottom videos, append _3DTB to video filename before .mp4 extension.
+![Cover](img/Orion360_3DOU.jpg)
+* for 3D 360 side-by-side videos, append _3DSBS OR for 3D 360 left-right videos, append _3DLR to video filename before .mp4 extension. 
+![Cover](img/Orion360_3DSBS.jpg)
