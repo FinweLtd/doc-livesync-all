@@ -8,4 +8,4 @@
 6. You should see the views from your audience devices quickly appearing to the Mosaic view on your iPad.
 7. To begin your presentation, change to Player view on your iPad and simply drag photos/videos/hotspots to the presentation area on the center of the screen.
  
-The basic presentation features are covered in the [LiveSYNC demo video](https://vimeo.com/207785581)
+The basic presentation features are covered in the [LiveSYNC demo video.](https://vimeo.com/207785581)
