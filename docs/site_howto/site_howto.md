@@ -92,12 +92,27 @@ Starting a browser from the Oculus Home (inside VR):
 
 ### LiveSYNC App
 
-In the future, this site will be integrated into the LiveSYNC app. The network connection will be still required for reading the documentation. Once the update has been released the instructions will be updated here.
+#### iOS & Android
 
-Currently, you can use a web browser for accessing this site as explained above.
+On iOS and Android phones and tablets, the documentation is accessible via the LiveSYNC app. In fact, there are *two* locations inside the app where you can access the site:
+
+a. Start the LiveSYNC app and enter the *Home* screen. Select *Learning Center* from the bottom bar. The landing page of the site is loaded into an internal browser view:
+    ![Cover](img/home_learning_center.png)
+
+b. On the *Home* screen, select a configured channel (Director Mode) and enter the *Mosaic* view. From the bottom bar, select *Help* tab. The landing page of the site is loaded into an internal browser view:
+    ![Cover](img/director_help.png)
+
+!!! tip
+    You can access the documentation during a presentation using the *Help* tab.
+
+!!! note
+    Network connection is required for accessing the documentation via the app.
+
+#### GearVR & Oculus Go
+
+On GearVR and Oculus Go headsets, the documentation cannot be accessed via the LiveSYNC app. Please use the headset's native or 3rd party browser as explained above, or another device.
 
 ## Navigating
-
 
 ### Site menu
 
