@@ -29,8 +29,13 @@ Operating system | Android 7.0 (API 24) or later | Android 7.0 (API 24) or later
 
 #### iOS ####
 
+[App store](https://itunes.apple.com/us/app/livesync-presentation-solution/id1202200449?mt=8)
 
+Click [here](https://vimeo.com/221436477) to watch video tutorial for iOS installation. 
 #### Android ####
 
+[Google Play ](https://play.google.com/store/apps/details?id=fi.finwe.livesync.player.android&hl=en)
+
+Click [here](https://vimeo.com/221453486) to watch video tutorial for android installation. 
 
 #### Oculus ####
