@@ -39,3 +39,8 @@ Download LiveSYNC from [Google Play](https://play.google.com/store/apps/details?
 Click [here](https://vimeo.com/221453486) to watch video tutorial for android installation guide. 
 
 #### Oculus ####
+
+!!! info
+    LiveSYNC has not officially launched on Oculus platform yet. However, you can start using it already by installing it from our beta channel.
+    
+Install LiveSYNC on [Oculus Go](../tutorials/oculus_go_setup.md).
