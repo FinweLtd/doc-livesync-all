@@ -23,6 +23,7 @@ nav:
       - Tips: 'tutorials/oculus_go_tips.md'
   - User Guide:
     - Index: 'user_guide/user_guide.md'
+    - Preface: 'user_guide/preface.md'
     - 1. Introduction: 'user_guide/introduction.md'
     - 2. Installing: 'user_guide/installing.md'
     - 3. Setting up a presentation: 'user_guide/setting_up_a_presentation.md'

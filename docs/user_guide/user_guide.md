@@ -7,6 +7,8 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 !!! warning
     The User Guide is currently under construction.
 
+## [Preface](preface.md)
+
 ## [1. Introduction](introduction.md)
 
 ## [2. Installing](installing.md)
