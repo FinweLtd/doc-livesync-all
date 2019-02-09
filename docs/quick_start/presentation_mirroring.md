@@ -2,6 +2,8 @@
 
 ## Mirroring
 
+![Image](img/office.png)
+
 To mirror content from your control device to a big screen (a secondary display), follow the steps below.
 
 ### iOS
