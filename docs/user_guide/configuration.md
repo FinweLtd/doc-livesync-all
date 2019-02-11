@@ -32,3 +32,5 @@
 7. Copy presentation contents. Make sure all the presentation contents that are on director device are also copied to all audience devices. 
 8. Setup is now completed, press OK. 
 9. From home screen choose a channel to join. 
+
+For more, take a look at our tutorial [video on how to prepare a presentation](https://vimeo.com/223483151). 
