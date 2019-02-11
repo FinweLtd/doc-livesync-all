@@ -22,7 +22,7 @@
 2. From the home screen press + button inside the pink circle.
 3. From Setup page choose "Audience" and press Next. 
 4. Give a device name and press Next.
-5. Enter channel number that was generated and used by the Director device and press Next.
+5. Enter channel number OR scan the QR code that was generated and used by the Director device and press Next.
 6. Choose view mode and press Next. 
 ![Cover](img/viewMode.jpg)
 
