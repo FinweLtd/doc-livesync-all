@@ -24,5 +24,5 @@ Currently, no. We have supported cubemap projection in some apps earlier and if 
 
     If your own content files do not work:
     
-       - Make sure to use .mp4 format videos, .jpg format photos, and .png format hotspot images
+       - Make sure to use .mp4 format videos, .jpg format photos, and .png format hotspot images.
        - If some of your devices do not support 4K video (3840x1920), you can copy there a lower quality variant (1920x960). Photos will be automatically scaled to the device's maximum size.
