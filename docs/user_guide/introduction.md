@@ -158,11 +158,11 @@ As every software product, also LiveSYNC is based on a few key concepts. For the
 
 When presenting content to other people, we assume that one person is in control of the situation. Let us call this person **the director**. The people who are following the presentation are called **the audience**.
 
-The director acts in the role of the presenter. He uses a computing device for sharing content to the eyes of the audience. Let us call this device **the control device**. The control device is usually a tablet. Sometimes, we may refer to this device as the director's device.
+The director acts in the role of the presenter. He uses a computing device for sharing content to the eyes of the audience. Let us call this device **the control device**. The control device is usually a tablet. Sometimes, we may refer to this device as the director's device or the device running in the director mode.
 
 In a typical setting for giving a presentation, the room contains a large TV or a projector. For example, most meeting rooms have one. We will call this device **the big screen**. The connection between the control device and the big screen can be wired or wireless. Using the big screen is optional but often useful: everyone can see the same content.
 
-With 360-degree media, it is essential that everyone can explore the view *personally*. Look at things they find interesting, and at their own pace. Thus, every person in the audience should have own **viewing device**. These devices can be phones, tablets, or VR headsets. They can be personal devices or devices that are shared and managed by the presenter. The latter is often more practical.
+With 360-degree media, it is essential that everyone can explore the view *personally*. Look at things they find interesting, and at their own pace. Thus, every person in the audience should have own **viewing device**. These devices can be phones, tablets, or VR headsets. They can be personal devices or devices that are shared and managed by the presenter. The latter is often more practical. Sometimes, we may refer to these devices as an audience device or a device running in the audience mode.
 
 To stay in control, the director's device must communicate with viewing devices. For example, to send a command to switch to the next slide. (This is the reason why it is called a control device). Before communication can begin, a **connection** must be established between the devices. It is a two-way connection. The control device sends commands to viewing devices. The viewing devices send status messages to the control device. Thus, the director is able to see that everything is OK on each viewing device and assist if necessary.
 
@@ -172,13 +172,13 @@ Many presentations can take place simultaneously, even in the same room. This is
 
 To assist a particular audience member who needs help, each device is given an ID. We call it the device's **LiveSYNC name**. Once connected, this name appears in the control device. It is shown over a mirrored view from that particular device.
 
-Thus, on each device, one must configure a few things. Whether it is the director's device or an audience device. The name used for identification. Which connection method to use (e.g. Bluetooth or GlobalSYNC). Which channel number to join. These are typically pre-configured before a presentation. A new channel can be reserved and taken in use also spontaneously. Created configuration is called **channel configuration**. A device can have multiple channel configurations, but it can join only one channel at a time.
+Thus, on each device, one must configure a few things. Whether it is the director's device (director mode) or an audience device (audience mode). The name used for identification. Which connection method to use (e.g. Bluetooth or GlobalSYNC). Which channel number to join. These are typically pre-configured before a presentation. A new channel can be reserved and taken in use also spontaneously. Created configuration is called **channel configuration**. A device can have multiple channel configurations, but it can join only one channel at a time.
 
 When a configured channel is selected from the app's home screen, a viewing device moves to **lobby** screen. It will wait there until a connection to the control device is established. The control device will move to the **director's workspace**. That consists of multiple tabs. For example, the **mosaic** tab allows observing mirrored views from all connected devices. The **player** tab is used for controlling the presentation. Changing content, controlling video playback, adding points-of-interest, etc.
 
 These concepts will become more familiar in the next chapters. You don't need to memorize the terms or their exact meaning to be able to use the app. They are presented only to help you understand how the software works. Also, to make it clear what we mean by these terms. They appear frequently in the documentation. And, to make it easier to understand why certain things are asked during the setup phase.
 
-### Understanding view mirroring
+### Understanding View Mirroring
 
 The ability to mirror a view is very central in LiveSYNC. You might be wondering how does it actually work, and what is possible with LiveSYNC and what is not. Next, we will discuss this further.
 
