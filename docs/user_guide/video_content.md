@@ -20,6 +20,8 @@ We have stereoscopic 360 content support already built for equirectangular panor
 
 Currently, no. We have supported cubemap projection in some apps earlier and if there is demand for it, we will definitely add it to LiveSYNC as well. But with the current version, you'll have to export the images in an equirectangular format or convert your existing cubemaps to equirectangular.
 
+### Does LiveSYNC support live streaming?
+
 !!! Note
 
     If your own content files do not work:
