@@ -218,6 +218,10 @@ The goal when writing the documentation was to make it as readable as possible. 
 
 We also wanted to provide the facility for readers to learn at their own pace. There are plenty of cross-references (links). Use them for learning more about a specific topic.
 
+#### Example title
+
+There are multiple levels of titles. All titles appear in the table of contents. Simply click a title to scroll the page there. The titles are also *permalinks* (permanent links). You can see the link symbol by hovering over the title with mouse cursor. Then, hover over the link symbol. The link appears in the bottom bar of your browser (if supported). You can also copy the link with the right mouse button.
+
 Regular text appears like this. Important terms and text that appears in a user interface are written in *italics*. Product names are often written in **black**. Links appear [like this](https://en.wikipedia.org/wiki/Hyperlink). Numbered references appear inside parentheses [(1.1)][ref1].
 
 [ref1]: https://en.wikipedia.org/wiki/Reference (Reference)
@@ -251,6 +255,8 @@ Lists can also be unordered (bulleted):
 * First things first
 * Second things second
 
+Footnotes are used for providing additional information. They appear at the end of the page. You can read a footnote by clicking the link that appears as a number: [^1]
+
 Sometimes, a horizontal rule is used for separating things:
 
 ***
@@ -277,3 +283,5 @@ Throughout the documentation, you'll find various types of notes complementing t
 
 !!! danger
     A danger is a something that can potentially harm you. You probably should not do what is being discussed.
+
+[^1]: This is a foot note. You can return to the text by clicking the return arrow link:
