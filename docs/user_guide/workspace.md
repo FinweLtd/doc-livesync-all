@@ -6,7 +6,7 @@ After choosing a channel number from the **Home** page, the first view that you 
 
 ![Mosaic Tab](img/mosaicTab.jpg)
 
-The next tab is the *Channel tab*. On the channel tab there is 4 digit channel number and a QR code generated for audience devices to connect. Number of connected devices can also be seen on this tab. 
+ On *Mosaaic* view You can see the views from your audience devices. The next tab is the *Channel tab*. On the channel tab there is 4 digit channel number and a QR code generated for audience devices to connect. Number of connected devices can also be seen on this tab. 
  
 ![Channel Tab](img/channelTab.jpg)
 
