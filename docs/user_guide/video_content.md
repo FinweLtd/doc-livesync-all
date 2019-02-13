@@ -24,7 +24,7 @@ Currently, no. We have supported cubemap projection in some apps earlier and if 
 
 At the moment all videos and contents must be copied to the director and all audience devices before you start presenting contents. In LiveSYNC it is possible to stream contents if you provide URLs in JSON format. 
 
-The JSON includes only three fields: **name**, video **url** and **layout** which tells video projection. The layout can be any of the following types: "2D" , "360" , 360TB" , "360SBS" .
+The JSON includes only three fields: **name**, video **url** and an optional field **layout** which tells video projection. The layout can be any of the following types: "2D" , "360" , 360TB" , "360SBS" .
 
     {
         "name":"Yle",
