@@ -6,9 +6,9 @@ The LiveSYNC app is available as different *versions*. Read this section first t
 
 ### Platforms
 
-The LiveSYNC app can be installed and run on multiple *platforms*. Currently, the supported platforms include **iOS**, **Android**, and **Oculus**. Each platform has its own version of the app.
+The LiveSYNC app can be installed and run on multiple *platforms*. Currently, the supported platforms include **iOS**, **Android**, and **Oculus**. Each platform has its own version of the app. They are compatible with each other, but not exactly the same.
 
-The app works on multiple *device types*. Currently, the supported device types include **phones**, **tablets**, and **VR headsets**. Phones and VR headsets are great for viewing content. A tablet is recommended for editing and controlling presentations.
+The app works on multiple *device types*. Currently, the supported device types include **phones**, **tablets**, and **VR headsets**. All of these are great for viewing content. A tablet is recommended for creating, editing, and presenting content.
 
 There are combinations of platforms and device types that are not supported. For example, you cannot install LiveSYNC on AppleTV, Android smart watch / smart TV, or Oculus Rift headset.
 
@@ -43,13 +43,13 @@ Installing the beta version is only slightly different than installing the store
     The store version and the beta version cannot exist simultaneously on a single device. For each device, you can install either but not both at the same time. Of course, it is possible to reinstall the app to get a different version.
 
 !!! note
-    On some platforms, the number of beta testers is limited by the platform. Hence, we may not be able to accept all requests to become a beta tester. When the beta tester status is given for a specific need, we may later need to remove the user from the beta channel (switch to the public store version).
+    On some platforms, the maximum number of beta testers is limited by the platform. Hence, we may not be able to accept all requests to become a beta tester. When the beta tester status is given for a specific need such as testing a particular new feature, we may later need to remove the user from the beta channel (switch to the public store version).
 
 !!! example
     Jerome has a business where he sells 360-degree videos and VR headsets to retirement homes. They are used for relaxation and entertainment. Most popular are videos where old style working methods are documented. Each of Jerome's setups consists of an Android tablet and an Oculus Go headset. The nurse helps in placing the headset comfortably to the senior's face, and selects from the tablet a video he wishes to see. Jerome uses the store version on kits that have been delivered, and the beta version on his own devices - just to stay up-to-date on what's coming.
 
 !!! example
-    Anthony has purchased a set of 360 Video Start kits for his construction company. They are building in several cities and Anthony wants to keep himself up-to-date without spending his days traveling between the sites. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version, because it has some new annotation features.
+    Anthony has purchased a set of 360 Video Start kits for his construction company. They are building in several cities and Anthony wants to keep himself up-to-date without spending his days traveling between the sites. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
 
 ### Roles
 
@@ -72,6 +72,22 @@ Oculus | N/A | Audience
 
 !!! example
     Joan's marketing team is participating in a trade show. Their company is launching a new product. Joan's team is using a 360-degree video to showcase it at their booth. They are controlling six Oculus Go headsets with LiveSYNC. To reduce waiting time, they run two groups of three headsets in parallel. The groups are controlled with two iPads. Hence, the iPads act in the director role, and the headsets act in the audience role. Joan configures two channels, so that the groups can work in parallel without disturbing each other.
+
+### Version Number
+
+New features and fixes are implemented and tested frequently. Then, a new software build is pushed to the release channels and release notes are published.
+
+Each build has a version number. To learn what has changed, take note of the version number from your app installation, and compare it to the release notes document.
+
+If you want to check which version (build) you have installed on a particular device, start the LiveSYNC app and notice the version number from the splash screen.
+
+![LiveSYNC splash](img/install_version_number.jpg)
+
+On iOS and Android versions, you can find the version number and other build details also when you start the LiveSYNC app, navigate to *Settings*, then *About*, and scroll down the page near the end until you find *Version* section.
+
+![LiveSYNC splash](img/install_version_details.jpg)
+
+These details are also pre-filled to support request emails when you send a request directly from the LiveSYNC app. The support email link appears just below version details.
 
 ## System Requirements
 
@@ -138,30 +154,107 @@ Accessories | - | Micro SD card, Micro USB memory stick [^11]
 !!! note
     You can try installing and using the LiveSYNC app also on models that are not officially supported. If the app is not visible in the store with a particular device, then that device is not supported (even unofficially). If you use an unsupported device, performance may suffer and some features may not be available.
 
-## Install Store Version
+## Installing the Store Version
 
 The store version is the official release version of the LiveSYNC app. It is available via each platform's own app store. This is the recommended version for most users.
 
 ### iOS
 
-Download LiveSYNC from [App store](https://itunes.apple.com/us/app/livesync-presentation-solution/id1202200449?mt=8).
+!!! tip
+    If you are familiar with installing apps on iOS, you can use this direct link:
+    
+    <https://itunes.apple.com/us/app/livesync-presentation-solution/id1202200449?mt=8>
 
-Click [here](https://vimeo.com/221436477) to watch video tutorial for iOS installation guide.
+**Option A: Watch a video installation guide**
+
+<iframe src="https://player.vimeo.com/video/221436477" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+*Video not working? Click [here](https://vimeo.com/221436477) to open it in Vimeo.*
+
+**Option B: Follow the steps described below**
+
+1. Go to your iOS device and turn it on. When it starts, unlock it and enter the home screen. Look for *App Store* icon and tap it.
+
+    ![iOS Install](img/install_ios_step_1.jpg)
+
+2. From the bottom bar, select *Search* tab.
+
+    ![iOS Install](img/install_ios_step_2.jpg)
+
+3. Type *livesync* to the search box.
+
+    ![iOS Install](img/install_ios_step_3.jpg)
+
+4. Tap *Search* button.
+
+    ![iOS Install](img/install_ios_step_4.jpg)
+
+5. Select *LiveSYNC Presentation Solution* from the search results.
+
+    ![iOS Install](img/install_ios_step_5.jpg)
+
+6. Select *Install* button (cloud symbol with an arrow). Wait a moment.
+
+    ![iOS Install](img/install_ios_step_6.jpg)
+ 
+7. Once downloading and installation has completed, select *Open*.
+
+    ![iOS Install](img/install_ios_step_7.jpg)
+
+8. The app starts. It is now listed in your device's application menu. The next time you can start it from there.
+
+    ![iOS Install](img/install_ios_step_8.jpg)
 
 ### Android
 
-Download LiveSYNC from [Google Play](https://play.google.com/store/apps/details?id=fi.finwe.livesync.player.android&hl=en).
+!!! tip
+    If you are familiar with installing apps on Android, you can use this direct link:
+    
+    <https://play.google.com/store/apps/details?id=fi.finwe.livesync.player.android&hl=en>
 
-Click [here](https://vimeo.com/221453486) to watch video tutorial for android installation guide. 
+**Option A: Watch a video installation guide**
+
+<iframe src="https://player.vimeo.com/video/221453486" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+*Video not working? Click [here](https://vimeo.com/221453486) to open it in Vimeo.*
+
+**Option B: Follow the steps described below**
+
+1. Go to your Android device and turn it on. When it starts, unlock it and enter the home screen. Look for *Play Store* icon and tap it.
+
+    ![Android Install](img/install_android_step_1.jpg)
+
+2. Type *livesync* to the search box and tap *Enter*. (On some software keyboards it appears as the search button, which you can recognize from a magnifier icon.)
+
+    ![Android Install](img/install_android_step_2.jpg)
+
+3. Select *LiveSYNC Presentation Solution* from the search results.
+
+    ![Android Install](img/install_android_step_3.jpg)
+
+4. Select *Install*. Wait a moment.
+
+    ![Android Install](img/install_android_step_4.jpg)
+ 
+5. Once downloading and installation has completed, select *Open*.
+
+    ![Android Install](img/install_android_step_5.jpg)
+
+6. The app starts. It is now listed in your device's application menu. The next time you can start it from there.
+
+    ![Android Install](img/install_android_step_6.jpg)
 
 ### Oculus
 
 !!! info
-    LiveSYNC has not officially launched on Oculus platform yet. However, you can start using it already by installing it from our [beta channel](installing.md#oculus_2)
+    LiveSYNC has not officially launched on Oculus platform yet. However, you can start using it already by installing it from our [beta channel](installing.md#oculus_2).
 
-## Install Beta Version
+## Installing the Beta Version
 
-The beta version is the unofficial test version of the LiveSYNC app. It is available via each platform's own beta distribution method. Beta version is recommended for users who are eager to try out new features and provide feedback.
+The beta version is the official test version of the LiveSYNC app. It is available via each platform's own beta distribution method. Beta version is recommended for users who are eager to try out new features and provide feedback for developers.
+
+!!! warning
+    We test all releases internally before pushing them to beta channels, but be aware that beta versions are more likely to contain bugs. Feature and user interface changes occur frequently based on user feedback - what you see on a beta release may not end up to store release. Releases are published more often via beta channels. Also, documentation for new features may not be available at the time of release.
 
 ### iOS
 
@@ -171,16 +264,62 @@ If you are accepted as a beta tester, you will need to install the beta version 
 
 ### Android
 
-There is no need to request access to beta version on Android, as it is open for everyone.
+!!! note
+    There is no need to request access to beta version on Android. It is open for everyone.
 
-On your Android device, go [here](https://play.google.com/apps/testing/fi.finwe.livesync.player.android) to become a beta tester. Then follow the instructions to install the app from Google Play.
+Follow the instructions below to install *the beta version* of the LiveSYNC app on your Android device.
+
+1. Go to your Android device and turn it on. When it starts, unlock it and enter the home screen. Start the web browser (*Chrome* or *Internet*) and open this link:
+
+    <https://play.google.com/apps/testing/fi.finwe.livesync.player.android>
+  
+2. Once the following page appears, click the button that says *BECOME A TESTER*.
+    
+    ![Android Install](img/install_android_beta_step_1.jpg)
+  
+3. You are now a beta tester. Read the instructions on the page. If you haven't installed the app yet, click the link that has been emphasized in the screen capture. Then follow normal Android install instructions from [here](installing.md#android_1), continuing from Step 4 onwards.
+
+    ![Android Install](img/install_android_beta_step_2.jpg)
+
+!!! note
+    If you want to switch back to the store version, simply uninstall the beta version and install the app again from the store. You are still part of the beta program and can switch back to the beta version at any time.
+
+    If you want to leave the beta program completely, repeat steps 1 and 2. Then click button that says *LEAVE THE PROGRAM*. You are not a beta tester anymore.
 
 ### Oculus
 
-Follow these [instructions](../tutorials/oculus_go_setup.md) to install the beta version on your Oculus Go or GearVR headset.
+!!! tip
+    Read our [full step-by-step tutorial](../tutorials/oculus_go_device.md) about Oculus Go headset and learn how to use it with LiveSYNC.
 
-!!! warning
-    We test all releases internally before pushing them to beta channels, but be aware that beta versions are more likely to contain bugs. Feature and user interface changes occur frequently based on user feedback - what you see on a beta release may not end up to store release. Releases are published more often via beta channels. Also, documentation for new features may not be available at the time of release.
+Follow the instructions below to install *the beta version* of the LiveSYNC app on your Oculus Go headset or GearVR compatible phone. The instructions are written for Oculus Go. When something differs for GearVR, it is mentioned.
+
+Notice that the installation can be triggered either via the accompanying Oculus app on your phone (outside VR) or via Oculus Home (inside VR). We will cover both methods.
+
+1. Installing software from Oculus beta channel requires *an invite*. First check your Oculus username and email: start the Oculus app on your phone, navigate to *Settings* (GearVR: *More*), and find the username and email. See the image below for reference:
+
+    ![Username and email](img/install_oculus_email.png)
+
+2.  [Contact us](../support/support.md) and tell that you want to join LiveSYNC beta channel for Oculus. **We need the email address from Step 1 to be able to add you**. This cannot be just one of your email addresses; it has to be the one that is connected with your Oculus account.
+
+3. Once you receive an invite email from Oculus to that email address, accept the invite by clicking a confirmation link in the email. Notice that we must send each invite manually, so it can take a while before the email arrives.
+
+    ![Invite email](../tutorials/img/screenshot_invite_email.png)
+
+4. After accepting the invite you have multiple options how to install the application:
+
+    1. Using the Oculus app on your phone: tap the magnifier class icon to open search, type *livesync* and select *LiveSYNC Oculus Go*, then click *Install on ...* button.
+    ![Install via phone, search](../tutorials/img/livesync_install_via_phone.png)
+    2. You can also select *Library* tab from the bottom bar and see if *LiveSYNC Oculus Go* already appears in the apps list (GearVR: check *Not Installed* tab). Select it from the list and then click *Install on ...* button.
+    ![Install via phone, library](../tutorials/img/livesync_install_via_phone_2.png)
+    3. Using the Oculus Go / GearVR headset, select *Search* from the bottom bar, type *livesync*, select *LiveSYNC Oculus Go*, then click *Get*.
+    ![Install via headset, search](../tutorials/img/livesync_install_via_headset.jpg)
+    4. You can also select *Library* tab from the bottom bar and then *Not Installed* page from the left side menu to see if *LiveSYNC Oculus Go* already appears in the apps list. Select it from the list and then click *Get*.
+    ![Install via headset, library](../tutorials/img/livesync_install_via_headset_2.jpg)
+5. When the installation has completed you will find *LiveSYNC Oculus Go* listed in the apps grid: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu (GearVR phone: *My Apps* tab from the top menu).
+
+6. Start *LiveSYNC Oculus Go* by selecting it from the apps grid. (On GearVR, you can start the app from the Oculus app on your phone, or you can first enter VR and then start it from the Oculus Home.)
+
+    ![LiveSYNC splash](../tutorials/img/livesync_splash.png)
 
 ## License
 
@@ -194,7 +333,7 @@ The devices that are used *only* for viewing do not need a license (the audience
 
 A license is valid for a limited period of time. Typically a subscription is purchased for 12 months at a time.
 
-The cost of the license depends the selected features and subscription length.
+The cost of the license depends on the selected features and subscription length.
 
 ### Watermarks
 
@@ -204,9 +343,15 @@ For your convenience, the trial period is currently not limited. This does not m
 
 ### Buying
 
-You can get a license directly from the app stores as an in-app payment. It is also possible to get a license from a local distributor or directly from Finwe (the makers of LiveSYNC).
+You can get a license directly via the app: purchase a subscription using an in-app payment. It is also possible to get a license from a local distributor or directly from Finwe (the makers of LiveSYNC).
 
-If you received LiveSYNC app pre-installed in a kit, the software is probably already licensed. If in doubt, please check from your distributor.
+If you received the LiveSYNC app pre-installed in a kit, the software is probably already licensed. If in doubt, please check from your seller.
+
+### Store vs. Beta
+
+On iOS, the string that uniquely identifies an app installation is different between the store and the beta version. This is a platform feature. It means that the same license file cannot work on both installations.
+
+**We recommend that you activate the license when the store version is installed**. If you wish to use the beta version for a while, we can provide a temporary license that will work with the beta version.
 
 ### Locked Features
 
@@ -214,11 +359,11 @@ Some features can be locked from use.
 
 For example, a feature may be reserved for a customer who has funded developing the feature (for a limited period of time).
 
-In another example, a customer may request that a certain feature is disabled for security reasons (such as insecure sharing via emailing).
+In another example, a customer may request that a certain feature is disabled for security reasons (such as insecure sharing via email).
 
 To avoid confusion, locked features are usually hidden from the app.
 
-### Enterprise
+### Enterprise Features
 
 ![Enterprise feature](../img/enterprise_feature.png)
 
