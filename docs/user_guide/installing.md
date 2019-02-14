@@ -48,14 +48,16 @@ Installing the beta version is only slightly different than installing the store
 !!! example
     Jerome has a business where he sells 360-degree videos and VR headsets to retirement homes. They are used for relaxation and entertainment. Most popular are videos where old style working methods are documented. Each of Jerome's setups consists of an Android tablet and an Oculus Go headset. The nurse helps in placing the headset comfortably to the senior's face, and selects from the tablet a video he wishes to see. Jerome uses the store version on kits that have been delivered, and the beta version on his own devices - just to stay up-to-date on what's coming.
 
+![Enterprise feature](../img/enterprise_feature.png)
+
 !!! example
-    Anthony has purchased a set of 360 Video Start kits for his construction company. They are building in several cities and Anthony wants to keep himself up-to-date without spending his days traveling between the sites. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
+    Anthony has purchased a set of 360 Video Starter kits for his construction company. They are building in several cities and Anthony wants to keep himself up-to-date without spending his days traveling between the sites. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
 
 ### Roles
 
 When you are presenting content with LiveSYNC, each device acts either as *the viewing device* of an audience member or as *the control device* of the presenter. You can read more about this [here](introduction.md#key-concepts).
 
-The device's role (*audience* or *director*) can be selected in the setup phase. When you create a channel configuration, one of the choices you make is the role that the device assumes. Since the role is configurable, the same app version is used for both the audience and the director roles.
+The device's role (*audience* or *director*) can be selected in the setup phase. When you create a channel configuration, one of the choices you make is the role that the device assumes. Since the role is configurable, the same app version can be used for both the audience and the director roles.
 
 However, the director role is not available in all versions of the app. For example, app versions made for VR headsets support only the audience role. In addition, the store version and the beta version may differ at times.
 
@@ -152,7 +154,7 @@ Accessories | - | Micro SD card, Micro USB memory stick [^11]
 [^11]: If your device has a micro SD card slot, you can expand storage size (LiveSYNC supports SD card for media files). Micro USB to USB memory stick (with OTG feature) is handy for copying media files from PC/Mac to tablet.
 
 !!! note
-    You can try installing and using the LiveSYNC app also on models that are not officially supported. If the app is not visible in the store with a particular device, then that device is not supported (even unofficially). If you use an unsupported device, performance may suffer and some features may not be available.
+    You can try installing and using the LiveSYNC app also on models that are not officially supported. If the app is not visible in the store with a particular device, then that device is not supported (not even unofficially). If you use an unsupported device, performance may suffer and some features may not be available.
 
 ## Installing the Store Version
 
@@ -258,14 +260,81 @@ The beta version is the official test version of the LiveSYNC app. It is availab
 
 ### iOS
 
-Request access to beta version [here](../support/support.md). Mention that you want to be added to LiveSYNC iOS beta channel, and provide your email account.
+Follow the instructions below to install *the beta version* of the LiveSYNC app on your iOS device.
 
-If you are accepted as a beta tester, you will need to install the beta version via TestFlight app. This is Apple's distribution method for beta versions.
+!!! note
+    Currently we accept only customers to iOS beta channel. You must have a valid license to become a tester.
+
+1. Installing software from iOS beta channel requires *an invite*. [Contact us](../support/support.md) and tell that you want to join LiveSYNC beta channel for iOS. **We need your email address, first name, and last name to be able to add you**.
+
+2. Once you receive an invite email from Apple to that email address, accept the invite by clicking *View in TestFlight*. Notice that we must send each invite manually, so it can take a while before the email arrives.
+
+    ![iOS Beta install](img/install_ios_beta_step_1.jpg)
+
+3. When you click the button in the email, a web page opens in browser. Read the instructions and write down the code shown in step 3.
+
+    ![iOS Beta install](img/install_ios_beta_step_2.jpg)
+
+4. Go to your iOS device and turn it on. When it starts, unlock it and enter the home screen. Look for *App Store* icon and tap it.
+
+    ![iOS Beta install](img/install_ios_beta_step_3.jpg)
+
+5. From the bottom bar, select *Search* tab.
+
+    ![iOS Beta install](img/install_ios_beta_step_4.jpg)
+
+6. Type *testflight* to the search box. Select *Search*.
+
+    ![iOS Beta install](img/install_ios_beta_step_5.jpg)
+
+7. Select *TestFlight* from the search results.
+
+    ![iOS Beta install](img/install_ios_beta_step_6.jpg)
+
+8. Select *Install* button (cloud symbol with an arrow). Wait a moment.
+
+    ![iOS Beta install](img/install_ios_beta_step_7.jpg)
+ 
+9. Once downloading and installation has completed, select *Open*.
+
+    ![iOS Beta install](img/install_ios_beta_step_8.jpg)
+
+10. TestFlight starts. Select *Continue*.
+
+    ![iOS Beta install](img/install_ios_beta_step_9.jpg)
+
+11. Accept Apple's Terms of Service.
+
+    ![iOS Beta install](img/install_ios_beta_step_10.jpg)
+
+12. Initially, you don't have any test apps. Select *Redeem* from the top right corner.
+
+    ![iOS Beta install](img/install_ios_beta_step_11.jpg)
+
+13. Input here the code that you got in Step 3.
+
+    ![iOS Beta install](img/install_ios_beta_step_12.jpg)
+
+14. LiveSYNC appears in your TestFlight apps list. Select *INSTALL*. Wait a moment.
+
+    ![iOS Beta install](img/install_ios_beta_step_13.jpg)
+
+15. After downloading and installing has completed, select *OPEN*.
+
+    ![iOS Beta install](img/install_ios_beta_step_14.jpg)
+
+16. The app starts. It is now listed in your device's application menu. The next time you can start it from there.
+
+    ![iOS Beta install](img/install_ios_beta_step_15.jpg)
+
+!!! note
+    When a new release is pushed to TestFlight, you will get a notification to your iPad and to your email (unless you have disabled these notifications from TestFlight app). If you want to update to the new version, open TestFlight, select
+    LiveSYNC, and select *UPDATE*. This is similar to Steps 14-16 above.
 
 ### Android
 
 !!! note
-    There is no need to request access to beta version on Android. It is open for everyone.
+    Currently, there is no need to request access to beta version on Android. It is open for everyone.
 
 Follow the instructions below to install *the beta version* of the LiveSYNC app on your Android device.
 
@@ -277,7 +346,7 @@ Follow the instructions below to install *the beta version* of the LiveSYNC app 
     
     ![Android Install](img/install_android_beta_step_1.jpg)
   
-3. You are now a beta tester. Read the instructions on the page. If you haven't installed the app yet, click the link that has been emphasized in the screen capture. Then follow normal Android install instructions from [here](installing.md#android_1), continuing from Step 4 onwards.
+3. You are now a beta tester. Read the instructions on the page. If you haven't installed the app yet, click the link that has been framed in the screen capture. Then follow normal Android install instructions from [here](installing.md#android_1), continuing from Step 4 onwards.
 
     ![Android Install](img/install_android_beta_step_2.jpg)
 
@@ -323,35 +392,93 @@ Notice that the installation can be triggered either via the accompanying Oculus
 
 ## License
 
-**LiveSYNC is a commercial product. You can install if from the stores free of charge and try it out. Continuing using the product requires purchasing a license**.
+!!! warning
+    LiveSYNC is a commercial product. You can install if from the stores free of charge to try it out. Continuing using the product requires purchasing a license.
 
-### Licensing model
+### Trial Period
 
-A license needs to be purchased only for the device that is being used for creating, editing, or presenting content (the director role).
+After installation the app starts in the *trial mode*. This means that some features are not available and watermarks are overlaid over your own content.
 
-The devices that are used *only* for viewing do not need a license (the audience role).
+We encourage you to test the app with your own devices. Take your time. For your convenience, the trial period is not limited. Of course, this does not mean that actively using the product without a license is allowed. After a reasonable trial period, you must purchase a licence to continue using the product.
 
-A license is valid for a limited period of time. Typically a subscription is purchased for 12 months at a time.
+### Licensing Model
 
-The cost of the license depends on the selected features and subscription length.
+A license needs to be purchased for a device that is being used for creating, editing, or presenting content (the director role). Devices that are used *only* for viewing presentations do not need a license (the audience role).
+
+!!! example
+    Kate is participating a voluntary project. They have ordered 30 pieces of Google Cardboards. During the presentation they will use everyone's own mobiles. Kate uses her personal phone for controlling the presentation. Kate is the only one who needs a license.
+
+!!! example
+    Anthony has purchased a set of 360 Video Starter kits for his construction company. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. Each site manager is creating content and needs a license. Anthony does not, since he only receives PDF reports via email.
+
+The cost of the license depends on the selected features and subscription length. You can check available license options from the app, or ask from your local distributor or Finwe (the makers of LiveSYNC).
+
+A license is valid for a limited period of time. Typically a subscription is purchased for 12 months at a time. Subscriptions purchased via in-app payment (from the app stores) are auto-renewing. You can manage these subscriptions via the app stores. Once a paid subscription ends the license becomes invalid and the app returns to the trial mode. Watermarks will appear, etc.
 
 ### Watermarks
 
-When you are using the product without a license, watermarks are overlaid over your own content. The watermarks disappear on all connected devices when the controlling device (the one running in the director role) has a valid license.
+When you are using the product without a license, watermarks are overlaid over your own content. The watermarks disappear from all connected devices when the controlling device (the one running in the director role) has a valid license.
 
-For your convenience, the trial period is currently not limited. This does not mean that actively using the product without a license is allowed. After a reasonable trial period, you must purchase a licence to continue using the product.
+![License](img/watermark.jpg)
 
 ### Buying
 
-You can get a license directly via the app: purchase a subscription using an in-app payment. It is also possible to get a license from a local distributor or directly from Finwe (the makers of LiveSYNC).
+You can get a license directly via the app. It is easy, you can purchase a subscription using an in-app payment as follows:
 
-If you received the LiveSYNC app pre-installed in a kit, the software is probably already licensed. If in doubt, please check from your seller.
+1. Start the LiveSYNC app. You will enter the *Home* screen. Notice the top bar. On the right side you will find text that indicates the current license status: *Player* means the trial mode. Tap the cogwheel next to the text.
+ 
+    ![License](img/license_applying_step_1.jpg)
+
+2. The *Settings* screen opens. Select *Subscription* page from the left side menu and available license options will be shown. Tap the option that suits you best. The usual Apple AppStore in-app payment process begins. Follow the instructions on screen to complete purchase.
+
+    ![License](img/license_applying_step_2.jpg)
+
+3. Once the purchase has completed the license will be applied and the text in the top bar changes to indicate your license type. Your subscription type is marked active and its expiration date appears at the bottom of the license button.
+
+    ![License](img/license_applying_step_6.jpg)
+
+!!! note
+    If you cannot use the in-app payment mechanism for some reason, ask for assistance from your local distributor or Finwe (the makers of LiveSYNC). The license can be activated also with a prepaid code.
+
+!!! note
+    If you received the LiveSYNC app pre-installed with a kit such as the 360 Video Starter Kit, the software is probably already licensed. However, the license may need to be activated when you take the kit in use the very first time. Follow the instructions in the kit. If in doubt, please check from your reseller.
+
+### License Code
+
+If you have received your license as a code, follow the steps below. A license code looks like this:
+
+```
+FAZBB-PWYXP-XYSND-RACKR-JGGFX
+```
+
+1. Start the LiveSYNC app. You will enter the *Home* screen. Notice the top bar. On the right side you will find text that indicates the current license status: *Player* means the trial mode. Tap the cogwheel next to the text.
+ 
+    ![License](img/license_applying_step_1.jpg)
+
+2. The *Settings* view opens. Select *About* page from the left side menu. Scroll down the page until you see *License Code* section. Tap the link *Enter license code*.
+
+    ![License](img/license_applying_step_3.jpg)
+
+3. Type the code into the text field. Make sure to type it exactly as given, including the dashes '-'. Notice that the code is case sensitive. Select *OK* when ready.
+
+    ![License](img/license_applying_step_4.jpg)
+
+    !!! note
+        You need a working network connection to complete this step.
+
+4. In a few seconds a pop-up asks your permission to take the new license in use. Select *OK*.
+
+    ![License](img/license_applying_step_5.jpg)
+
+5. The license will be applied and the text in the top bar changes to indicate your license type. Select *Subscription* page from the left side menu. Your subscription type is marked active and its expiration date appears at the bottom of the license button.
+
+    ![License](img/license_applying_step_6.jpg)
 
 ### Store vs. Beta
 
-On iOS, the string that uniquely identifies an app installation is different between the store and the beta version. This is a platform feature. It means that the same license file cannot work on both installations.
+On iOS, the string that uniquely identifies an app installation is different between the store and the beta version. This is a platform feature. As a consequence, the same license cannot work on both installations.
 
-**We recommend that you activate the license when the store version is installed**. If you wish to use the beta version for a while, we can provide a temporary license that will work with the beta version.
+**We recommend that you activate the license when the store version is installed**. If you wish to use the beta version for a while, we can provide a temporary license code that will work with the beta version.
 
 ### Locked Features
 
@@ -367,7 +494,7 @@ To avoid confusion, locked features are usually hidden from the app.
 
 ![Enterprise feature](../img/enterprise_feature.png)
 
-Enterprise features are not included in the standard license that you can purchase from the app stores. They are always enabled with a license file.
+Enterprise features are not included in the standard license that you can purchase from the app stores. They are always enabled with a license code or a license file.
 
 ### 360 Video Starter Kit
 
