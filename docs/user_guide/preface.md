@@ -1,8 +1,12 @@
 # Preface
 
+## Abstract
+
 *The LiveSYNC User Guide* is the official manual for the **LiveSYNC software application**. It explains what you can do with the LiveSYNC application and how to work with it in different situations.
 
-The first few chapters focus on the original purpose of the app: presenting monoscopic 360-degree photos and videos to an audience. The rest of the guide is devoted to more advanced use cases and other content types. As an example, we will go through giving a prepared speech where traditional slides and 360-degree media is mixed, and quickly capturing an environment in 360-degrees, creating a set of work instructions by adding annotations, and emailing them as a PDF report to colleagues. You will learn that LiveSYNC is a versatile tool.
+The first few chapters focus on presenting monoscopic 360-degree photos and videos to an audience. The rest of the guide is devoted to more advanced use cases and other content types. 
+
+You will learn that LiveSYNC is a very versatile tool.
 
 ## Version
 

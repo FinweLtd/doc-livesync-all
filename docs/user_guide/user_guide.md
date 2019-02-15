@@ -9,6 +9,8 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 
 ## [Preface](preface.md)
 
+- [Abstract](preface.md#abstract)
+
 - [Version](preface.md#version)
 
 - [Overlap](preface.md#overlap)
