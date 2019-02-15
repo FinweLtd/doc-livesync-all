@@ -16,7 +16,7 @@
 
 **Watch a tutorial video on camera path normalization**
 
-<iframe src="https://vimeo.com/283704649/bba2c9e5d4" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/283704649" width="640" height="481" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 *Video not working? Click [here](https://vimeo.com/283704649/bba2c9e5d4) to open it in Vimeo.*
 
