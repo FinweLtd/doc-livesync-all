@@ -8,32 +8,30 @@ The LiveSYNC app is available as different *versions*. Read this section first t
 
 The LiveSYNC app can be installed and run on multiple *platforms*. Currently, the supported platforms include **iOS**, **Android**, and **Oculus**. Each platform has its own version of the app. They are compatible with each other, but not exactly the same.
 
-The app works on multiple *device types*. Currently, the supported device types include **phones**, **tablets**, and **VR headsets**. All of these are great for viewing content. A tablet is recommended for creating, editing, and presenting content.
+The app works on multiple *device types*. Currently, the supported device types include **phones**, **tablets**, and **VR headsets**. All these are great for viewing content. A tablet is recommended for creating, editing, and presenting content.
 
-There are combinations of platforms and device types that are not supported. For example, you cannot install LiveSYNC on AppleTV, Android smart watch / smart TV, or Oculus Rift headset.
+Some device types allow viewing content in **VR mode** via a passive or an active VR headset. The availability of VR mode varies. Tablets are not physically compatible with VR headsets. Hence, the VR mode is not available on tablets. On phones, the VR mode is *selectable*. You can view content via the touchscreen but you can also put the phone inside a passive VR headset. For example, Google Cardboard or compatible. On devices that were made for VR, such as GearVR and Oculus Go, the VR mode is always active.
 
-Some device types allow viewing content in **VR mode** via a passive or an active VR headset. The availability of VR mode varies. Tablets are not physically compatible with VR headsets, hence the VR mode is not available there. On phones the VR mode is *selectable*. You can view content via the touchscreen, but you can also put the phone inside a passive VR headset like Google Cardboard. On devices that were made for VR, such as GearVR and Oculus Go, the VR mode is always active.
-
-The table below summarizes the supported device types and the availability of the VR mode on each platform.
+The supported device types and the availability of the VR mode are summarized below.
 
 Platform | Device Type | VR Mode
 ---------|-------------|--------
-iOS | iPhone and iPad | Selectable on iPhone, N/A on iPad
-Android | Phones and tablets | Selectable on phones, N/A on tablets
+iOS | iPhone, and iPad | Selectable on iPhone, N/A on iPad
+Android | Phones, and tablets | Selectable on phones, N/A on tablets
 Oculus | VR headset | Always on
 
 !!! example
-    Tina works in the manufacturing industry. Clients often come to visit the factory. They are taken to a tour in groups of five. For safety reasons, some parts of the factory are closed from visitors. To demonstrate the whole process, Tina wants to show 360-degree video clips from the closed areas. Hence, she chooses to buy an iPad and 5 Oculus Go headsets. In the beginning of the tour, she shares the headsets to the visitors and keeps the iPad herself. During the tour around the factory, they often stop in front of a closed area to watch a video clip via the headsets.
+    Tina works in the manufacturing industry. Clients often come to visit the factory. They are taken to a tour in groups of five. For safety reasons, some parts of the factory are closed from visitors. Tina wants to show 360-degree video clips from the closed areas. Hence, she chooses to buy an iPad and 5 Oculus Go headsets. At the beginning of the tour, she shares the headsets to the visitors and keeps the iPad herself. During the tour around the factory, they often stop in front of a closed area to watch a video clip via the headsets.
 
 !!! example
-    Mark is a teacher in the elementary school. They have a rack of 20 Android tablets, which any of the teachers can reserve for their class. Mark wants to use 360-degree video clips around the World in his geography lessons. In the beginning of the class, he shares 19 tablets to his students and uses one of them for controlling his presentation.
+    Mark is a teacher in elementary school. They have a rack of 20 Android tablets, which any of the teachers can reserve for their class. Mark wants to use 360-degree video clips around the World in his geography lessons. He shares 19 tablets to his students and uses one of them for controlling his presentation.
 
 !!! example
-    Kate is participating a voluntary project. They are documenting an old building that used to be a boarding school. Now it is about to get demolished. To preserve precious memories, they have shot a 360-degree image of each of the rooms of the building and are planning to present them in a class reunion. The team has only a small budget, hence they have ordered 30 pieces of Google Cardboards. During the reunion, they will circulate among the former students and copy the photos to everyone's mobiles. Kate uses her own phone for controlling the presentation.
+    Kate is participating in a voluntary project. They are documenting an old building that used to be a boarding school. Now it is about to get demolished. To preserve precious memories, they have shot a 360-degree image of each of the rooms of the building. The plan is to present them in a class reunion. The team has only a small budget, hence they have ordered 30 pieces of Google Cardboards. During the reunion, they will circulate among the former students and copy the photos to everyone's mobiles. Kate uses her own phone for controlling the presentation.
 
 ### Store vs. Beta
 
-The LiveSYNC app is installed to a device via the platform's own app store. On iOS it is **Apple iTunes AppStore**, on Android it is **Google Play Store**, and on Oculus it is **Oculus Store**. The app version that is publicly available for everyone is called *the store version*. This is the recommended version for most users.
+The LiveSYNC app is installed to a device via the platform's own app store. On iOS it is **Apple iTunes AppStore**, on Android, it is **Google Play Store**, and on Oculus it is **Oculus Store**. The app version that is publicly available for everyone is called *the store version*. This is the recommended version for most users.
 
 LiveSYNC is continuously being developed further. New features are added and previous ones improved. Feedback from ordinary users is essential. Thus, new features are made first available via beta channels. Users who wish to try out new things and provide feedback can choose to install *the beta version* instead.
 
@@ -43,25 +41,25 @@ Installing the beta version is only slightly different than installing the store
     The store version and the beta version cannot exist simultaneously on a single device. For each device, you can install either but not both at the same time. Of course, it is possible to reinstall the app to get a different version.
 
 !!! note
-    On some platforms, the maximum number of beta testers is limited by the platform. Hence, we may not be able to accept all requests to become a beta tester. When the beta tester status is given for a specific need such as testing a particular new feature, we may later need to remove the user from the beta channel (switch to the public store version).
+    On some platforms, the maximum number of beta testers is limited by the platform. Hence, we may not be able to accept all requests to become a beta tester. The beta tester status may be given for a specific need such as testing a particular new feature. We may later need to remove the user from the beta channel (switch to the public store version).
 
 !!! example
-    Jerome has a business where he sells 360-degree videos and VR headsets to retirement homes. They are used for relaxation and entertainment. Most popular are videos where old style working methods are documented. Each of Jerome's setups consists of an Android tablet and an Oculus Go headset. The nurse helps in placing the headset comfortably to the senior's face, and selects from the tablet a video he wishes to see. Jerome uses the store version on kits that have been delivered, and the beta version on his own devices - just to stay up-to-date on what's coming.
+    Jerome has a business where he sells 360-degree kits to retirement homes. They are used for relaxation and entertainment. Most popular are videos where old-style working methods are documented. Each of Jerome's kits consists of an Android tablet and an Oculus Go headset. The nurse helps in placing the headset comfortably to the senior's face. Then she selects from the tablet a video he wishes to see. Jerome uses the store version on kits that have been delivered. He uses the beta version on his own devices, just to stay on top of what's coming.
 
 ![Enterprise feature](../img/enterprise_feature.png)
 
 !!! example
-    Anthony has purchased a set of 360 Video Starter kits for his construction company. They are building in several cities and Anthony wants to keep himself up-to-date without spending his days traveling between the sites. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
+    Anthony has purchased a set of 360 Video Starter kits for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
 
 ### Roles
 
-When you are presenting content with LiveSYNC, each device acts either as *the viewing device* of an audience member or as *the control device* of the presenter. You can read more about this [here](introduction.md#key-concepts).
+When you are presenting content with LiveSYNC, each device adopts a role. A device acts either as *the viewing device* of an audience member or as *the control device* of the presenter. You can read more about this [here](introduction.md#key-concepts).
 
-The device's role (*audience* or *director*) can be selected in the setup phase. When you create a channel configuration, one of the choices you make is the role that the device assumes. Since the role is configurable, the same app version can be used for both the audience and the director roles.
+The device's role (*audience* or *director*) can be selected in the setup phase. When you create a channel configuration, one of the choices you make is the role that the device assumes. Since the role is configurable, the same app version can be used for both roles.
 
 However, the director role is not available in all versions of the app. For example, app versions made for VR headsets support only the audience role. In addition, the store version and the beta version may differ at times.
 
-The table below summarizes the current situation: which roles are available in which version.
+The table below summarizes the current situation ie. which roles are available in which version.
 
 Platform | Store version | Beta version
 ---------|---------------|-------------
@@ -73,23 +71,23 @@ Oculus | N/A | Audience
     In a presentation, you can freely mix all kinds of devices. For example, an iOS tablet can control a mix of iOS phones & tablets, Android phones & tablets, GearVR headsets, and Oculus Go headsets. Some of the phones can be in VR mode and some not.
 
 !!! example
-    Joan's marketing team is participating in a trade show. Their company is launching a new product. Joan's team is using a 360-degree video to showcase it at their booth. They are controlling six Oculus Go headsets with LiveSYNC. To reduce waiting time, they run two groups of three headsets in parallel. The groups are controlled with two iPads. Hence, the iPads act in the director role, and the headsets act in the audience role. Joan configures two channels, so that the groups can work in parallel without disturbing each other.
+    Joan's marketing team is participating in a trade show. Their company is launching a new product. Joan's team is using a 360-degree video to showcase it at their booth. They are controlling six Oculus Go headsets with LiveSYNC. To reduce waiting time, they run two groups of three headsets in parallel. The groups are controlled with two iPads. Hence, the iPads act in the director role and the headsets act in the audience role. Joan configures two channels. The two groups will work in parallel without disturbing each other.
 
 ### Version Number
 
 New features and fixes are implemented and tested frequently. Then, a new software build is pushed to the release channels and release notes are published.
 
-Each build has a version number. To learn what has changed, take note of the version number from your app installation, and compare it to the release notes document.
+Each build has a version number. To learn what has changed, take note of the version number from your app installation. Then compare it to the release notes document.
 
-If you want to check which version (build) you have installed on a particular device, start the LiveSYNC app and notice the version number from the splash screen.
+To check which version (build) you have, start the LiveSYNC app and notice the version number from the splash screen.
 
 ![LiveSYNC splash](img/install_version_number.jpg)
 
-On iOS and Android versions, you can find the version number and other build details also when you start the LiveSYNC app, navigate to *Settings*, then *About*, and scroll down the page near the end until you find *Version* section.
+On iOS and Android, you can find the version number and other build details also in another way. Start the LiveSYNC app, navigate to *Settings*, then *About*, and scroll down the page near the end until you find *Version* section.
 
 ![LiveSYNC splash](img/install_version_details.jpg)
 
-These details are also pre-filled to support request emails when you send a request directly from the LiveSYNC app. The support email link appears just below version details.
+When you send a support request from the LiveSYNC app, version information is pre-filled. The support email link appears just below version details.
 
 ## System Requirements
 
@@ -105,11 +103,11 @@ Operating system | iOS 8.0 or later | iOS 11.0 or later
 Accessories | - | AV adapter[^4]
 
 !!! tip
-    All iPad Pro models are much more expensive than the standard iPad. When using the LiveSYNC app, they are usually not worth the extra cost. Unless, you prefer to have a larger screen.
+    All iPad Pro models are much more expensive than the standard iPad. When using the LiveSYNC app, they are usually not worth the extra cost. Unless you prefer to have a larger screen.
 
-    You cannot extend the storage size. LiveSYNC does not support memory sticks on iOS, not even those sold as iOS compatible (they only work with the manufacturer's own app). Hence, we recommend that you invest in a model with large storage capacity.
+    You cannot extend the storage size. LiveSYNC does not support memory sticks on iOS. Not even those that are sold as iOS compatible (they only work with the manufacturer's own app). Hence, we recommend that you invest in a model with large storage capacity.
 
-    In most cases Wifi-only model is enough. Mobile LTE network can be useful if you plan to control other devices via GlobalSYNC and do not rely on Wifi availability.
+    In most cases, the Wifi-only model is enough. Mobile LTE network can be useful if you plan to control other devices via GlobalSYNC and do not rely on Wifi availability.
 
 [^1]: iPhone and iPad are supported. iPod Touch and Apple TV are iOS devices but not supported. Apple Watch and Apple MacBook use different operating systems and are not supported.
 [^2]: iPhone 6/6+/6s/6s+/7/7+/8/8+/X/XR/XS/XS Max are supported. iPhone 2007/3G/3GS/4/4s/5/5c/5s/SE are not supported. See [iPhone models](https://support.apple.com/en-us/HT201296) for reference.
@@ -125,19 +123,19 @@ Model | n/a[^6] | Samsung Galaxy Tab S2/S3/S4 are known to work well
 Operating system | Android 5.0 (API 21) or later | Android 6.0 (API 23) or later
 Accessories | - | Micro SD card, Micro USB memory stick [^7]
 
-[^5]: Android phones and tablets are supported. Android TV, Android Auto and Android Wear devices are not supported. Chromebook uses a different operating system and is not supported.
+[^5]: Android phones and tablets are supported. Android TV, Android Auto, and Android Wear devices are not supported. Chromebook uses a different operating system and is not supported.
 [^6]: There are thousands of supported models. It is not possible to list them all here.
-[^7]: If your device has a micro SD card slot, you can expand storage size (LiveSYNC supports SD card for media files). Micro USB to USB memory stick (with OTG feature) is handy for copying media files from PC/Mac to tablet.
+[^7]: If your device has a micro SD card slot, you can expand storage size (LiveSYNC supports SD card for media files). A micro USB to a USB memory stick (with OTG feature) is handy for copying media files from PC/Mac to tablet.
 
 !!! tip
-    There is a huge selection of devices to choose from. Many low-end Android devices have poor display resolution, no support for 4K video playback, and no gyro sensor. Check at least these features before purchasing a new Android tablet. We recommend ~10 inch screen size for the director mode.
+    There is a huge selection of devices to choose from. Many low-end Android devices have poor display resolution, no support for 4K video playback, and no gyro sensor. Check at least these features before purchasing a new Android tablet. We recommend ~10-inch screen size for the director mode.
 
     You can extend the storage size if your device has an SD card slot. LiveSYNC supports SD card for media files.
 
-    In most cases Wifi-only model is enough. Mobile LTE network can be useful if you plan to control other devices via GlobalSYNC and do not rely on Wifi availability.
+    In most cases, the Wifi-only model is enough. Mobile LTE network can be useful if you plan to control other devices via GlobalSYNC and do not rely on Wifi availability.
 
 !!! warning
-    LiveSYNC's director mode is more advanced on iOS than Android. If you plan to purchase a new director's device, we currently recommend iOS over Android. If you prefer to use Android, please check that the Android version of the app contains features that are relevant to you. It will take time before Android version catches iOS version in features.
+    LiveSYNC's director mode is more advanced on iOS than Android. If you plan to purchase a new director's device, we currently recommend iOS over Android. If you prefer to use Android, please check that the Android version of the app contains features that are relevant to you. It will take time before the Android version catches the iOS version in features.
 
 ### Oculus
 
@@ -151,10 +149,10 @@ Accessories | - | Micro SD card, Micro USB memory stick [^11]
 [^8]: Oculus Quest will likely be supported later. Oculus Rift and HTC Vive are not supported.
 [^9]: GearVR is also OK, but we prefer Oculus Go as it is a standalone low-cost device.
 [^10]: GearVR compatible phones older than Galaxy S7 tend to overheat quickly.
-[^11]: If your device has a micro SD card slot, you can expand storage size (LiveSYNC supports SD card for media files). Micro USB to USB memory stick (with OTG feature) is handy for copying media files from PC/Mac to tablet.
+[^11]: If your device has a micro SD card slot, you can expand storage size (LiveSYNC supports SD card for media files). A micro USB to a USB memory stick (with OTG feature) is handy for copying media files from PC/Mac to tablet.
 
 !!! note
-    You can try installing and using the LiveSYNC app also on models that are not officially supported. If the app is not visible in the store with a particular device, then that device is not supported (not even unofficially). If you use an unsupported device, performance may suffer and some features may not be available.
+    You can try installing the LiveSYNC app also on models that are not officially supported. If the app is not visible in the store for a particular device, then that device is not supported (not even unofficially). If you use an unsupported device, performance may suffer and some features may not be available.
 
 ## Installing the Store Version
 
@@ -226,7 +224,7 @@ The store version is the official release version of the LiveSYNC app. It is ava
 
     ![Android Install](img/install_android_step_1.jpg)
 
-2. Type *livesync* to the search box and tap *Enter*. (On some software keyboards it appears as the search button, which you can recognize from a magnifier icon.)
+2. Type *livesync* to the search box and tap *Enter*. (On some software keyboards it appears as the search button. You can recognize it from a magnifier icon.)
 
     ![Android Install](img/install_android_step_2.jpg)
 
@@ -249,29 +247,29 @@ The store version is the official release version of the LiveSYNC app. It is ava
 ### Oculus
 
 !!! info
-    LiveSYNC has not officially launched on Oculus platform yet. However, you can start using it already by installing it from our [beta channel](installing.md#oculus_2).
+    LiveSYNC has not officially launched on the Oculus platform yet. However, you can start using it already by installing it from our [beta channel](installing.md#oculus_2).
 
 ## Installing the Beta Version
 
 The beta version is the official test version of the LiveSYNC app. It is available via each platform's own beta distribution method. Beta version is recommended for users who are eager to try out new features and provide feedback for developers.
 
 !!! warning
-    We test all releases internally before pushing them to beta channels, but be aware that beta versions are more likely to contain bugs. Feature and user interface changes occur frequently based on user feedback - what you see on a beta release may not end up to store release. Releases are published more often via beta channels. Also, documentation for new features may not be available at the time of release.
+    We test all releases internally before pushing them to beta channels. Be aware that beta versions are more likely to contain bugs. Feature and user interface changes occur frequently based on user feedback. What you see on a beta release may not end up to store release. Releases are published more often via beta channels. Also, documentation for new features may not be available at the time of release.
 
 ### iOS
 
 Follow the instructions below to install *the beta version* of the LiveSYNC app on your iOS device.
 
 !!! note
-    Currently we accept only customers to iOS beta channel. You must have a valid license to become a tester.
+    Currently, we accept only customers to iOS beta channel. You must have a valid license to become a tester.
 
 1. Installing software from iOS beta channel requires *an invite*. [Contact us](../support/support.md) and tell that you want to join LiveSYNC beta channel for iOS. **We need your email address, first name, and last name to be able to add you**.
 
-2. Once you receive an invite email from Apple to that email address, accept the invite by clicking *View in TestFlight*. Notice that we must send each invite manually, so it can take a while before the email arrives.
+2. Once you receive an invite email from Apple, accept the invite by clicking *View in TestFlight*. Notice that we must send each invite manually, so it can take a while before the email arrives.
 
     ![iOS Beta install](img/install_ios_beta_step_1.jpg)
 
-3. When you click the button in the email, a web page opens in browser. Read the instructions and write down the code shown in step 3.
+3. When you click the button in the email, a web page opens in the browser. Read the instructions and write down the code shown in step 3.
 
     ![iOS Beta install](img/install_ios_beta_step_2.jpg)
 
@@ -328,13 +326,13 @@ Follow the instructions below to install *the beta version* of the LiveSYNC app 
     ![iOS Beta install](img/install_ios_beta_step_15.jpg)
 
 !!! note
-    When a new release is pushed to TestFlight, you will get a notification to your iPad and to your email (unless you have disabled these notifications from TestFlight app). If you want to update to the new version, open TestFlight, select
+    When a new release is pushed to TestFlight, you will get a notification to your iPad and to your email. Unless you have disabled these notifications from TestFlight app. If you want to update to the new version, open TestFlight, select
     LiveSYNC, and select *UPDATE*. This is similar to Steps 14-16 above.
 
 ### Android
 
 !!! note
-    Currently, there is no need to request access to beta version on Android. It is open for everyone.
+    Currently, there is no need to request access to the beta version on Android. It is open to everyone.
 
 Follow the instructions below to install *the beta version* of the LiveSYNC app on your Android device.
 
@@ -351,9 +349,9 @@ Follow the instructions below to install *the beta version* of the LiveSYNC app 
     ![Android Install](img/install_android_beta_step_2.jpg)
 
 !!! note
-    If you want to switch back to the store version, simply uninstall the beta version and install the app again from the store. You are still part of the beta program and can switch back to the beta version at any time.
+    If you want to switch back to the store version, uninstall the beta version and install the app again from the store. You are still part of the beta program and can switch back to the beta version at any time.
 
-    If you want to leave the beta program completely, repeat steps 1 and 2. Then click button that says *LEAVE THE PROGRAM*. You are not a beta tester anymore.
+    If you want to leave the beta program completely, repeat steps 1 and 2. Then click the button that says *LEAVE THE PROGRAM*. You are not a beta tester anymore.
 
 ### Oculus
 
@@ -364,19 +362,19 @@ Follow the instructions below to install *the beta version* of the LiveSYNC app 
 
 Notice that the installation can be triggered either via the accompanying Oculus app on your phone (outside VR) or via Oculus Home (inside VR). We will cover both methods.
 
-1. Installing software from Oculus beta channel requires *an invite*. First check your Oculus username and email: start the Oculus app on your phone, navigate to *Settings* (GearVR: *More*), and find the username and email. See the image below for reference:
+1. Installing software from Oculus beta channel requires *an invite*. First, check your Oculus username and email. Start the Oculus app on your phone, navigate to *Settings* (GearVR: *More*), and find the username and email. See the image below for reference:
 
     ![Username and email](img/install_oculus_email.png)
 
 2.  [Contact us](../support/support.md) and tell that you want to join LiveSYNC beta channel for Oculus. **We need the email address from Step 1 to be able to add you**. This cannot be just one of your email addresses; it has to be the one that is connected with your Oculus account.
 
-3. Once you receive an invite email from Oculus to that email address, accept the invite by clicking a confirmation link in the email. Notice that we must send each invite manually, so it can take a while before the email arrives.
+3. Once you receive an email from Oculus, accept the invite by clicking a confirmation link. Notice that we must send each invite manually, so it can take a while before the email arrives.
 
     ![Invite email](../tutorials/img/screenshot_invite_email.png)
 
-4. After accepting the invite you have multiple options how to install the application:
+4. After accepting the invite you have multiple options on how to install the application:
 
-    1. Using the Oculus app on your phone: tap the magnifier class icon to open search, type *livesync* and select *LiveSYNC Oculus Go*, then click *Install on ...* button.
+    1. Using the Oculus app on your phone: tap the magnifier glass icon to open search, type *livesync* and select *LiveSYNC Oculus Go*, then click *Install on ...* button.
     ![Install via phone, search](../tutorials/img/livesync_install_via_phone.png)
     2. You can also select *Library* tab from the bottom bar and see if *LiveSYNC Oculus Go* already appears in the apps list (GearVR: check *Not Installed* tab). Select it from the list and then click *Install on ...* button.
     ![Install via phone, library](../tutorials/img/livesync_install_via_phone_2.png)
@@ -393,25 +391,25 @@ Notice that the installation can be triggered either via the accompanying Oculus
 ## License
 
 !!! warning
-    LiveSYNC is a commercial product. You can install if from the stores free of charge to try it out. Continuing using the product requires purchasing a license.
+    LiveSYNC is a commercial product. You can install it from the stores free of charge to try it out. Continuing using the product requires purchasing a license.
 
 ### Trial Period
 
-After installation the app starts in the *trial mode*. This means that some features are not available and watermarks are overlaid over your own content.
+After installation, the app starts in the *trial mode*. This means that some features are not available. Watermarks are overlaid over your own content.
 
-We encourage you to test the app with your own devices. Take your time. For your convenience, the trial period is not limited. Of course, this does not mean that actively using the product without a license is allowed. After a reasonable trial period, you must purchase a licence to continue using the product.
+We encourage you to test the app with your own devices. Take your time. For your convenience, the trial period is not limited. Of course, this does not mean that actively using the product without a license is allowed. After a reasonable trial period, you must purchase a license to continue using the product.
 
 ### Licensing Model
 
-A license needs to be purchased for a device that is being used for creating, editing, or presenting content (the director role). Devices that are used *only* for viewing presentations do not need a license (the audience role).
+A license needs to be purchased for a device that is being used for creating, editing or presenting content (the director role). Devices that are used *only* for viewing presentations do not need a license (the audience role).
 
 !!! example
-    Kate is participating a voluntary project. They have ordered 30 pieces of Google Cardboards. During the presentation they will use everyone's own mobiles. Kate uses her personal phone for controlling the presentation. Kate is the only one who needs a license.
+    Kate is participating in a voluntary project. They have ordered 30 pieces of Google Cardboards. During the presentation, they will use everyone's own mobiles. Kate uses her personal phone for controlling the presentation. Kate is the only one who needs a license.
 
 !!! example
     Anthony has purchased a set of 360 Video Starter kits for his construction company. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. Each site manager is creating content and needs a license. Anthony does not, since he only receives PDF reports via email.
 
-The cost of the license depends on the selected features and subscription length. You can check available license options from the app, or ask from your local distributor or Finwe (the makers of LiveSYNC).
+The cost of the license depends on the selected features and subscription length. Check available license options from the app. You can also ask from your local distributor or Finwe (the makers of LiveSYNC).
 
 A license is valid for a limited period of time. Typically a subscription is purchased for 12 months at a time. Subscriptions purchased via in-app payment (from the app stores) are auto-renewing. You can manage these subscriptions via the app stores. Once a paid subscription ends the license becomes invalid and the app returns to the trial mode. Watermarks will appear, etc.
 
@@ -425,20 +423,20 @@ When you are using the product without a license, watermarks are overlaid over y
 
 You can get a license directly via the app. It is easy, you can purchase a subscription using an in-app payment as follows:
 
-1. Start the LiveSYNC app. You will enter the *Home* screen. Notice the top bar. On the right side you will find text that indicates the current license status: *Player* means the trial mode. Tap the cogwheel next to the text.
+1. Start the LiveSYNC app. You will enter the *Home* screen. Notice the top bar. On the right side, you will find text that indicates the current license status. *Player* means the trial mode. Tap the cogwheel next to it.
  
     ![License](img/license_applying_step_1.jpg)
 
-2. The *Settings* screen opens. Select *Subscription* page from the left side menu and available license options will be shown. Tap the option that suits you best. The usual Apple AppStore in-app payment process begins. Follow the instructions on screen to complete purchase.
+2. The *Settings* screen opens. Select *Subscription* page from the left side menu. Available license options will be shown. Tap the option that suits you best. The usual Apple AppStore / Google Play Store in-app payment process begins. Follow the instructions on the screen to complete the purchase.
 
     ![License](img/license_applying_step_2.jpg)
 
-3. Once the purchase has completed the license will be applied and the text in the top bar changes to indicate your license type. Your subscription type is marked active and its expiration date appears at the bottom of the license button.
+3. Once the purchase has completed, the license will be applied. The text in the top bar changes to indicate your new license type. Your subscription type is marked active. Its expiration date appears at the bottom of the license button.
 
     ![License](img/license_applying_step_6.jpg)
 
 !!! note
-    If you cannot use the in-app payment mechanism for some reason, ask for assistance from your local distributor or Finwe (the makers of LiveSYNC). The license can be activated also with a prepaid code.
+    If you cannot use the in-app payment mechanism, ask for assistance from your local distributor or Finwe (the makers of LiveSYNC). The license can be activated also with a prepaid code.
 
 !!! note
     If you received the LiveSYNC app pre-installed with a kit such as the 360 Video Starter Kit, the software is probably already licensed. However, the license may need to be activated when you take the kit in use the very first time. Follow the instructions in the kit. If in doubt, please check from your reseller.
@@ -451,7 +449,7 @@ If you have received your license as a code, follow the steps below. A license c
 FAZBB-PWYXP-XYSND-RACKR-JGGFX
 ```
 
-1. Start the LiveSYNC app. You will enter the *Home* screen. Notice the top bar. On the right side you will find text that indicates the current license status: *Player* means the trial mode. Tap the cogwheel next to the text.
+1. Start the LiveSYNC app. You will enter the *Home* screen. Notice the top bar. On the right side, you will find text that indicates the current license status. *Player* means the trial mode. Tap the cog wheel next to the text.
  
     ![License](img/license_applying_step_1.jpg)
 
@@ -466,11 +464,11 @@ FAZBB-PWYXP-XYSND-RACKR-JGGFX
     !!! note
         You need a working network connection to complete this step.
 
-4. In a few seconds a pop-up asks your permission to take the new license in use. Select *OK*.
+4. In a few seconds, a pop-up asks your permission to take the new license in use. Select *OK*.
 
     ![License](img/license_applying_step_5.jpg)
 
-5. The license will be applied and the text in the top bar changes to indicate your license type. Select *Subscription* page from the left side menu. Your subscription type is marked active and its expiration date appears at the bottom of the license button.
+5. The license will be applied and the text in the top bar changes to indicate your license type. Select *Subscription* page from the left side menu. Your subscription type is marked active. Its expiration date appears at the bottom of the license button.
 
     ![License](img/license_applying_step_6.jpg)
 
@@ -482,14 +480,13 @@ On iOS, the string that uniquely identifies an app installation is different bet
 
 ### Locked Features
 
-Some features can be locked from use.
+Some features can be locked from use based on the active license type.
 
-For example, a feature may be reserved for a customer who has funded developing the feature (for a limited period of time).
+For example, a feature may be reserved for a customer who has funded developing that feature (for a limited period of time).
 
-In another example, a customer may request that a certain feature is disabled for security reasons (such as insecure sharing via email).
+In another example, a customer may request that a certain feature is disabled for security reasons. An example could be insecure sharing via email.
 
 To avoid confusion, locked features are usually hidden from the app.
-
 ### Enterprise Features
 
 ![Enterprise feature](../img/enterprise_feature.png)

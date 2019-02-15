@@ -159,6 +159,8 @@ As every software product, also LiveSYNC is based on a few key concepts. For the
 
 ### Presenting
 
+![Concepts](img/key_concepts.jpg)
+
 When presenting content to other people, we assume that one person is in control of the situation. Let us call this person **the director**. The people who are following the presentation are called **the audience**.
 
 The director acts in the role of the presenter. He uses a computing device for sharing content to the eyes of the audience. Let us call this device **the control device**. The control device is usually a tablet. Sometimes, we may refer to this device as the director's device or the device running in the director mode.
@@ -177,7 +179,10 @@ To assist a particular audience member who needs help, each device is given an I
 
 Thus, on each device, one must configure a few things. Whether it is the director's device (director mode) or an audience device (audience mode). The name used for identification. Which connection method to use (e.g. Bluetooth or GlobalSYNC). Which channel number to join. These are typically pre-configured before a presentation. A new channel can be reserved and taken in use also spontaneously. Created configuration is called **channel configuration**. A device can have multiple channel configurations, but it can join only one channel at a time.
 
-When a configured channel is selected from the app's home screen, a viewing device moves to **lobby** screen. It will wait there until a connection to the control device is established. The control device will move to the **director's workspace**. That consists of multiple tabs. For example, the **mosaic** tab allows observing mirrored views from all connected devices. The **player** tab is used for controlling the presentation. Changing content, controlling video playback, adding points-of-interest, etc.
+![Concepts](img/lobby.jpg)
+*A view to the lobby. Connection info is shown on the white screen.*
+
+When a configured channel is selected from the app's home screen, a viewing device moves to **lobby** screen. The user will wait there until a connection to the control device is established. Hence, the lobby is sometimes called the waiting room. The control device will move to the **director's workspace**. That consists of multiple tabs. For example, the **mosaic** tab allows observing mirrored views from all connected devices. The **player** tab is used for controlling the presentation. Changing content, controlling video playback, adding points-of-interest, etc. We will go through it in detail later in this guide.
 
 These concepts will become more familiar in the next chapters. You don't need to memorize the terms or their exact meaning to be able to use the app. They are presented only to help you understand how the software works. Also, to make it clear what we mean by these terms. They appear frequently in the documentation. And, to make it easier to understand why certain things are asked during the setup phase.
 

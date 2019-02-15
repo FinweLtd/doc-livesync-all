@@ -59,6 +59,60 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 
 ## [2. Installing](installing.md)
 
+- [Versions](installing.md#versions)
+
+    - [Platforms](installing.md#platforms)
+    
+    - [Store vs. Beta](installing.md#store-vs-beta)
+    
+    - [Roles](installing.md#roles)
+    
+    - [Version Number](installing.md#version-number)
+
+- [System Requirements](installing.md#system-requirements)
+
+    - [iOS](installing.md#ios)
+    
+    - [Android](installing.md#android)
+    
+    - [Oculus](installing.md#oculus)
+    
+- [Installing the Store Version](installing.md#installing-the-store-version)
+
+    - [iOS](installing.md#ios_1)
+    
+    - [Android](installing.md#android_1)
+    
+    - [Oculus](installing.md#oculus_1)
+    
+- [Installing the Beta Version](installing.md#installing-the-beta-version)
+    
+    - [iOS](installing.md#ios_2)
+    
+    - [Android](installing.md#android_2)
+    
+    - [Oculus](installing.md#oculus_2)
+
+- [License](installing.md#license)
+
+    - [Trial Period](installing.md#trial-period)
+    
+    - [Licensing Model](installing.md#licensing-model)
+    
+    - [Watermarks](installing.md#watermarks)
+    
+    - [Buying](installing.md#buying)
+    
+    - [License Code](installing.md#license-code)
+    
+    - [Store vs. Beta](installing.md#store-vs-beta_1)
+    
+    - [Locked Features](installing.md#locked-features)
+    
+    - [Enterprise Features](installing.md#enterprise-features)
+    
+    - [360 Video Starter Kit](installing.md#360-video-starter-kit)
+
 ## [3. Configuration](configuration.md)
 
 ## [4. Managing assets](asset_management.md)
