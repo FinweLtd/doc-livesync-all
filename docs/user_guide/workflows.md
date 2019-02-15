@@ -2,6 +2,8 @@
 
 ## Camera Path Normalization
 
+Normalization converts a camera path's coordinates to another coordinate space with given reference points.
+
 ### How to use path normalization? 
 
 1.    Use a cam path that's not already normalized to same real-world coordinates.
@@ -12,7 +14,6 @@
 6.    Saving the project saves the hotspots and creates a copy of this normalized path in the same folder with "_normalized" postfix e.g. someCamPath.mp4_normalized.txt
 7.    Optionally you can now delete calibration points if you wish.
 8.    After normalization, you can denormalize using the button. For now, all it does it delete the normalized cam path and forces to reload project with nonnormalized cam path. That means if your hotspots are placed in normalized cam path then they won't appear in the correct positions in nonnormalized cam path. In normalization, all hotspot positions are converted to new normalized coordinate but same for denormalization has not yet been implemented.
-
 
 **Watch a tutorial video on camera path normalization**
 
