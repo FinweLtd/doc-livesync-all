@@ -72,6 +72,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#does-livesync-support-stereoscopic-content" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -613,6 +617,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../preface/" title="Preface" class="md-nav__link">
+      Preface
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../introduction/" title="1. Introduction" class="md-nav__link">
       1. Introduction
     </a>
@@ -715,9 +731,50 @@
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        9. Video content
+      </label>
+    
     <a href="./" title="9. Video content" class="md-nav__link md-nav__link--active">
       9. Video content
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#does-livesync-support-stereoscopic-content" title="Does LiveSYNC support stereoscopic content?" class="md-nav__link">
+    Does LiveSYNC support stereoscopic content?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#does-livesync-support-cubemap-projection" title="Does LiveSYNC support cubemap projection?" class="md-nav__link">
+    Does LiveSYNC support cubemap projection?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#does-livesync-support-live-streaming" title="Does LiveSYNC support live streaming?" class="md-nav__link">
+    Does LiveSYNC support live streaming?
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -938,6 +995,49 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#does-livesync-support-stereoscopic-content" title="Does LiveSYNC support stereoscopic content?" class="md-nav__link">
+    Does LiveSYNC support stereoscopic content?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#does-livesync-support-cubemap-projection" title="Does LiveSYNC support cubemap projection?" class="md-nav__link">
+    Does LiveSYNC support cubemap projection?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#does-livesync-support-live-streaming" title="Does LiveSYNC support live streaming?" class="md-nav__link">
+    Does LiveSYNC support live streaming?
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -946,7 +1046,36 @@
                 
                   <h1>9. Video content</h1>
                 
-                
+                <p>LiveSYNC uses media player on the back-end and that limits the resolution when it comes to playable video files. Any video that plays with the device's own video player should also work with LiveSYNC.
+Choosing the right resolution and encoding is the key to an excellent experience. </p>
+<p>We advise using .mp4 format video files with resolution 1920x960 or 3840x1920 since these are best supported across devices. However, only 4k capable devices will play 3840x1920. We recommend one can get better balance by targeting a bitrate somewhere between 30-60 Mbps. </p>
+<p>If you have a mix of older and newer devices, it is much safer to use 3840x1920 for 4k capable devices and for old devices 1920x960
+by using the same file name for the same video content with different resolutions. </p>
+<p>We have built support for Facebook 360 audio (.tbe files). This has not yet been released for all platforms but it is available on request for example for GearVR.</p>
+<p>The maximum resolution depends on each device's hardware capabilities. Notice that offline video files need to be copied for each device during the setup phase, and this opens a possibility to use a different resolution (but same filename) variants on different devices, in order to get the best possible quality on each platform.</p>
+<h3 id="does-livesync-support-stereoscopic-content">Does LiveSYNC support stereoscopic content?<a class="headerlink" href="#does-livesync-support-stereoscopic-content" title="Permanent link">&para;</a></h3>
+<p>We have stereoscopic 360 content support already built for equirectangular panoramas (the usual equirectangular configurations over-under and side-by-side), but it hasn't been released yet officially. This will be included in the next release that is coming within a few weeks of time. However, if you are in a hurry we may be able to provide a custom build earlier.</p>
+<h3 id="does-livesync-support-cubemap-projection">Does LiveSYNC support cubemap projection?<a class="headerlink" href="#does-livesync-support-cubemap-projection" title="Permanent link">&para;</a></h3>
+<p>Currently, no. We have supported cubemap projection in some apps earlier and if there is demand for it, we will definitely add it to LiveSYNC as well. But with the current version, you'll have to export the images in an equirectangular format or convert your existing cubemaps to equirectangular.</p>
+<h3 id="does-livesync-support-live-streaming">Does LiveSYNC support live streaming?<a class="headerlink" href="#does-livesync-support-live-streaming" title="Permanent link">&para;</a></h3>
+<p>At the moment all videos and contents must be copied to the director and all audience devices before you start presenting contents. In LiveSYNC it is possible to stream contents if you provide URLs in JSON format. </p>
+<p>The JSON includes only three fields: <strong>name</strong>, video <strong>url</strong> and an optional field <strong>layout</strong> which tells video projection. The layout can be any of the following types: "2D" , "360" , 360TB" , "360SBS" .</p>
+<pre><code>{
+    "name":"Yle",
+    "url":"http://yletv-lh.akamaihd.net/i/yletv1hls_1@103188/master.m3u8",
+    "layout":"2D"
+}
+</code></pre>
+<p>Save the JSON file with the .videostream extension, for example, myvideo.videostream.  This works the way that LiveSYNC doesn't download the file to the memory, instead it plays it live from the Internet. </p>
+<p>LiveSYNC works for live broadcasts, if you just copy a Vimeo or YouTube stream link to the .videostream file, then it might only work for a short period of time until the service generates new links. If so, make sure you update the link to the .videostream file with newly generated link/s. With Vimeo Pro, this is not a problem, because links are made to stay as they are just for cases like this.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your own content files do not work:</p>
+<ul>
+<li>Make sure to use .mp4 format videos, .jpg format photos, and .png format hotspot images.</li>
+<li>If some of your devices do not support 4K video (3840x1920), you can copy there a lower quality variant (1920x960). Photos will be automatically scaled to the device's maximum size.</li>
+</ul>
+</div>
                 
                   
                 
