@@ -16,3 +16,7 @@ If you want to export the content with all remarks, notes and tags simply press 
 
 from top menu and Document details dialog view will appear, give document title as file name and other optional fields if needed then press *OK*. LiveSYNC will take snapshots and convert that pdf and will display the pdf preview for you with an option to print, save, mail and share on social media.
 
+!!! Note
+
+    LiveSYNC projects are saved in [JSON format](../downloads/downloads.md#exampleprojectjson). You have access to them directly by using iTunes or you can send them through e-mail by using the export feature in LiveSYNC.
+
