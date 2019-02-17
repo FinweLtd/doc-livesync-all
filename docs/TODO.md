@@ -1,6 +1,11 @@
 TODO
 ====
 
+# User Guide
+
+- Subscription, full procedure, both stores with screen captures
+- Configuration, Oculus Go audience mode
+
 # Downloads
 
 - Add links to video streams (.mp4 and .m3u8)

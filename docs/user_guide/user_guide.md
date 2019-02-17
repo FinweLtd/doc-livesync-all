@@ -115,6 +115,32 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 
 ## [3. Configuration](configuration.md)
 
+- [Overview](configuration.md#overview)
+
+- [Director Role](configuration.md#director-role)
+
+    - [iOS & Android](configuration.md#ios-android)
+    
+    - [Oculus](configuration.md#oculus)
+
+- [Audience Role](configuration.md#audience-role)
+
+    - [iOS & Android](configuration.md#ios-android_1)
+    
+    - [Oculus](configuration.md#oculus_1)
+
+- [Configuration Tips](configuration.md#configuration-tips)
+
+    - [Device Role](configuration.md#device-role)
+    
+    - [Identification](configuration.md#identification)
+    
+    - [Connection Type](configuration.md#connection-type)
+    
+    - [Channel Number](configuration.md#channel-number)
+    
+    - [View Mode](configuration.md#view-mode)
+
 ## [4. Managing assets](asset_management.md)
 
 ## [5. Workspace](workspace.md)
