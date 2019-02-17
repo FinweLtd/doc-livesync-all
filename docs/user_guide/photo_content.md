@@ -1,4 +1,25 @@
 
+## File Naming Conventions
+
+### 360-degree Content
+
+#### Monoscopic
+
+#### Stereoscopic
+
+### 180-degree Content
+
+#### Monoscopic
+
+#### Stereoscopic
+
+### 2D Content
+
+#### Monoscopic
+
+#### Stereoscopic
+
+
 In LiveSYNC the player will automatically downscale your own 360 images in the */Movies/LiveSYNC* folder to the maximum texture size allowed by the playback device, and currently you need to copy them to */Movies/LiveSYNC*, not */Pictures/LiveSYNC*.
 
 LiveSYNC supports both Over-Under and Side-by-Side formats. The only thing you need to to is to add the following prefix to the video/image file:

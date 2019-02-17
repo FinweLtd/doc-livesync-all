@@ -1,3 +1,25 @@
+
+## File Naming Conventions
+
+### 360-degree Content
+
+#### Monoscopic
+
+#### Stereoscopic
+
+### 180-degree Content
+
+#### Monoscopic
+
+#### Stereoscopic
+
+### 2D Content
+
+#### Monoscopic
+
+#### Stereoscopic
+
+
 LiveSYNC uses media player on the back-end and that limits the resolution when it comes to playable video files. Any video that plays with the device's own video player should also work with LiveSYNC.
 Choosing the right resolution and encoding is the key to an excellent experience. 
 

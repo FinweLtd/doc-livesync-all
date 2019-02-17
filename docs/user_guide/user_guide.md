@@ -141,20 +141,24 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
     
     - [View Mode](configuration.md#view-mode)
 
-## [4. Managing assets](asset_management.md)
+## [4. Managing Assets](asset_management.md)
 
 ## [5. Workspace](workspace.md)
 
 ## [6. Presenting](presenting.md)
 
-## [7. Photo content](photo_content.md)
+## [7. Photo Content](photo_content.md)
 
-## [8. Video content](video_content.md)
+## [8. Video Content](video_content.md)
 
-## [9. Tags & hotspots](hotspots.md)
+## [9. Tags & Hotspots](hotspots.md)
 
-## [10. Workflows](workflows.md)
+## [10. Streaming](streaming.md)
 
 ## [11. Editor](editor.md)
 
-## [12. Troubleshooting](troubleshooting.md)
+## [12. Workflows](workflows.md)
+
+## [13. Customizing](customizing.md)
+
+## [14. Troubleshooting](troubleshooting.md)

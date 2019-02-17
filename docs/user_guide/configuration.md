@@ -2,7 +2,7 @@
 
 ## Overview
 
-With LiveSYNC, you can present 360-degree and ordinary 2D content to other people.  The content can be shown using a common big screen device and/or a set of viewing devices shared to the audience. The viewing devices must be able to *communicate* with the presenter's control device. For example, the control device sends a command to change the slide. The viewing devices respond that the slide was found and is now loaded on screen.
+With LiveSYNC, you can present 360-degree and ordinary 2D content to other people. The content can be shown using a common big screen device and/or a set of viewing devices shared to the audience. The viewing devices must be able to *communicate* with the presenter's control device. For example, the control device sends a command to change the slide. The viewing devices respond that the slide was found and is now loaded on screen.
 
 This communication takes place via *a wireless connection*. It is opened between the control device and each viewing device. Before the connection can be opened, it must be *configured* to each device. For example, a device must know which role to adopt in the presentation. It also needs to know which connection type to use, and which channel number to join. In LiveSYNC, this is called *a channel configuration*. 
 
