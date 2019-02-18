@@ -136,15 +136,17 @@ In case you have a GearVR compatible phone that supports a memory card (SD card)
 ## How To Copy Files?
 
 ### iOS
-
-1. Connect the included USB 2.0 cable to your computer and iPad.
-2. Select device from iTunes on your computer.
-3. Select Apps/File Sharing.
-4. Select LiveSYNC.
-5. Click and drag files and folders to LiveSYNC Documents.
-6. Open LiveSYNC on iPad -> Select channel number -> Player -> and pull to refresh contents on the left side (where demo contents are located).
+1. Download [iTunes](https://www.apple.com/itunes/download/).
+2. Connect the included USB 2.0 cable to your computer and iPad.
+3. Select device from iTunes on your computer.
+4. Select Apps/File Sharing.
+5. Select LiveSYNC.
+6. Click and drag files and folders to LiveSYNC Documents.
+7. Open LiveSYNC on iPad -> Select channel number -> Player -> and pull to refresh contents on the left side (where demo contents are located).
 
 Take a look at our [video tutorial](https://vimeo.com/222670351) to see how files are copied. After adding video, image, and .png hotspot files to LiveSYNC pull-to-refresh and update contents of LiveSYNC.
+
+If you wish to transfer files between your Mac computer and your Android device/s you need to install an app called [Android File Transfer](https://www.android.com/filetransfer/).  
 
 ### Android
 
