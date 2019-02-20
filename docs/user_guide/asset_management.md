@@ -314,61 +314,71 @@ Copying files back and forth between a computer and a mobile device is easy. How
 !!! note
     The Android part starts at 3m 13sec. 
     
-    On some Android devices, microUSB has been replaced with USB-C. Nevertheless, use the cable that came with the device.
+    On some Android devices, microUSB has been replaced with USB-C. Use the cable that came with the device.
 
 **Option B: Follow the steps described below**
 
 **Windows**
 
-If you wish to transfer files between your Mac computer and your Android devices, you need to install an app called [Android File Transfer](https://www.android.com/filetransfer/).  
+1. Your Android device came with a bundled *USB to microUSB* or *USB to USB-C* cable. It is the same one you use for charging your Android device. Connect your Android device to your computer using this cable.
+
+    ![Assets](img/assets_android_cable.png)
+
+2. When you connect the cable, your Android device asks your permission for file access. Tap *Allow* to grant permission.
+
+    ![Assets](img/assets_android_win_step_0.png)
+
+3. On your computer, Windows has detected a new device. It may ask what action to perform; you want to explore its files. When *Explorer* opens, find your Android device from the list. 
+
+    ![Assets](img/assets_android_win_step_1.png)
+
+4. Expand the folder structure until you see the contents of **/Movies/LiveSYNC** directory. From LiveSYNC's point of view, this is the root of its media repository. It is the location where you copy all your presentation's assets.
+
+    ![Assets](img/assets_android_win_step_2.png)
+
+5. On your computer, find the folder that contains the assets for your presentation. Then drag it over *LiveSYNC* directory in *Explorer*, and drop it there. It will be copied to your Android device. The progress will be shown in a separate dialog.
+
+    ![Assets](img/assets_android_win_step_3.png)
 
 **Mac**
 
-1. On your computer, open web browser and go here to download the iTunes application:
-    <https://www.apple.com/itunes/download/>
+Unfortunately, macOS does not have a built-in support for transferring files to Android devices. The solution is to install *Android File Transfer* application. It is made by Google and available for free.
 
-    Based on your operating system, choose a download link either for macOS or Windows. 
-    
-    Once the download has completed, install the application on your computer just like any other app. Once the installation has completed, start the iTunes application.
-    
-    ![Assets](img/assets_itunes_app.png)
+1. On your computer, open web browser and go here to download the Android File Transfer application:
 
-2. Your iOS device came with a bundled *USB to Lightning cable*. It is the same one you use for charging your iOS device. Connect your iOS device to your computer using this cable.
+    <https://www.android.com/filetransfer/>
 
-    ![Assets](img/assets_ios_cable.png)
+    Once the download has completed, install the application on your computer just like any other app.
 
-3. On your computer, take a look at the iTunes application. It begins to synchronize content between your iOS device and computer (assets for the LiveSYNC app are not automatically synchronized). Notice the small device icon that appears in the top bar. Click it.
+2. Your Android device came with a bundled *USB to microUSB* or *USB to USB-C* cable. It is the same one you use for charging your Android device. Connect your Android device to your computer using this cable.
 
-    ![Assets](img/assets_ios_step_1.jpg)
+    ![Assets](img/assets_android_cable.png)
 
-    !!! tip
-        It may take a moment after connecting the cable until the device icon appears. If it doesn't appear, restart iTunes application.
+3. When you connect the cable, your Android device asks your permission for file access. Tap *Allow* to grant permission.
 
-4. The *Summary* page of your device appears. From the left side menu, click *File Sharing*.
+    ![Assets](img/assets_android_win_step_0.png)
 
-    ![Assets](img/assets_ios_step_2.jpg)
+4. On your computer, Android File Transfer application should start automatically. Expand the folder structure until you see the contents of **/Movies/LiveSYNC** directory. From LiveSYNC's point of view, this is the root of its media repository. It is the location where you copy all your presentation's assets.
 
-5. A list of apps that use the file sharing feature appears. Select *LiveSYNC* from the list.
+    ![Assets](img/assets_android_mac_step_0.png)
 
-    ![Assets](img/assets_ios_step_3.jpg)
+    !!! note
+        Android File Transfer often shows a warning dialog similar to the one below. It means that you have not granted a permission for file access on your Android device. Do it now, then click OK. The dialog disappears and a moment later a working file manager window opens.
 
-6. A list of the LiveSYNC app's files appears. From LiveSYNC's point of view, this is the root of its media repository. It is the location where you copy all your presentation's assets.
+    ![Assets](img/assets_android_mac_step_1.png)
 
-    ![Assets](img/assets_ios_step_4.jpg)
+5. On your computer, find the folder that contains the assets for your presentation. Then drag it over *LiveSYNC* directory in *Android File Transfer*, and drop it there. It will be copied to your Android device. The progress will be shown in a separate dialog.
 
-7. On your computer, find the folder that contains the assets for your presentation. Then drag it over *LiveSYNC Documents* area in the iTunes application, and drop it there. It will be copied to your iOS device. The progress will be shown in the top area of the iTunes application.
-
-    ![Assets](img/assets_ios_step_5.jpg)
-
-    !!! tip
-        You may have noticed that there is *Add...* button at the bottom of the *LiveSYNC Documents* area. This is an alternative method for copying the files. However, we recommend using drag'n drop.
-
-    !!! tip
-        If you copy more content to your iOS device *during a presentation*, there is no need to restart the LiveSYNC app. Use pull-to-refresh gesture in the *Content* tab or in the *Tags* tab. The contents will be refreshed.
+    ![Assets](img/assets_android_mac_step_2.png)
 
 ### Oculus
 
-Supported Oculus devices (Samsung GearVR and Oculus Go) are both based on Android operating system. **Copying files to Oculus devices is therefore exactly the same as copying to other Android devices.** Follow the instructions above.
+Supported Oculus devices (Samsung GearVR and Oculus Go) are both based on Android operating system. Hence, **copying files to Oculus devices is the same as copying to other Android devices.** Follow the [instructions](asset_management.md#android_1) that were given for Android.
+
+!!! note
+    In Step 3. you need to grant file access permission on your Android device. This also applies to Oculus Go. You must put the headset on your face and use the hand remote to select *Allow*. See the image below.
+
+![Assets](img/assets_oculus_permissions.png)
 
 ## Alternative Solutions
 
