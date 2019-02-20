@@ -33,7 +33,7 @@ Oculus | VR headset | Always on
 
 The LiveSYNC app is installed to a device via the platform's own app store. On iOS it is **Apple iTunes AppStore**, on Android, it is **Google Play Store**, and on Oculus it is **Oculus Store**. The app version that is publicly available for everyone is called *the store version*. This is the recommended version for most users.
 
-LiveSYNC is continuously being developed further. New features are added and previous ones improved. Feedback from ordinary users is essential. Thus, new features are made first available via beta channels. Users who wish to try out new things and provide feedback can choose to install *the beta version* instead.
+LiveSYNC is continuously being developed further. New features are added and previous ones improved. Feedback from users is essential. Thus, new features are made first available via beta channels. Users who wish to try out new things and provide feedback can choose to install *the beta version* instead.
 
 Installing the beta version is only slightly different than installing the store version. Instructions are given separately for both later in this chapter.
 
