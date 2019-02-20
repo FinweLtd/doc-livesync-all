@@ -80,7 +80,7 @@ Notice that last-minute changes can be problematic. Changing even one small icon
 
 ### Central Media Repository
 
-It is logical to create *a central media repository* where the content files will be copied to. The application does not need to crawl through the whole file system to find new files. Presentations consist of of combinations of files in the repository. A project file becomes very light-weight, as it only references to the multimedia files. The number of presentation variants is almost unlimited. And, updating a single file is as quick and easy as it should be.
+It is logical to create *a central media repository* where the content files will be copied to. The application does not need to crawl through the whole file system to find new files. Presentations consist of combinations of files in the repository. A project file becomes very light-weight, as it only references to the multimedia files. The number of presentation variants is almost unlimited. And, updating a single file is as quick and easy as it should be.
 
 ### Assets
 
