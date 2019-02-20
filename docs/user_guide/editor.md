@@ -38,3 +38,5 @@ from top menu and Document details dialog view will appear, give document title 
 
     LiveSYNC projects are saved in [JSON format](../downloads/downloads.md#exampleprojectjson). You have access to them directly by using iTunes or you can send them through e-mail by using the export feature in LiveSYNC.
 
+
+![Enterprise feature](../img/enterpriseFooter.png)
