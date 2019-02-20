@@ -1,10 +1,28 @@
-The *Editor* is a tab in the control device, which provides persistency for tags. You can mark points-of-interest with simple passive tags or add interactive (selectable) hotspots. Such configurations can be saved as projects and used in presentations. They can also be opened again for editing, or exported as a report and sent to a colleague.
-
-![Enterprise feature](../img/enterprise_feature.png)
 
 The Editor tab is a feature in the Enterprise version of the LiveSYNC app. Users who don't have the Enterprise version do not have the Editor tab and should skip this chapter.
 
+![Enterprise feature](../img/enterprise_feature.png)
 
+
+The *Editor* is a tab in the control device, which provides persistency for tags. You can mark points-of-interest with simple passive tags or add interactive (selectable) hotspots. Such configurations can be saved as projects and used in presentations. They can also be opened again for editing, or exported as a report and sent to a colleague.
+
+![Enterprise feature](../img/editorTab.jpg)
+
+Select the *Editor* tab and drag a content to the presentation area.  Select *Create New Project* if you don't have previously saved projects. 
+
+![New Project](../img/newProject.jpg)
+
+Tap *Tags* tab and select the tag you want to add to a presentation type by long press and release on presentation content. You can later long press on the added tag and choose the right position you want to add. The moment you add a new tag, a tag settings window will be shown on the right side of the screen. 
+
+![Tag Settings](../img/tagSettings.jpg)
+
+From the settings, you can choose the type of Tag, give title and description, you can even add attachments and adjust the size of tag using the slider indicated as Hotspot size.
+
+After adding tags, remarks and notes make sure you press the Save button by providing the project name to reuse the project and export it later. 
+
+If you wish to delete the added tag, select the tag by long press and tap Delete text from the window seen on the right side. 
+
+![Delete Tag](../img/deleteTag.jpg)
 
 ## Exporting presentation content
 
