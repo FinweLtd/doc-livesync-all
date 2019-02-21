@@ -3,8 +3,9 @@ TODO
 
 # User Guide
 
-- Subscription, full procedure, both stores with screen captures
-- Configuration, Oculus Go audience mode
+- Installing: subscription full procedure, both stores with screen captures
+- Configuration: Oculus Go audience mode
+- Managing assets: Windows shares, dropbox, etc. alternatives - proper instructions
 
 # Downloads
 
@@ -13,7 +14,6 @@ TODO
 - Add stereo (3D) test images
 - Add spatial audio (.obb) samples
 - Add hotspot set
-
 
 # Encoding
 

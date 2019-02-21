@@ -143,6 +143,60 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 
 ## [4. Managing Assets](asset_management.md)
 
+- [Basics](asset_management.md#basics)
+
+    - [Assets](asset_management.md#assets)
+    
+    - [Big Screen](asset_management.md#big-screen)
+    
+    - [Viewing Devices](asset_management.md#viewing-devices)
+    
+    - [File Storage Strategy](asset_management.md#file-storage-strategy)
+    
+    - [Central Media Repository](asset_management.md#central-media-repository)
+    
+    - [File Access Permissions](asset_management.md#file-access-permissions)
+    
+    - [File System Limitations](asset_management.md#file-system-limitations)
+    
+    - [Dealing With Redundancy](asset_management.md#dealing-with-redundancy)
+    
+    - [Transfer Times](asset_management.md#transfer-times)
+    
+- [Which Files Must Be Copied?](asset_management.md#which-files-must-be-copied)
+
+    - [360-Degree Photos](asset_management.md#360-degree-photos)
+    
+    - [360-Degree Videos](asset_management.md#360-degree-videos)
+    
+    - [Slides & 2D Content](asset_management.md#slides-2d-content)
+    
+    - [Icons](asset_management.md#icons)
+    
+- [Where Should My Files Go?](asset_management.md#where-should-my-files-go)
+
+    - [iOS](asset_management.md#ios)
+    
+    - [Android](asset_management.md#android)
+    
+    - [Oculus](asset_management.md#oculus)
+    
+- [How To Copy Files?](asset_management.md#how-to-copy-files)
+
+    - [iOS](asset_management.md#ios_1)
+    
+    - [Android](asset_management.md#android_1)
+    
+    - [Oculus](asset_management.md#oculus_1)
+
+- [Alternative Solutions](asset_management.md#alternative-solutions)
+
+    - [USB Memory Stick](asset_management.md#usb-memory-stick)
+    
+    - [Windows Shares](asset_management.md#windows-shares)
+    
+    - [DropBox, Google Drive, etc.](asset_management.md#dropbox-google-drive-etc)   
+
 ## [5. Workspace](workspace.md)
 
 ## [6. Presenting](presenting.md)
