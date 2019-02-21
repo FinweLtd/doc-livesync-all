@@ -199,6 +199,44 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 
 ## [5. Workspace](workspace.md)
 
+- [Overview](workspace.md#overview)
+
+- [Splash](workspace.md#splash)
+
+- [Home](workspace.md#home)
+
+    - [Channels](workspace.md#channels)
+    
+    - [Tutorials](workspace.md#tutorials)
+    
+    - [Learning Center](workspace.md#learning-center)
+    
+- [Settings](workspace.md#settings)
+    
+    - [Director](workspace.md#director)
+    
+    - [Subscription](workspace.md#subscription)
+    
+    - [About](workspace.md#about)
+
+- [Audience](workspace.md#audience)
+    
+    - [Lobby](workspace.md#lobby)
+    
+    - [Player](workspace.md#player)
+    
+- [Director](workspace.md#director_1)
+
+    - [Channel](workspace.md#channel)
+    
+    - [Mosaic](workspace.md#mosaic)
+    
+    - [Player](workspace.md#player)
+    
+    - [Help](workspace.md#help)
+    
+    - [Editor](workspace.md#editor)
+
 ## [6. Presenting](presenting.md)
 
 ## [7. Photo Content](photo_content.md)
