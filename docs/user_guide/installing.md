@@ -51,6 +51,8 @@ Installing the beta version is only slightly different than installing the store
 !!! example
     Anthony has purchased a set of 360 Video Starter kits for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
 
+![Enterprise feature](../img/enterpriseFooter.png)
+
 ### Roles
 
 When you are presenting content with LiveSYNC, each device adopts a role. A device acts either as *the viewing device* of an audience member or as *the control device* of the presenter. You can read more about this [here](introduction.md#key-concepts).
@@ -492,6 +494,8 @@ To avoid confusion, locked features are usually hidden from the app.
 ![Enterprise feature](../img/enterprise_feature.png)
 
 Enterprise features are not included in the standard license that you can purchase from the app stores. They are always enabled with a license code or a license file.
+
+![Enterprise feature](../img/enterpriseFooter.png)
 
 ### 360 Video Starter Kit
 
