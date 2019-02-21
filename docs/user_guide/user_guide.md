@@ -253,4 +253,6 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 
 ## [13. Customizing](customizing.md)
 
-## [14. Troubleshooting](troubleshooting.md)
+## [14. 360° Video Starter Kit](starter_kit.md)
+
+## [15. Troubleshooting](troubleshooting.md)
