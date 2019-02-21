@@ -37,7 +37,8 @@ nav:
     - 11. Editor: 'user_guide/editor.md'
     - 12. Workflows: 'user_guide/workflows.md'
     - 13. Customizing: 'user_guide/customizing.md'
-    - 14. Troubleshooting: 'user_guide/troubleshooting.md'
+    - 14. Starter Kit: 'user_guide/starter_kit.md'
+    - 15. Troubleshooting: 'user_guide/troubleshooting.md'
   - Articles:
     - Index: 'articles/articles.md'
     - Understanding resolution: 'articles/resolution.md'

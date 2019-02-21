@@ -149,7 +149,7 @@ All these are built-in features in LiveSYNC. Drag & drop icons from clipart sets
 
 The enterprise version of the LiveSYNC app goes much further. It has been developed in close co-operation with industrial clients. You can use a built-in editor to create or edit a project. Import media content from the camera roll. Add interactive hotspots. These can even fetch data from the network in real-time. Import 2D and 3D maps with camera paths. A really useful feature is to be able to export all the notes you've made as screenshots. They are placed into a visual PDF report, which you can send to your colleagues right away. As an example, take a quick tour on your construction site with a 360-degree camera. Add new work instructions. Export to PDF and mail away. All in 15 minutes. That's what we call *instant digitalization*.
 
-***
+![Enterprise feature](../img/enterpriseFooter.png)
 
 Since its initial release, LiveSYNC has come a long way. We are very excited about the features that are being developed right now. We feel that LiveSYNC is just spreading its wings. After years of working with 360-degree media, we get still excited about it. It is amazing what is possible when an image or a video covers the full 360-degree view.
 
