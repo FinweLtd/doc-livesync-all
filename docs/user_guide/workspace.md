@@ -83,7 +83,7 @@ Once the connection is established and the presenter begins the presentation, th
 
 ## Director
 
-Tap a channel configuration from the *Home* screen. If you configured the device to the director role, you will enter the director's workspace and to the *Mosaic* tab.
+Tap a channel configuration from the *Home* screen. If you configured the device to the director role, you will enter the director's workspace and start from the *Mosaic* tab.
 
 ### Channel
 
@@ -126,6 +126,6 @@ The enterprise version contains the *Editor* screen. Here you can create a new p
 ![Workspace](img/workspace_editor_1.png)
 
 !!! tip
-    To make space for the *Properties* panel, the *Tags* tab has been moved to the left side panel. 
+    In the *Editor* screen, you will find the *Tags* tab from the left side panel. 
 
 ---

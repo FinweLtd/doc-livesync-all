@@ -239,6 +239,8 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 
 ## [6. Presenting](presenting.md)
 
+
+
 ## [7. Photo Content](photo_content.md)
 
 ## [8. Video Content](video_content.md)
@@ -256,3 +258,5 @@ Welcome to the *LiveSYNC User Guide*! Choose a topic from below to find answers,
 ## [14. 360° Video Starter Kit](starter_kit.md)
 
 ## [15. Troubleshooting](troubleshooting.md)
+
+
