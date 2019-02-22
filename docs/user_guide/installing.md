@@ -49,7 +49,7 @@ Installing the beta version is only slightly different than installing the store
 ![Enterprise feature](../img/enterprise_feature.png)
 
 !!! example
-    Anthony has purchased a set of 360 Video Starter kits for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
+    Anthony has purchased a set of 360 Video [Starter kits](starter_kit.md) for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
 
 ![Enterprise feature](../img/enterpriseFooter.png)
 
@@ -409,7 +409,7 @@ A license needs to be purchased for a device that is being used for creating, ed
     Kate is participating in a voluntary project. They have ordered 30 pieces of Google Cardboards. During the presentation, they will use everyone's own mobiles. Kate uses her personal phone for controlling the presentation. Kate is the only one who needs a license.
 
 !!! example
-    Anthony has purchased a set of 360 Video Starter kits for his construction company. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. Each site manager is creating content and needs a license. Anthony does not, since he only receives PDF reports via email.
+    Anthony has purchased a set of 360 Video [Starter kits](starter_kit.md) for his construction company. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. Each site manager is creating content and needs a license. Anthony does not, since he only receives PDF reports via email.
 
 The cost of the license depends on the selected features and subscription length. Check available license options from the app. You can also ask from your local distributor or Finwe (the makers of LiveSYNC).
 
@@ -441,7 +441,7 @@ You can get a license directly via the app. It is easy, you can purchase a subsc
     If you cannot use the in-app payment mechanism, ask for assistance from your local distributor or Finwe (the makers of LiveSYNC). The license can be activated also with a prepaid code.
 
 !!! note
-    If you received the LiveSYNC app pre-installed with a kit such as the 360 Video Starter Kit, the software is probably already licensed. However, the license may need to be activated when you take the kit in use the very first time. Follow the instructions in the kit. If in doubt, please check from your reseller.
+    If you received the LiveSYNC app pre-installed with a kit such as [the 360 Video Starter Kit](starter_kit.md) , the software is probably already licensed. However, the license may need to be activated when you take the kit in use the very first time. Follow the instructions in the kit. If in doubt, please check from your reseller.
 
 ### License Code
 
@@ -499,4 +499,4 @@ Enterprise features are not included in the standard license that you can purcha
 
 ### 360 Video Starter Kit
 
-The kit contains a tablet where the LiveSYNC app is pre-installed. The bundled license only needs to be activated. Follow the instructions that are included in the kit.
+The [kit](starter_kit.md) contains a tablet where the LiveSYNC app is pre-installed. The bundled license only needs to be activated. Follow the instructions that are included in the kit.
