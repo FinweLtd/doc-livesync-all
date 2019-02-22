@@ -209,7 +209,7 @@ GlobalSYNC | Cloud service[^5] | Wifi or mobile data | 1000+ clients | Short-tim
     Mark is a teacher in elementary school. They have a rack of 20 Android tablets, which any of the teachers can reserve for their class. Mark uses GlobalSYNC connection. The school has Wifi access and he needs to control more devices than Bluetooth can handle.
 
 !!! example
-    Anthony has purchased a set of 360 Video Starter kits for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. Sometimes, Anthony needs to intervene. They will have a short teleconference. During the meeting, Anthony wants to show other site managers how one of them cleverly handled a difficult case. Anthony uses GlobalSYNC over mobile data. He and the site managers are all in different cities and the construction sites do not have Wifi access.
+    Anthony has purchased a set of [360 Video Starter kits](starter_kit.md)  for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. Sometimes, Anthony needs to intervene. They will have a short teleconference. During the meeting, Anthony wants to show other site managers how one of them cleverly handled a difficult case. Anthony uses GlobalSYNC over mobile data. He and the site managers are all in different cities and the construction sites do not have Wifi access.
 
 ### Channel Number
 
