@@ -277,7 +277,8 @@ To observe and assist audience members, follow these steps:
 
 3. If necessary, switch to *Mosaic* view and double tap a particular users' live view to make it full screen. In full-screen mode it is easier to follow another user's view. Double tap the view again to resize it back to normal size. Scroll the view vertically to see more devices.
 
-!!! It is a good idea to mark the viewing devices. You will see their LiveSYNC names listed in the video mosaic. Mark the same name, number, or color to the viewing devices so that you can recognize them easily.
+!!! tip
+    It is a good idea to mark the viewing devices. You will see their LiveSYNC names listed in the video mosaic. Mark the same name, number, or color to the viewing devices so that you can recognize them easily.
 
 ### Handling Latecomers
 
