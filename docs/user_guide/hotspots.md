@@ -1,3 +1,9 @@
+### Adding Tags
+
+[Adding Tags](..//user_guide/presenting.md#adding-tags)
+
+### Marking with tags
+
 [ Marking with tags](../tutorials/oculus_go_presenting.md#marking-with-tags)
 
 
