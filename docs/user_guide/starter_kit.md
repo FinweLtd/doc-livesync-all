@@ -20,6 +20,12 @@
 
 **H**. Quick start guide and manuals
 
+
+<iframe src="https://player.vimeo.com/video/303020134" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+*Video not working? Click [here](https://vimeo.com/303020134) to open it in Vimeo.*
+
+
 ## Charging the batteries
 
 The supplied tablet computer and camera contain **built-in non-user replaceable batteries** that allow wireless use of the 360° kit on the field.
