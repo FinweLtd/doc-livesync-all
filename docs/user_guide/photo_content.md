@@ -19,6 +19,11 @@
 
 #### Stereoscopic
 
+### Resolution
+ [comment]: <> (reasonable resolutions)
+
+#### Image formats
+
 
 In LiveSYNC the player will automatically downscale your own 360 images in the */Movies/LiveSYNC* folder to the maximum texture size allowed by the playback device, and currently you need to copy them to */Movies/LiveSYNC*, not */Pictures/LiveSYNC*.
 

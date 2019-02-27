@@ -1,6 +1,6 @@
 # 360° VIDEO STARTER KIT
 
-![Enterprise feature](../img/kit_items.png)
+![360° VIDEO Starter Kit](../img/kit_items.png)
 
 ** Starter Kit includes:  **
 

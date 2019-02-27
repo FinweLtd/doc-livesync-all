@@ -27,4 +27,24 @@ In LiveSYNC it is possible to add own tags. Make sure the icons are in **.png** 
 
  The enterprise version of LiveSYNC has a fourth tab called [**Editor**](..//user_guide/editor.md).  The Editor tab is designed for clients and industries who require an interactive annotation using hotspots and tags. This enterprise version comes with a feature to save projects, edit or reuse saved projects, add tags with title and remarks, and later export presentations as pdf format. 
  
+## Hotspot types
+
+### Note
+
+### Action
+
+### Live Hotspot
+
+### Calibration Point
+
+## Inputs
+
+## Attachments
+
+## Hotspot properties
+
+## Tags resolution
+ 
+ [comment]: <> (add link to downloadable hotspots)
+
   ![Enterprise feature](../img/enterpriseFooter.png)  
