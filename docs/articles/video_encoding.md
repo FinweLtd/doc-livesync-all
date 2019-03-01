@@ -1,7 +1,7 @@
 
 Video encoding or video transcoding is a process of converting a given video input into a digital format that is compatible with most types of web players and mobile devices. 
 
-On this article we will introduce you to an open source video transocder tool called **HandBrake**. HandBrake is a multi-Platform (Windows, Mac and Linux) tool for converting video from nearly any format to a selection of modern, widely supported codecs.
+On this article, we will introduce you to an open source video transcoder tool called **HandBrake**. HandBrake is a multi-Platform (Windows, Mac and Linux) tool for converting video from nearly any format to a selection of modern, widely supported codecs.
  
  Please follow the following steps to encode your video files. 
  
