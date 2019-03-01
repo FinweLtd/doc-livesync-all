@@ -42,6 +42,7 @@ nav:
   - Articles:
     - Index: 'articles/articles.md'
     - Understanding resolution: 'articles/resolution.md'
+    - Video encoding: 'articles/video_encoding.md'
   - FAQ:
     - Index: 'faq/faq.md'
   - Support:
