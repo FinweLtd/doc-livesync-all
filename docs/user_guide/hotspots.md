@@ -78,6 +78,12 @@ With *Action* it is possible to open/redirect to other contents by tapping on th
 
 ## Tags resolution
  
+ Make sure you use .png format for hotspots. PNG is a bitmapped image format, which just means it’s a raster image format. There are two PNG formats: PNG-8 and PNG-24. The numbers are shorthand for saying “8-bit PNG” or “24-bit PNG.” 
+ 
+ PNG-24 can handle a lot more color and is good for complex images with lots of color such as photographs (just like JPEG), while PNG-8 is more optimized for things with simple colors, such as logos and user interface elements like icons and buttons.
+ 
+ The recommended hotspot resolution for LiveSYNC is **512pixel X 512pixel**. Sample hotspot icons can be downloaded from [here](). 
+                                                                                                                          
  [comment]: <> (add link to downloadable hotspots)
 
   ![Enterprise feature](../img/enterpriseFooter.png)  
