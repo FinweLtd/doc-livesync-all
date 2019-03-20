@@ -206,7 +206,7 @@ If you dragged a 360-degree item to the presentation area, you can zoom the cont
 
 1. Put two fingers over the content in the presentation area.
 
-2. Move the fingers close to each other to zoom in, or farher away from each other to zoom out.
+2. Move the fingers close to each other to zoom in, or farther away from each other to zoom out.
 
 This will NOT zoom the content in the connected viewing devices - the audience will zoom the view by themselves, where applicable.
 
