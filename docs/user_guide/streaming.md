@@ -15,3 +15,5 @@ The JSON includes only three fields: **name**, video **url** and an optional fie
 Save the JSON file with the .videostream extension, for example, myvideo.videostream.  This works the way that LiveSYNC doesn't download the file to the memory, instead it plays it live from the Internet. 
 
 LiveSYNC works for live broadcasts, if you just copy a Vimeo or YouTube stream link to the .videostream file, then it might only work for a short period of time until the service generates new links. If so, make sure you update the link to the .videostream file with newly generated link/s. With Vimeo Pro, this is not a problem, because links are made to stay as they are just for cases like this.
+
+ [comment]: <> (Vimeo pro, how to play 3rd party videos)

@@ -10,16 +10,18 @@
 8. Once connected, on your iPad move to Player view and drag one of the default contents to Presentation view (PowerPark or Olos), it should play on all connected devices.
 
 !!! note
-    Notice that when you use your own content, you need to copy it to Director devices AND all Audience devices before you can present them..
+    Notice that when you use your own content, you need to copy it to Director devices AND all Audience devices before you can present them.
 
 
-###   In case you have connection issues try these quick fixes in order:
+###   Having connection issue?
+ **In case you have connection issues try these quick fixes in order:**
 
 1. Double check that Bluetooth is enabled and you are not in Airplane mode.
 2. Turn Bluetooth off and back on shortly after, especially on the iPad.
 3. Check that your device supports Bluetooth 4.0 (should not be possible to install from store if it doesn't).
 
-###   If your own content files do not work:
+###   Own content is not working
+**If your own content files do not work:**
 
 * Make sure to use .mp4 format videos, .jpg format photos, and .png format hotspot images.
 

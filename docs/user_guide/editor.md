@@ -5,7 +5,7 @@ The Editor tab is a feature in the Enterprise version of the LiveSYNC app. Users
 
 ## Creating/Opening a project
 
-The *Editor* is a tab in the control device, which provides persistency for tags. You can mark points-of-interest with simple passive tags or add interactive (selectable) hotspots. Such configurations can be saved as projects and used in presentations. They can also be opened again for editing, or exported as a report and sent to a colleague.
+The *Editor* is a tab in the controller device, which provides persistence for tags. You can mark points-of-interest with simple passive tags or add interactive (selectable) hotspots. Such configurations can be saved as projects and used in presentations. They can also be opened again for editing, or exported as a report and sent to a colleague.
 
 (1) Navigate to the *Editor View*
 
@@ -27,7 +27,7 @@ The *Editor* is a tab in the control device, which provides persistency for tags
  
 ## Adding/editing/removing annotations
 
-Nagivate to *Editor view* and create/open a project to add and edit annotations. 
+Navigate to *Editor view* and create/open a project to add and edit annotations. 
  
  (1) Select and drag a new tag. 
  
@@ -79,5 +79,8 @@ from top menu and Document details dialog view will appear, give document title 
 
     LiveSYNC projects are saved in [JSON format](../downloads/downloads.md#exampleprojectjson). You have access to them directly by using iTunes or you can send them through e-mail by using the export feature in LiveSYNC.
 
+## How to copy saved project to another director iPad? 
+
+[comment]: <> (What are the files you need to copy when transfering saved projects to another iPad)
 
 ![Enterprise feature](../img/enterpriseFooter.png)

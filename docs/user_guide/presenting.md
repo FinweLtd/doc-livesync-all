@@ -262,7 +262,7 @@ If you dragged a 360-degree item to the presentation area, you can zoom the cont
 
 1. Put two fingers over the content in the presentation area.
 
-2. Move the fingers close to each other to zoom in, or farher away from each other to zoom out.
+2. Move the fingers close to each other to zoom in, or farther away from each other to zoom out.
 
 This will NOT zoom the content in the connected viewing devices - the audience will zoom the view by themselves, where applicable.
 
@@ -333,7 +333,8 @@ To observe and assist audience members, follow these steps:
 
 3. If necessary, switch to *Mosaic* view and double tap a particular users' live view to make it full screen. In full-screen mode it is easier to follow another user's view. Double tap the view again to resize it back to normal size. Scroll the view vertically to see more devices.
 
-!!! It is a good idea to mark the viewing devices. You will see their LiveSYNC names listed in the video mosaic. Mark the same name, number, or color to the viewing devices so that you can recognize them easily.
+!!! tip
+    It is a good idea to mark the viewing devices. You will see their LiveSYNC names listed in the video mosaic. Mark the same name, number, or color to the viewing devices so that you can recognize them easily.
 
 ### Handling Latecomers
 

@@ -1,6 +1,6 @@
 # 360° VIDEO STARTER KIT
 
-![Enterprise feature](../img/kit_items.png)
+![360° VIDEO Starter Kit](../img/kit_items.png)
 
 ** Starter Kit includes:  **
 
@@ -19,6 +19,12 @@
 **G**. Durable carrying case
 
 **H**. Quick start guide and manuals
+
+
+<iframe src="https://player.vimeo.com/video/303020134" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+*Video not working? Click [here](https://vimeo.com/303020134) to open it in Vimeo.*
+
 
 ## Charging the batteries
 
