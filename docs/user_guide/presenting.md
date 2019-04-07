@@ -2,20 +2,19 @@
 
 ## Overview
 
-In this chapter, we discuss presenting content with LiveSYNC. The material follows the sequential phases of giving a presentation. First, we cover the preparations that often take place a few days before a presentation. Then, we discuss what happens just before, during, and after a presentation.
+In this chapter, we discuss presenting content with LiveSYNC. The material follows the sequential phases of giving a presentation. We begin from the preparations that often take place a few days before a presentation. Then, we discuss what happens just before, during, and after a presentation.
 
 ## Preparing For a Presentation
 
-Giving a presentation is usually a well-prepared situation. Many people come together to discuss, to learn, or to make decisions. Their time is valuable. As a presenter, you want to use it wisely. Moreover, preparing well for a presentation is *expected*. 
+Giving a presentation is usually a well-prepared situation. Many people come together to discuss, to learn, or to make decisions. Their time is valuable. As a presenter, you must use it wisely. Besides, preparing well for a presentation is *expected*. 
 
-Here we discuss how to prepare when you use LiveSYNC as the presentation tool. It is not much different from any presentation. Despite of different technology, the focus should still be in *communicating your message*. Presentations vary a lot. Hence, in this section we cannot provide step-by-step instructions. Instead, a number of questions is given. Finding an answer to them will take you a long way forward.
+Here we discuss how to prepare when you use LiveSYNC as the presentation tool. It is not much different from preparing for any other presentation. Despite of different technology, the focus should still be in *communicating your message*. 360-degree content can be very useful in achieving that goal. Yet, it doesn't change the basics of preparing for a presentation.
 
-!!! warning
-    LiveSYNC gives you capabilities that are kind of like *super powers*. Especially when using VR headsets, the presenter will gain almost total control of his audience's visual and auditory senses. You can also observe what other people are looking at. Don't be a villain. Use your super powers responsibly, and be respectful.
+There are many kinds of presentations. Giving a lecture in a university, demonstrating a product in a trade show, or proposing a new marketing plan in a meeting room are very different presentations. Hence, in this section we will not provide step-by-step instructions. Instead, a number of questions are given. Answering them will take you a long way forward.
 
 ### Planning
 
-The very first thing in preparing for a presentation is planning. Of course, there are many kinds of presentations. Sometimes you have the luxury of careful planning and sometimes you are invited ad-hoc to join a meeting and give a brief presentation. In any case, your presentation will be much more successful if you build a good routine in preparing. Here are some questions to consider:
+The very first thing in preparing for a presentation is planning. The amount of time available for planning varies. Sometimes you have the luxury of careful planning and sometimes you are invited ad-hoc to join a meeting and give a brief presentation. In any case, your presentation will be much more successful if you build a good routine for preparing. Here are some questions to consider:
 
 1. **Goal**
 
@@ -35,7 +34,7 @@ The very first thing in preparing for a presentation is planning. Of course, the
 
 5. **Content**
 
-    How do you turn your outline into a logically progressing story? What kind of content communicates your message in each point - a slide, an image, a video? When will 360-degree material help and when you should stick to 2D content? What benefit will the feeling of *being there* bring? How can you make use of human's spatial memory? How will you use drag'n drop tags to focus attention or to annotate things? What about interactivity?
+    How do you turn your outline into a logically progressing story? What kind of content communicates your message in each point - a slide, an image, a video? When will 360-degree material help and when you should stick to 2D content? What benefit will the feeling of *being there* bring? How can you make use of human's spatial memory with 360-degree material? How will you use drag'n drop tags to focus attention or to annotate things? What about interactivity?
 
 6. **Technology**
 
@@ -43,7 +42,10 @@ The very first thing in preparing for a presentation is planning. Of course, the
 
 7. **Feedback**
 
-    How can you collect feedback? What the audience thought about your presentation? What did they learn? Did you made an impact? Did they decide to change their behavior after the presentation? In what way? Would they recommend what you proposed for their friends or colleagues?
+    How can you collect feedback? Casually asking afterwards? Formal questionnaire via email? What will you ask? What the audience thought about your presentation? What did they learn? Did you make an impact? Did they decide to change their behavior after the presentation? In what way? Would they recommend what you proposed for their friends or colleagues?
+
+!!! warning
+    LiveSYNC gives you capabilities that are kind of like *super powers*. Especially when using VR headsets, the presenter will gain almost total control of his audience's visual and auditory senses. You can also observe what other people are looking at. Don't be a villain. Use your super powers responsibly, and be respectful.
 
 ### Material
 
@@ -66,7 +68,7 @@ Once the material is ready, consider what kind of devices are needed for present
 
 1. Who owns the devices? Should each member of the audience bring their own phones? Can you buy or borrow a set of devices? What is your hardware budget? Or will you loan them your own personal devices?
 
-2. Do you have enough devices? Can they view the content individually or must they share the devices and take turns? What if more people show up than you expected?
+2. Do you have enough devices? Can they view the content individually or must they share the devices and take turns? What if more people than you expected show up?
 
 3. What type of devices are best suited - phones, tablets, or VR headsets? If you need to buy hardware, which platform, brand and model? How familiar are you and your audience in using them?
 
@@ -76,40 +78,40 @@ Once the material is ready, consider what kind of devices are needed for present
 
 ### Configuring
 
-Configuring the devices is quick but an important step. It is explained in detail [here](configuration.md). Here are some things to consider:
+Configuring the devices is quick but an important step. It is explained in detail [here](configuration.md). Some things to consider:
 
-- How to identify the devices? Will you give each device a name or will the audience use their own names? How about color coding the devices and using colors as names? Or, if you have lots of device, numbers?
+- How to identify the devices during the presentation? Will you give each device a name or will the audience use their own names? How about color coding the devices and using colors as names? Or, if you have lots of devices, maybe numbers?
 
 - Which communication type to use between the control device and the viewing devices? Bluetooth or GlobalSYNC?
 
-- If the audience is suppose to use their own devices, how do you handle channel configuration? Will you show them the channel number to join on the big screen? Will you use your own device as an example and do a configuration live using the big screen?
+- If the audience is supposed to use their own devices, how do you handle channel configuration? Will you show them the channel number to join on the big screen? Will you use your own device as an example and do a configuration live using the big screen?
 
 !!! note
     You cannot freely choose the channel number. You are given a random free number when you configure the control device. You can request another one, but not input your own number.
 
 ### Copying Assets
 
-Copying your presentation's assets takes some time and cannot be done before you get access to the devices. It is explained in detail [here](asset_management.md). Here are some tips:
+Copying your presentation's assets takes some time and cannot be done before you get access to the devices. It is explained in detail [here](asset_management.md). Also consider these tips:
 
 - Prepare a *master directory* for your content on your computer. This directory should contain only those files that you need to copy to the devices.
 
 - Install the necessary applications on your computer in advance. Get familiar with transferring files to your target devices.
 
-- Measure the time that it takes to copy *your* assets to the target devices. Then calculate what is the minimum time you need for copying assets for all devices. Consider if you need help and more equipment.
+- Measure the time that it takes to copy *your* assets to the target devices. Then calculate what is the minimum time you need for copying assets for all devices and compare to the time that is available. Consider if you need help.
 
 ### Rehearsing
 
-Everyone enjoys a presentation that goes smoothly as planned. Rehearsing is the key to success. Learn your material and learn to use LiveSYNC well in advance. If you use personal viewing devices, rehearse with friends, family or colleagues as your audience. You will quickly see in which parts they need help, how long they want to explore a particular 360-degree photo, etc. 
+Everyone enjoys a presentation that goes smoothly. Rehearsing is the key to success. Study your material and become familiar with LiveSYNC as a tool well in advance. If you use personal viewing devices, rehearse with friends, family or colleagues as your audience. You will quickly see in which parts they need help, how long they want to explore a particular 360-degree photo, etc. 
 
 !!! note
     Don't be afraid to revise your presentation at this step. Often you need to make it more compact by leaving out material. Remember, less is more! It is much better if you leave your audience hungry for more than bored.
 
 !!! note
-    Once you are ready, remember to recharge the batteries of all devices. Then turn them off for transporting.
+    Once you are ready, remember to recharge the batteries of all devices. Then turn them off for transporting to the target location.
 
 ## Before a Presentation
 
-The time just before a presentation is often tense and nervous - even scary. Also experienced performers feel stressed. While this is a fact of life, there is a few things you can do:
+The time just before a presentation is often tense and nervous - even scary. Also experienced performers feel stressed. While this is a fact of life, there are a few things you can do:
 
 - Come early and reserve enough time to set up everything. Both technology and people tend to surprise us in various ways. Extra time will help you get familiar with the location, the equipment, and the staff. You will feel more confident during your presentation.
 
@@ -123,28 +125,78 @@ When you get the chance to set up your equipment for the presentation, begin the
 
 1. Turn on your control device. Start the LiveSYNC app.
 
-2. Turn on the big screen device. Connect your control device to the big screen e.g. via an HDMI cable. If you are using an Apple device, there's an adapter for that. Once the cable is connected, a screen mirroring icon appears in the control device's title bar.
+    ![Presenting](img/presenting_bigscreen_step_1.jpg)
 
-3. Ensure that the screen from your control device is mirrored to the big screen. If necessary, select a different HDMI input from the projector. If you have trouble getting a picture, try removing the cable, wait a few seconds, and reconnect it.
+2. Turn on the big screen device and select correct video input, e.g. HDMI 1. The device begins to wait for video signal. Connect your control device to the big screen e.g. via an HDMI cable. If you are using an Apple device, there's an adapter for that. Once the cable is connected, the whole screen of your control device appears on the big screen.
 
-4. Once you get picture, check your screen mirroring configuration in LiveSYNC. Navigate to *Settings* screen and *Director* page. Check *Screen mirroring mode*. Depending on whether you want to mirror the presentation view or the whole screen, select *Presentation* or *Mirroring*.
+    ![Presenting](img/presenting_bigscreen_step_2.jpg)
 
-5. Before leaving the *Settings* screen, decide if you want that your touches will be visualized on the big screen. This will help the audience understand *why* things happen when they don't see your fingers touching the tablet. Enable *Show touches* if necessary.
+    !!! tip
+        If you have trouble getting a picture, try removing the cable, wait a few seconds, and reconnect it. Also, check that correct video input is selected.
+
+    ![Presenting](img/presenting_bigscreen_step_2b.png)
+
+    !!! tip
+        On Apple devices, you need the [Lightning Digital AV Adapter](https://www.apple.com/shop/product/MD826AM/A/lightning-digital-av-adapter). This is shown in a picture above. 
+        
+        Notice that the adapter has also a female Lightning jack. You can connect a charging cable here and continue charging your device while you are using the big screen.
+
+3. From the *Home* screen, select a channel that you want to control. Navigate to *Player* tab using the bottom navigation bar. Initially, only a background image is shown on the big screen. On the control device, drag any content to the presentation area. The playback begins on the control device, and the content also appears on the big screen.
+
+    ![Presenting](img/presenting_bigscreen_step_4.jpg)
+
+    !!! note
+        This is how the *Presentation* mode works. It is the default configuration and recommended for normal use.
+        
+    !!! tip
+        If you want to share the view of one of the audience devices to the big screen, switch to *Mosaic* tab and double tap that device's view to make it full screen.
+
+4. Notice the small TV icon in the top bar. It is only visible when a connection to a big screen device is active. Tapping the icon switches between *Presentation* and *Mirroring* modes. In the latter mode, the whole screen is mirrored. Observe the difference on the big screen.
+
+    ![Presenting](img/presenting_bigscreen_step_5.jpg)
+
+5. If you need to show the audience what you do with the LiveSYNC app, switch to *Mirroring* mode. Notice how your touches on the control device are visualized as white dots on the big screen.
+
+    ![Presenting](img/presenting_bigscreen_step_6.jpg)
+
+    !!! tip
+        This mode is very useful when training other people to use the LiveSYNC app.
+
+6. You can change the default mode from settings. Navigate to *Settings* screen and *Director* page. Check *Screen mirroring mode*. Depending on whether you want to mirror the presentation view or the whole screen by default, select either *Presentation* or *Mirroring*.
+
+    ![Presenting](img/presenting_bigscreen_step_3.jpg)
+
+    You can also select if you want that your touches are visualized on the screen. This will help the audience understand *why* things happen when they don't see your fingers. Enable *Show touches* if necessary.
+
 
 ### Connecting to Room Audio
 
-If you use room audio, connect your control device's audio output next:
+Often presentation material contains *sound*. This can be for example the sound track of a video clip or a recorded voice message in an audio hotspot.
 
-1. Plug a 3.5mm audio cable to your tablet's headphone connector.
+As a presenter, you must choose a method for audio playback. Some devices make this easy as they have built-in audio. For example, TVs and Oculus Go headsets have built-in speakers. Some viewing devices do not have speakers, their audio quality is poor, or it is not loud enough considering the room size or background noise level. 
 
-2. Adjust volume from you tablet to a reasonable level.
+In such a case, you may want to use *room audio*. Typically meeting rooms, conference venues, etc. are equipped with a powerful audio system. You need to find how to turn it on, connect your control device to it, select correct audio source, and adjust volume. 
 
-3. Check that audio can be heard via room audio system.
+![Presenting](img/presenting_room_audio.jpg)
 
-Alternatively, you may connect the big screen's audio system to it. HDMI cable carries also sound, but not all systems support it.
+If you decide to use room audio, follow the steps below:
 
-!!! note
-    If possible, check the control device's and audio system's volume levels using material that has the loudest passages. Everyone hates to hear the sound crackling.
+1. Plug a 3.5mm stereo audio cable to your control device's headphone jack. The connector of the cable looks similar to the connector of a typical headphone cable.
+
+    !!! note
+        If you are using a big screen device, you may not need to use a separate audio cable for sound. HDMI cable carries also audio. The big screen device may have a powerful audio system or it may have been connected to room audio system. This is the best option, so check it first.
+
+2. Check that audio can be now heard via the room audio system. For example, play some music with the control device's audio player. Notice that the control device's own speakers are muted the 3.5mm connector is plugged in.
+
+    If you cannot hear the sound, check that the room audio system is turned on, correct input is selected, cable connected, and volume turned on / not muted in the control device and the room audio system.
+
+3. Adjust the sound volume of your control device to a reasonable level. Phones and tablets usually have physical volume buttons on the side.
+
+!!! tip
+    If possible, check the volume levels using presentation material that has the loudest passages. Everyone hates to hear the sound crackling.
+
+!!! tip
+    To avoid routing a long cable from the room audio system to the presenter's podium, consider adding an extra viewing device. Place it near the room audio system and use a short cable to connect audio. The viewing device needs to join the presentation channel just like any other viewing device. Nobody is *looking* at the screen of this device, but it will still play all the content. Thus, it can be used as an audio source for the room audio system.
 
 ### Connecting to Viewing Devices
 
@@ -152,9 +204,13 @@ If you use personal viewing devices, connect them to your control device. This a
 
 1. On your control device, start the LiveSYNC app. From the *Home* screen, select a channel that you want to use. The *Mosaic* view appears. The control device is now waiting for viewing devices to join the channel.
 
+    ![Presenting](img/presenting_connect_step_1.jpg)
+
 2. On each of your viewing devices, start the LiveSYNC app. From the *Home* screen, select the same channel that you selected on the control device. The *Lobby* view appears. The viewing device is now looking for the control device. It will attempt to join the specified channel.
 
 3. Connections are created one by one. Live views from the viewing devices appear in the control device's *Mosaic* view. Wait until all connections are established and you have a live view from each viewing device.
+
+    ![Presenting](img/presenting_connect_step_3.jpg)
 
 *Connected devices appear in the *Mosaic* view. It is easy to observe what every member of the audience is looking at and guide them if necessary*.
 
