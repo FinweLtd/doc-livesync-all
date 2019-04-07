@@ -16,8 +16,8 @@ The supported device types and the availability of the VR mode are summarized be
 
 Platform | Device Type | VR Mode
 ---------|-------------|--------
-iOS | iPhone, and iPad | Selectable on iPhone, N/A on iPad
-Android | Phones, and tablets | Selectable on phones, N/A on tablets
+iOS | iPhone and iPad | Selectable on iPhone, N/A on iPad
+Android | Phones and tablets | Selectable on phones, N/A on tablets
 Oculus | VR headset | Always on
 
 !!! example
@@ -33,7 +33,7 @@ Oculus | VR headset | Always on
 
 The LiveSYNC app is installed to a device via the platform's own app store. On iOS it is **Apple iTunes AppStore**, on Android, it is **Google Play Store**, and on Oculus it is **Oculus Store**. The app version that is publicly available for everyone is called *the store version*. This is the recommended version for most users.
 
-LiveSYNC is continuously being developed further. New features are added and previous ones improved. Feedback from users is essential. Thus, new features are made first available via beta channels. Users who wish to try out new things and provide feedback can choose to install *the beta version* instead.
+LiveSYNC is continuously being developed further. New features are added and existing ones improved. Feedback from users is essential. Thus, new features are made first available via beta channels. Users who wish to try out new things and provide feedback can choose to install *the beta version* instead.
 
 Installing the beta version is only slightly different than installing the store version. Instructions are given separately for both later in this chapter.
 
@@ -67,7 +67,7 @@ Platform | Store version | Beta version
 ---------|---------------|-------------
 iOS | Audience & Director | Audience & Director
 Android | Audience | Audience & Director
-Oculus | N/A | Audience
+Oculus | Audience | Audience
 
 !!! note
     In a presentation, you can freely mix all kinds of devices. For example, an iOS tablet can control a mix of iOS phones & tablets, Android phones & tablets, GearVR headsets, and Oculus Go headsets. Some of the phones can be in VR mode and some not.
@@ -248,8 +248,123 @@ The store version is the official release version of the LiveSYNC app. It is ava
 
 ### Oculus
 
-!!! info
-    LiveSYNC has not officially launched on the Oculus platform yet. However, you can start using it already by installing it from our [beta channel](installing.md#oculus_2).
+!!! note
+    Oculus has decided to use the *Oculus Keys* distribution mechanism for this app, similar to many other utility apps. It means that the app is not visible for your Oculus account in the Oculus Store until you unlock it with a 25-character key. After unlocking the app appears in the Store and can be installed as many times as you want. The key is personal, works only for the LiveSYNC app, and can be used only once. You can get it from Finwe for FREE.
+
+!!! tip
+    If you are familiar with installing apps on Oculus, you can use these direct links:
+    
+    Get a FREE Oculus Key for unlocking the LiveSYNC app:
+    
+    <http://keys.livesync.app>
+
+    Unlock the LiveSYNC app by redeeming your Oculus Key:
+    
+    <https://secure.oculus.com/redeem-code/>
+    
+    Then, install the LiveSYNC app from the Oculus Store as usual:
+     
+    <https://www.oculus.com/experiences/go/1853395568040734>
+
+!!! tip
+    Read our [full step-by-step tutorial](../tutorials/oculus_go_device.md) about Oculus Go headset and learn how to use it with LiveSYNC.
+
+Follow the instructions below to install *the store version* of the LiveSYNC app on your Oculus Go headset or GearVR compatible phone. The instructions are written for Oculus Go. When something differs for GearVR, it is mentioned.
+
+**Option A: Watch a video installation guide**
+
+TODO
+
+**Option B: Use the wizard in the Android version**
+
+If you have already installed LiveSYNC for your Android phone/tablet, we recommend using the wizard inside this app.
+
+1. Start the LiveSYNC app on your Android device. You will enter the *Home* screen. Notice the top bar. On the right side, you will find text that indicates the current license status. Tap the cogwheel next to it.
+ 
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_0.jpg)
+
+2. The *Settings* screen opens. Select *Keys* page from the left side menu. The wizard will load the introduction page. Click the *Redeem Code* link to begin.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_1.jpg)
+
+3. If you haven't used the wizard before on this device, you have probably not logged in yet. Click the *Go to Login* button to go to Oculus login page.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_2.jpg)
+
+4. If you have a Facebook account, you can use that for logging in. Else, click *Sign in*.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_3.jpg)
+
+5. Log in using your Oculus account credentials. If you have multiple Oculus accounts, log in with the one that you use on the target headsets.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_4.jpg)
+
+6. After logging in the *Redeem Code* page loads. Click the *Get Code* button above the page to retrieve a personal Oculus key from Finwe's cloud service. This will take a few seconds.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_5.jpg)
+
+7. Next, you need to enter the key code to Oculus' input field. The easiest solution is to click the *Auto Fill* button, which will enter the code. You can also click *Copy* button and then paste the code to the text box, or click *Type* button and input the code by typing with software keyboard. Click *Redeem* button to use the code.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_6.jpg)
+
+8. After the key has been redeemed, click the *Store Page* button to load the app's store page.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_8.jpg)
+
+9. Turn on your Oculus devices. Then click the *Free* button to install the LiveSYNC app automatically on all Oculus devices that are using this same Oculus account.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_9.jpg)
+
+10. Once completed, the button will read *Purchased*. Notice that despite of the text, the LiveSYNC app for Oculus is FREE.
+
+    ![Oculus Install Wizard](img/install_oculus_wizard_step_10.jpg)
+
+11. Go to your Oculus device and start *LiveSYNC* by selecting it from the apps grid. (On GearVR, you can start the app from the Oculus app on your phone, or you can first enter VR and then start it from the Oculus Home.)
+
+    ![LiveSYNC splash](../tutorials/img/livesync_splash.png)
+
+**Option C: Follow the steps described below**
+
+Notice that the installation can be triggered either via the accompanying Oculus app on your phone (outside VR) or via Oculus Home (inside VR). We will cover both methods.
+
+1. Installing apps via *Oculus Keys* distribution requires *a 25-character key*. You can get your personal key for unlocking the LiveSYNC app for FREE from here:
+
+    <http://keys.livesync.app>
+
+    ![Get Oculus Key](img/install_oculus_get_key.png)
+    
+    !!! note
+    
+        You will need only one key for unlocking the app for one Oculus account. Notice that you can use the same Oculus account on multiple headsets. For example, if you have 8 Oculus Go headsets, you can use a single account on all of them. Thus, typically you need to get and redeem only one key. The website allows retrieving multiple keys, but there is a time lock to prevent abuse.
+
+2. Next, redeem your Oculus key for the LiveSYNC app. There are multiple options, but perhaps the easiest is to use Oculus' website. Open the following link in a web browser, log in with your Oculus account, and copy-paste your key to redeem it:
+
+    <https://secure.oculus.com/redeem-code/>
+
+    ![Get Oculus Key](img/install_oculus_redeem_key.png)
+
+    !!! note
+    
+        Other options for redeeming an Oculus key are explained here:
+    
+        <https://support.oculus.com/2173343572940225/>
+
+3. After redeeming the key you have multiple options on how to install the application:
+
+    1. Using the Oculus app on your phone: tap the magnifier glass icon to open search, type *livesync* and select *LiveSYNC*, then click *Install on ...* button.
+    ![Install via phone, search](../tutorials/img/livesync_install_via_phone.png)
+    2. You can also select *Library* tab from the bottom bar and see if *LiveSYNC* already appears in the apps list (GearVR: check *Not Installed* tab). Select it from the list and then click *Install on ...* button.
+    ![Install via phone, library](../tutorials/img/livesync_install_via_phone_2.png)
+    3. Using the Oculus Go / GearVR headset, select *Search* from the bottom bar, type *livesync*, select *LiveSYNC*, then click *Get*.
+    ![Install via headset, search](../tutorials/img/livesync_install_via_headset.jpg)
+    4. You can also select *Library* tab from the bottom bar and then *Not Installed* page from the left side menu to see if *LiveSYNC* already appears in the apps list. Select it from the list and then click *Get*.
+    ![Install via headset, library](../tutorials/img/livesync_install_via_headset_2.jpg)
+
+4. When the installation has completed you will find *LiveSYNC* listed in the apps grid: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu (GearVR phone: *My Apps* tab from the top menu).
+
+5. Start *LiveSYNC* by selecting it from the apps grid. (On GearVR, you can start the app from the Oculus app on your phone, or you can first enter VR and then start it from the Oculus Home.)
+
+    ![LiveSYNC splash](../tutorials/img/livesync_splash.png)
 
 ## Installing the Beta Version
 
@@ -376,17 +491,17 @@ Notice that the installation can be triggered either via the accompanying Oculus
 
 4. After accepting the invite you have multiple options on how to install the application:
 
-    1. Using the Oculus app on your phone: tap the magnifier glass icon to open search, type *livesync* and select *LiveSYNC Oculus Go*, then click *Install on ...* button.
+    1. Using the Oculus app on your phone: tap the magnifier glass icon to open search, type *livesync* and select *LiveSYNC*, then click *Install on ...* button.
     ![Install via phone, search](../tutorials/img/livesync_install_via_phone.png)
-    2. You can also select *Library* tab from the bottom bar and see if *LiveSYNC Oculus Go* already appears in the apps list (GearVR: check *Not Installed* tab). Select it from the list and then click *Install on ...* button.
+    2. You can also select *Library* tab from the bottom bar and see if *LiveSYNC* already appears in the apps list (GearVR: check *Not Installed* tab). Select it from the list and then click *Install on ...* button.
     ![Install via phone, library](../tutorials/img/livesync_install_via_phone_2.png)
-    3. Using the Oculus Go / GearVR headset, select *Search* from the bottom bar, type *livesync*, select *LiveSYNC Oculus Go*, then click *Get*.
+    3. Using the Oculus Go / GearVR headset, select *Search* from the bottom bar, type *livesync*, select *LiveSYNC*, then click *Get*.
     ![Install via headset, search](../tutorials/img/livesync_install_via_headset.jpg)
-    4. You can also select *Library* tab from the bottom bar and then *Not Installed* page from the left side menu to see if *LiveSYNC Oculus Go* already appears in the apps list. Select it from the list and then click *Get*.
+    4. You can also select *Library* tab from the bottom bar and then *Not Installed* page from the left side menu to see if *LiveSYNC* already appears in the apps list. Select it from the list and then click *Get*.
     ![Install via headset, library](../tutorials/img/livesync_install_via_headset_2.jpg)
-5. When the installation has completed you will find *LiveSYNC Oculus Go* listed in the apps grid: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu (GearVR phone: *My Apps* tab from the top menu).
+5. When the installation has completed you will find *LiveSYNC* listed in the apps grid: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu (GearVR phone: *My Apps* tab from the top menu).
 
-6. Start *LiveSYNC Oculus Go* by selecting it from the apps grid. (On GearVR, you can start the app from the Oculus app on your phone, or you can first enter VR and then start it from the Oculus Home.)
+6. Start *LiveSYNC* by selecting it from the apps grid. (On GearVR, you can start the app from the Oculus app on your phone, or you can first enter VR and then start it from the Oculus Home.)
 
     ![LiveSYNC splash](../tutorials/img/livesync_splash.png)
 
