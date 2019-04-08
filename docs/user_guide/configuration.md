@@ -171,7 +171,76 @@ Follow the steps below to configure your device to the audience role:
 
 ### Oculus
 
-TODO
+In a device group, all but one device must be configured to the audience role. These devices are often Oculus Go or GearVR headsets. The configuration is very similar on both headset types.
+
+Follow the steps below to configure your device to the audience role:
+
+1. Start the LiveSYNC app. The *Home* screen appears. Initially, channel configurations do not exist. To create a new channel configuration, point at the big (+) button and click the selection button.
+
+    ![Cover](img/config_oculus_audience_step_1.png)
+
+2. The *Setup* screen appears. First, point and click the *Audience* button to select the audience role. Your selection is marked by underlining it, as in the image below.
+
+    ![Cover](img/config_oculus_audience_step_2.png)
+
+3. Point and click *Next* button on the right to proceed.
+
+    ![Cover](img/config_oculus_audience_step_3.png)
+
+    !!! note
+        You can navigate through the setup pages by clicking the *Next* and *Prev* buttons.
+        
+        Your input is validated on each page. You cannot proceed to the next page before your input is accepted. If you return to the first page and change the role, your input to the other pages will be cleared.
+        
+        If you want to cancel channel configuration, keep clicking the *Prev* button on the left (or the *Back* button in the hand remote / GearVR headset) until a confirmation dialog appears. Then answer *OK*.
+
+4. Other users can identify you by your LiveSYNC name. This can be for example your own name, a name that you have given to your device, or your device's model name. The name cannot be left empty. Its maximum length is 32 characters. Click the text field to open a virtual keyboard and type a name. Then click *Next* to proceed.
+
+    ![Cover](img/config_oculus_audience_step_4.png)
+
+5. Communication between the control device and viewing devices uses a wireless connection. The currently available connection types are listed. Choose a connection type that you wish to use. **The director device and the audience devices must use the same connection type**. Click *Next* to proceed.
+
+    ![Cover](img/config_oculus_audience_step_5.png)
+
+    !!! note
+        A connection type may be temporarily unavailable. If so, it is marked as *Not available* in the list. Click the info button (i) next to it to learn why it is not available. As an example, you may need to enable Wifi or Bluetooth feature from the device's settings. Click *Refresh* button to update the list after fixing the issue.
+
+    ![Cover](img/config_oculus_audience_step_5c.png)
+    ![Cover](img/config_oculus_audience_step_5d.png)
+
+6. Devices using the same connection type and the same channel can exchange messages. Devices on a different channel will not see them. Click the text field to type a channel number. Use the same channel number that you configured to your control device. The channel numbers are in the range 1000-9999. Click *Next* to proceed.
+
+    ![Cover](img/config_oculus_audience_step_6.png)
+
+7. A dialog appears to ask your permission to access the files on your device. Without permission, the app cannot create the directory where your assets will go. Also, it cannot read from this directory even if you create it manually. Click *Allow* to give file access permission.
+
+    ![Cover](img/config_oculus_audience_step_7.png)
+
+8. The channel configuration is almost complete. This setup page reminds you that the presentation's assets must be copied to the device. This task will be covered in detail in the next chapter [Managing assets](asset_management.md). You can copy the assets in place now, but you can also do that after completing the setup phase. Click *Next* to proceed.
+
+    ![Cover](img/config_oculus_audience_step_8.png)
+
+9. The channel configuration is now created and the setup phase has been completed. Click *OK* to return to the *Home* screen.
+
+    ![Cover](img/config_oculus_audience_step_9.png)
+
+    !!! note
+        Channel configurations are stored to your device's permanent memory. Closing the app or powering off the device will not make them disappear. They will also survive updating the app to the latest version. Not so if you reinstall the app. For example, to change between the store version and the beta version. Then, the channel configurations will be lost and you need to re-create them. 
+
+10. Your new channel configuration now appears on the *Home* screen. If you create many channel configurations, click arrow buttons on the left or right to find the one you wish to use (they will appear when the page is full).
+
+    ![Cover](img/config_oculus_audience_step_10.png)
+
+11. If you wish to edit an existing channel configuration, point at it. This will bring its editing controls in the view. Click the cog wheel to return to the *Setup* screen where you can edit the configuration. Click the cross to delete the channel configuration. Point at anywhere else to hide the editing controls.
+
+    ![Cover](img/config_oculus_audience_step_11.png)
+
+12. If you point at a channel configuration and then click the cross button, a confirmation dialog is shown. Select *OK* to permanently delete the channel configuration.
+
+    ![Cover](img/config_oculus_audience_step_12.png)
+
+    !!! warning
+        This action cannot be undone. Once you confirm removing a channel configuration, it is gone. You have to re-create it from scratch to get it back.
 
 ## Configuration Tips
 

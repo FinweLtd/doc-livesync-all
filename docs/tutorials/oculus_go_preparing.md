@@ -13,24 +13,48 @@ As a reminder, presenting with the LiveSYNC tool works as follows:
 ### Channel configuration
 
 !!! note
-    Here we assume that you have already set up a channel in Director Mode on your control device (tablet). As an example, we will use channel number *5034*. Refer to [User Guide](../user_guide/configuration.md) for more information.
+    Here we assume that you have already set up a channel in Director Mode on your control device (tablet). As an example, we will use channel number *6942*. Refer to [User Guide](../user_guide/configuration.md) for more information.
 
 To view a presentation, the headset must join the same channel that the control device is using. Follow these steps to configure a new presentation channel to your Oculus Go headset:
 
-1. On your Oculus Go device, start the LiveSYNC app, and select '+' from the *Home* screen. Point it with the hand remote controller and click the controller's selection button.
+1. Start the LiveSYNC app. The *Home* screen appears. Initially, channel configurations do not exist. To create a new channel configuration, point at the big (+) button and click the selection button.
 
-    ![LiveSYNC Home](img/livesync_home_empty.png)
+    ![Cover](../user_guide/img/config_oculus_audience_step_1.png)
 
-2. Type in the channel number using the virtual numeric keypad, and click *OK*.
+2. The *Setup* screen appears. First, point and click the *Audience* button to select the audience role. Your selection is marked by underlining it, as in the image below. Point and click *Next* button on the right to proceed.
 
-    ![LiveSYNC Channel Editor](img/livesync_channel_input.png)
+    ![Cover](../user_guide/img/config_oculus_audience_step_2.png)
 
-3. The configured channel appears on the *Home* screen.
+3. Other users can identify you by your LiveSYNC name. This can be for example your own name, a name that you have given to your device, or your device's model name. The name cannot be left empty. Its maximum length is 32 characters. Click the text field to open a virtual keyboard and type a name. Then click *Next* to proceed.
 
-    ![LiveSYNC Home](img/livesync_home_with_channel.png)
+    ![Cover](../user_guide/img/config_oculus_audience_step_4.png)
+
+4. Communication between the control device and viewing devices uses a wireless connection. The currently available connection types are listed. Choose a connection type that you wish to use. **The director device and the audience devices must use the same connection type**. Click *Next* to proceed.
+
+    ![Cover](../user_guide/img/config_oculus_audience_step_5.png)
+
+5. Devices using the same connection type and the same channel can exchange messages. Devices on a different channel will not see them. Click the text field to type a channel number. Use the same channel number that you configured to your control device. The channel numbers are in the range 1000-9999. Click *Next* to proceed.
+
+    ![Cover](../user_guide/img/config_oculus_audience_step_6.png)
+
+7. A dialog appears to ask your permission to access the files on your device. Without permission, the app cannot create the directory where your assets will go. Also, it cannot read from this directory even if you create it manually. Click *Allow* to give file access permission.
+
+    ![Cover](../user_guide/img/config_oculus_audience_step_7.png)
+
+8. The channel configuration is almost complete. This setup page reminds you that the presentation's assets must be copied to the device. This task will be covered in detail in the next chapter [Managing assets](asset_management.md). You can copy the assets in place now, but you can also do that after completing the setup phase. Click *Next* to proceed.
+
+    ![Cover](../user_guide/img/config_oculus_audience_step_8.png)
+
+9. The channel configuration is now created and the setup phase has been completed. Click *OK* to return to the *Home* screen.
+
+    ![Cover](../user_guide/img/config_oculus_audience_step_9.png)
+
+10. Your new channel configuration now appears on the *Home* screen. If you create many channel configurations, click arrow buttons on the left or right to find the one you wish to use (they will appear when the page is full).
+
+    ![Cover](../user_guide/img/config_oculus_audience_step_10.png)
 
 !!! tip
-    If you have multiple control devices (tablets), you can configure a separate channel for each by repeating the steps 1-3. This way you can easily choose which channel number to join ie. whose presentation to follow.
+    If you have multiple control devices (tablets), you can configure a separate channel for each by repeating the steps above. This way you can easily choose which channel number to join ie. whose presentation to follow.
 
 !!! example
     Joan's marketing team is participating in a trade show. Their company is launching a new product. Joan's team is using a 360-degree video to showcase it at their booth. They are controlling six Oculus Go headsets with LiveSYNC. To reduce waiting time, they run two groups of three headsets in parallel. The groups are controlled with two iPads. When one of the representatives needs a break, they will temporarily connect all headsets to one iPad. Their iPads are using channels 2054 and 5039. Joan configures both channels to all six headsets. Now they can quickly swap a headset from one iPad to the other.

@@ -89,34 +89,47 @@ After calibration and first time use tutorial you will enter *Oculus Home*. Here
 
 Once you feel familiar with Oculus Go, it is time to install the LiveSYNC app. The installation can be triggered either via the accompanying Oculus app on your phone (outside VR) or via Oculus Home (inside VR).
 
-!!! info
-    LiveSYNC has not officially launched on Oculus platform yet. However, you can start using it already by installing it from our beta channel. Follow the steps below.
+!!! note
+    Check out the built-in setup wizard in the Android version. The wizard guides you through the whole process with a few clicks. Using the wizard is described in the [LiveSYNC User Guide](../../user_guide/installing/#oculus_1) (Option B).
 
-1. Check your Oculus username and email. Start the Oculus accompanying app on your phone, navigate to *Settings*, and find the username and email (see the image below):
+1. Installing apps via *Oculus Keys* distribution requires *a 25-character key*. You can get your personal key for unlocking the LiveSYNC app for FREE from here:
 
-    ![Username and email](img/screenshot_oculus_go_3.png)
+    <https://keys.livesync.app>
 
-2. Installing software from Oculus beta channel requires *an invite*. [Contact us](../support/support.md) and tell that you want to join LiveSYNC beta channel for Oculus Go. **We need the email address from Step 1 to be able to add you**. This cannot be just one of your email addresses; it has to be the one that is connected with your Oculus account.
+    ![Get Oculus Key](../user_guide/img/install_oculus_get_key.png)
+    
+    !!! note
+    
+        You will need only one key for unlocking the app for one Oculus account. Notice that you can use the same Oculus account on multiple headsets. For example, if you have 8 Oculus Go headsets, you can use a single account on all of them. Thus, typically you need to get and redeem only one key. The website allows retrieving multiple keys, but there is a time lock to prevent abuse.
 
-3. Once you receive an invite email from Oculus to that email address, accept the invite by clicking a confirmation link in the email. Notice that we must send each invite manually, so it can take a while before the email arrives.
+2. Next, redeem your Oculus key for the LiveSYNC app. There are multiple options, but perhaps the easiest is to use Oculus' website. Open the following link in a web browser, log in with your Oculus account, and copy-paste your key to redeem it:
 
-    ![Invite email](img/screenshot_invite_email.png)
+    <https://secure.oculus.com/redeem-code/>
 
-4. After accepting the invite you have multiple options how to install the application:
+    ![Get Oculus Key](../user_guide/img/install_oculus_redeem_key.png)
 
-    1. Using the accompanying Oculus app on your phone: tap the magnifier class icon to open search, type *livesync* and select *LiveSYNC Oculus Go*, then click *Install on ...* button.
-    ![Install via phone, search](img/livesync_install_via_phone.png)
-    2. You can also select *Library* tab from the bottom bar and see if *LiveSYNC Oculus Go* already appears in the apps list. Select it from the list and then click *Install on ...* button.
-    ![Install via phone, library](img/livesync_install_via_phone_2.png)
-    3. Using the Oculus Go device, select *Search* from the bottom bar, type *livesync*, select *LiveSYNC Oculus Go*, then click *Get*.
-    ![Install via headset, search](img/livesync_install_via_headset.jpg)
-    4. You can also select *Library* tab from the bottom bar and then *Not Installed* page from the left side menu to see if *LiveSYNC Oculus Go* already appears in the apps list. Select it from the list and then click *Get*.
-    ![Install via headset, library](img/livesync_install_via_headset_2.jpg)
-5. When the installation has completed you will find *LiveSYNC Oculus Go* listed in the apps grid: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu.
+    !!! note
+    
+        Other options for redeeming an Oculus key are explained here:
+    
+        <https://support.oculus.com/2173343572940225/>
 
-6. Start *LiveSYNC Oculus Go* by selecting it from the apps grid.
+3. After redeeming the key you have multiple options on how to install the application:
 
-    ![LiveSYNC splash](img/livesync_splash.png)
+    1. Using the Oculus app on your phone: tap the magnifier glass icon to open search, type *livesync* and select *LiveSYNC*, then click *Install on ...* button.
+    ![Install via phone, search](../tutorials/img/livesync_install_via_phone.png)
+    2. You can also select *Library* tab from the bottom bar and see if *LiveSYNC* already appears in the apps list (GearVR: check *Not Installed* tab). Select it from the list and then click *Install on ...* button.
+    ![Install via phone, library](../tutorials/img/livesync_install_via_phone_2.png)
+    3. Using the Oculus Go / GearVR headset, select *Search* from the bottom bar, type *livesync*, select *LiveSYNC*, then click *Get*.
+    ![Install via headset, search](../tutorials/img/livesync_install_via_headset.jpg)
+    4. You can also select *Library* tab from the bottom bar and then *Not Installed* page from the left side menu to see if *LiveSYNC* already appears in the apps list. Select it from the list and then click *Get*.
+    ![Install via headset, library](../tutorials/img/livesync_install_via_headset_2.jpg)
+
+4. When the installation has completed you will find *LiveSYNC* listed in the apps grid: Select *Library* tab from the bottom bar, and then *Apps* page from the left side menu (GearVR phone: *My Apps* tab from the top menu).
+
+5. Start *LiveSYNC* by selecting it from the apps grid. (On GearVR, you can start the app from the Oculus app on your phone, or you can first enter VR and then start it from the Oculus Home.)
+
+    ![LiveSYNC splash](../tutorials/img/livesync_splash.png)
 
 !!! note
     Notice that the app's version number appears in the splash screen, in the small print below the LiveSYNC logo. Here you can easily check which version you are running. The LiveSYNC app is updated frequently.

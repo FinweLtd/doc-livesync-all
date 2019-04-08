@@ -256,7 +256,7 @@ The store version is the official release version of the LiveSYNC app. It is ava
     
     Get a FREE Oculus Key for unlocking the LiveSYNC app:
     
-    <http://keys.livesync.app>
+    <https://keys.livesync.app>
 
     Unlock the LiveSYNC app by redeeming your Oculus Key:
     
@@ -283,11 +283,11 @@ If you have already installed LiveSYNC for your Android phone/tablet, we recomme
  
     ![Oculus Install Wizard](img/install_oculus_wizard_step_0.jpg)
 
-2. The *Settings* screen opens. Select *Keys* page from the left side menu. The wizard will load the introduction page. Click the *Redeem Code* link to begin.
+2. The *Settings* screen opens. Select *Keys* page from the left side menu. The wizard will load the introduction page. Click the *Redeem Code* page link to begin.
 
     ![Oculus Install Wizard](img/install_oculus_wizard_step_1.jpg)
 
-3. If you haven't used the wizard before on this device, you have probably not logged in yet. Click the *Go to Login* button to go to Oculus login page.
+3. If you haven't used the wizard before on this device, you have probably not logged in yet. Click the *Go to Login* button to load the Oculus login page.
 
     ![Oculus Install Wizard](img/install_oculus_wizard_step_2.jpg)
 
@@ -315,7 +315,7 @@ If you have already installed LiveSYNC for your Android phone/tablet, we recomme
 
     ![Oculus Install Wizard](img/install_oculus_wizard_step_9.jpg)
 
-10. Once completed, the button will read *Purchased*. Notice that despite of the text, the LiveSYNC app for Oculus is FREE.
+10. Once completed, the button will read *Purchased*. Notice that despite of the text, the LiveSYNC app for Oculus is FREE. It will take a moment until all your Oculus devices have downloaded and installed the app.
 
     ![Oculus Install Wizard](img/install_oculus_wizard_step_10.jpg)
 
@@ -329,7 +329,7 @@ Notice that the installation can be triggered either via the accompanying Oculus
 
 1. Installing apps via *Oculus Keys* distribution requires *a 25-character key*. You can get your personal key for unlocking the LiveSYNC app for FREE from here:
 
-    <http://keys.livesync.app>
+    <https://keys.livesync.app>
 
     ![Get Oculus Key](img/install_oculus_get_key.png)
     
@@ -471,9 +471,6 @@ Follow the instructions below to install *the beta version* of the LiveSYNC app 
     If you want to leave the beta program completely, repeat steps 1 and 2. Then click the button that says *LEAVE THE PROGRAM*. You are not a beta tester anymore.
 
 ### Oculus
-
-!!! tip
-    Read our [full step-by-step tutorial](../tutorials/oculus_go_device.md) about Oculus Go headset and learn how to use it with LiveSYNC.
 
 Follow the instructions below to install *the beta version* of the LiveSYNC app on your Oculus Go headset or GearVR compatible phone. The instructions are written for Oculus Go. When something differs for GearVR, it is mentioned.
 
