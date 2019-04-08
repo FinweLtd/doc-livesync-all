@@ -991,6 +991,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../articles/video_encoding/" title="Video encoding" class="md-nav__link">
+      Video encoding
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -1416,7 +1428,78 @@
 </li>
 </ol>
 <h3 id="oculus_1">Oculus<a class="headerlink" href="#oculus_1" title="Permanent link">&para;</a></h3>
-<p>TODO</p>
+<p>In a device group, all but one device must be configured to the audience role. These devices are often Oculus Go or GearVR headsets. The configuration is very similar on both headset types.</p>
+<p>Follow the steps below to configure your device to the audience role:</p>
+<ol>
+<li>
+<p>Start the LiveSYNC app. The <em>Home</em> screen appears. Initially, channel configurations do not exist. To create a new channel configuration, point at the big (+) button and click the selection button.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_1.png" /></p>
+</li>
+<li>
+<p>The <em>Setup</em> screen appears. First, point and click the <em>Audience</em> button to select the audience role. Your selection is marked by underlining it, as in the image below.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_2.png" /></p>
+</li>
+<li>
+<p>Point and click <em>Next</em> button on the right to proceed.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_3.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can navigate through the setup pages by clicking the <em>Next</em> and <em>Prev</em> buttons.</p>
+<p>Your input is validated on each page. You cannot proceed to the next page before your input is accepted. If you return to the first page and change the role, your input to the other pages will be cleared.</p>
+<p>If you want to cancel channel configuration, keep clicking the <em>Prev</em> button on the left (or the <em>Back</em> button in the hand remote / GearVR headset) until a confirmation dialog appears. Then answer <em>OK</em>.</p>
+</div>
+</li>
+<li>
+<p>Other users can identify you by your LiveSYNC name. This can be for example your own name, a name that you have given to your device, or your device's model name. The name cannot be left empty. Its maximum length is 32 characters. Click the text field to open a virtual keyboard and type a name. Then click <em>Next</em> to proceed.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_4.png" /></p>
+</li>
+<li>
+<p>Communication between the control device and viewing devices uses a wireless connection. The currently available connection types are listed. Choose a connection type that you wish to use. <strong>The director device and the audience devices must use the same connection type</strong>. Click <em>Next</em> to proceed.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_5.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A connection type may be temporarily unavailable. If so, it is marked as <em>Not available</em> in the list. Click the info button (i) next to it to learn why it is not available. As an example, you may need to enable Wifi or Bluetooth feature from the device's settings. Click <em>Refresh</em> button to update the list after fixing the issue.</p>
+</div>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_5c.png" />
+<img alt="Cover" src="../img/config_oculus_audience_step_5d.png" /></p>
+</li>
+<li>
+<p>Devices using the same connection type and the same channel can exchange messages. Devices on a different channel will not see them. Click the text field to type a channel number. Use the same channel number that you configured to your control device. The channel numbers are in the range 1000-9999. Click <em>Next</em> to proceed.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_6.png" /></p>
+</li>
+<li>
+<p>A dialog appears to ask your permission to access the files on your device. Without permission, the app cannot create the directory where your assets will go. Also, it cannot read from this directory even if you create it manually. Click <em>Allow</em> to give file access permission.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_7.png" /></p>
+</li>
+<li>
+<p>The channel configuration is almost complete. This setup page reminds you that the presentation's assets must be copied to the device. This task will be covered in detail in the next chapter <a href="../asset_management/">Managing assets</a>. You can copy the assets in place now, but you can also do that after completing the setup phase. Click <em>Next</em> to proceed.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_8.png" /></p>
+</li>
+<li>
+<p>The channel configuration is now created and the setup phase has been completed. Click <em>OK</em> to return to the <em>Home</em> screen.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_9.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Channel configurations are stored to your device's permanent memory. Closing the app or powering off the device will not make them disappear. They will also survive updating the app to the latest version. Not so if you reinstall the app. For example, to change between the store version and the beta version. Then, the channel configurations will be lost and you need to re-create them. </p>
+</div>
+</li>
+<li>
+<p>Your new channel configuration now appears on the <em>Home</em> screen. If you create many channel configurations, click arrow buttons on the left or right to find the one you wish to use (they will appear when the page is full).</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_10.png" /></p>
+</li>
+<li>
+<p>If you wish to edit an existing channel configuration, point at it. This will bring its editing controls in the view. Click the cog wheel to return to the <em>Setup</em> screen where you can edit the configuration. Click the cross to delete the channel configuration. Point at anywhere else to hide the editing controls.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_11.png" /></p>
+</li>
+<li>
+<p>If you point at a channel configuration and then click the cross button, a confirmation dialog is shown. Select <em>OK</em> to permanently delete the channel configuration.</p>
+<p><img alt="Cover" src="../img/config_oculus_audience_step_12.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This action cannot be undone. Once you confirm removing a channel configuration, it is gone. You have to re-create it from scratch to get it back.</p>
+</div>
+</li>
+</ol>
 <h2 id="configuration-tips">Configuration Tips<a class="headerlink" href="#configuration-tips" title="Permanent link">&para;</a></h2>
 <h3 id="device-role">Device Role<a class="headerlink" href="#device-role" title="Permanent link">&para;</a></h3>
 <p>You should always <strong>start configuring from the device that will act in the director role</strong>. This is because you need to know the channel number to be able to configure the audience devices. You will get that number during the director role configuration.</p>
@@ -1471,7 +1554,7 @@
 </div>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
-<p>Anthony has purchased a set of 360 Video Starter kits for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. Sometimes, Anthony needs to intervene. They will have a short teleconference. During the meeting, Anthony wants to show other site managers how one of them cleverly handled a difficult case. Anthony uses GlobalSYNC over mobile data. He and the site managers are all in different cities and the construction sites do not have Wifi access.</p>
+<p>Anthony has purchased a set of <a href="../starter_kit/">360 Video Starter kits</a>  for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. Sometimes, Anthony needs to intervene. They will have a short teleconference. During the meeting, Anthony wants to show other site managers how one of them cleverly handled a difficult case. Anthony uses GlobalSYNC over mobile data. He and the site managers are all in different cities and the construction sites do not have Wifi access.</p>
 </div>
 <h3 id="channel-number">Channel Number<a class="headerlink" href="#channel-number" title="Permanent link">&para;</a></h3>
 <p>When configuring a device to the director role you must choose a channel number. This cannot be selected freely. Instead, you are given a randomly selected number. However, you can press a button to ask a different one. When should you do that?</p>

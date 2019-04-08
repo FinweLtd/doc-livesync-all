@@ -781,9 +781,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        13. Customizing
+      </label>
+    
     <a href="./" title="13. Customizing" class="md-nav__link md-nav__link--active">
       13. Customizing
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#customizing-livesync" title="Customizing LiveSYNC" class="md-nav__link">
+    Customizing LiveSYNC
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-branding" title="Custom branding" class="md-nav__link">
+    Custom branding
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -856,6 +892,18 @@
   <li class="md-nav__item">
     <a href="../../articles/resolution/" title="Understanding resolution" class="md-nav__link">
       Understanding resolution
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../articles/video_encoding/" title="Video encoding" class="md-nav__link">
+      Video encoding
     </a>
   </li>
 
@@ -990,6 +1038,29 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#customizing-livesync" title="Customizing LiveSYNC" class="md-nav__link">
+    Customizing LiveSYNC
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-branding" title="Custom branding" class="md-nav__link">
+    Custom branding
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1002,7 +1073,58 @@
                 
                 
                 <h1 id="customizing">Customizing<a class="headerlink" href="#customizing" title="Permanent link">&para;</a></h1>
-<p>TODO</p>
+<h2 id="customizing-livesync">Customizing LiveSYNC<a class="headerlink" href="#customizing-livesync" title="Permanent link">&para;</a></h2>
+<p>For LiveSYNC there is settings file that can be used to customize LiveSYNC's user interface, channel and, tabs. The settings file can be edited and saved under LiveSYNC folder. The settings file is a mix of boolean (true/false), numeric, and string values. </p>
+<p>If you wish to open a given channel number every time you launch the application you can define the value as follows:  </p>
+<pre><code>; automatically opens given channel on startup, true/false
+default_channel_on_startup=true
+; channel number between 1000-9999
+default_channel=1000
+</code></pre>
+<p>If you have own contents and wish to hide demo contents from Player view, it is possible to do so by using the following attributes:</p>
+<pre><code>; demo assets that come with the app
+[demo]
+; minimize "Demo Content" section in the content tab, true/false
+demo_content_minimize=false
+; completely hide "Demo Content" section, true/false
+demo_content_hide=false
+; minimize "Demo Set" section in the tags tab, true/false
+demo_tags_minimize=false
+; completely hide "Demo Set" section, true/false
+demo_tags_hide=false
+</code></pre>
+<p>LiveSYNC's player tab is a mix of multiple tabs. One might need all tabs and one might want to hide the tabs. </p>
+<p><img alt="Workspace" src="../img/workspace_director_3.png" /></p>
+<p>It is possible to hide or minimize the tabs by changing the boolean value to true. </p>
+<pre><code>[tabs]
+; minimize "Devices" tab on start, true/false
+devices_tab_minimize=false
+; completely hide "Devices" tab, true/false
+devices_tab_hide=false
+; minimize "Tags" tab on start, true/false
+tags_tab_minimize=false
+; completely hide "Tags" tab, true/false
+tags_tab_hide=false
+; minimize "Content" tab on start, true/false
+content_tab_minimize=false
+; completely hide "Content" tab. In editor this also hides tags tab, true/false
+content_tab_hide=false
+; completely hide "Properties" tab from editor, true/false
+properties_tab_hide=false
+</code></pre>
+<p>The settings file will give you the chance to tailor LiveSYNC the way it suits your content, audience and presentation nature. Note that a line that starts with semicolon <strong>(;)</strong> is a comment. A comment is added for the purpose of making the settings file easier to understand and it is ignored by LiveSYNC. Click <a href="../../downloads/downloads/#settingsini">here to download settings.ini</a>.</p>
+<h2 id="custom-branding">Custom branding<a class="headerlink" href="#custom-branding" title="Permanent link">&para;</a></h2>
+<p><img alt="Enterprise feature" src="../../img/enterprise_feature.png" /></p>
+<p>Custom branding is one extra benefit you can get by using the enterprise version of LiveSYNC. Using custom branding you have the possibility to change the waiting room's lounge background also known as <a href="../workspace/#lobby">a lobby</a> on the audience's view, put own logo in the screen and use own logo on exported reports. </p>
+<p>In order to customize LiveSYNC, you need three image files: <strong>lounge_background.jpg</strong> a 360-degree waiting room background, <strong>lounge_logo.png</strong> logo that can be seen in the screen, and <strong>report_logo.png</strong> logo for the report. The three files need to be in a folder by the name <em>CustomBranding</em>. </p>
+<p><img alt="Custom branding" src="../img/customBranding.png" /></p>
+<p><img alt="Custom branding" src="../img/customBranding1.png" /></p>
+<p>Copy the <em>CustomBranding</em> folder to both the director and <strong>all audience devices</strong> LiveSYNC folder. To get a better idea where to copy the folder, take a look at our tutorial on <a href="../asset_management/#where-should-my-files-go">Where Should My Files Go?</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The changed lobby background is seen in all the audience devices, not on the director iPad.  </p>
+</div>
+<p><img alt="Enterprise feature" src="../img/enterpriseFooter.png" />  </p>
                 
                   
                 

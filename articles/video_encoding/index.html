@@ -142,14 +142,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="../.." title="Home" class="md-tabs__link md-tabs__link--active">
+      <a href="../.." title="Home" class="md-tabs__link">
         Home
       </a>
     
@@ -202,7 +204,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../articles/" title="Articles" class="md-tabs__link">
+        <a href="../articles/" title="Articles" class="md-tabs__link md-tabs__link--active">
           Articles
         </a>
       
@@ -804,10 +806,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
       Articles
@@ -840,6 +844,25 @@
     <a href="../resolution/" title="Understanding resolution" class="md-nav__link">
       Understanding resolution
     </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="Video encoding" class="md-nav__link md-nav__link--active">
+      Video encoding
+    </a>
+    
   </li>
 
         
@@ -971,23 +994,39 @@
                 
                   <h1>Video encoding</h1>
                 
-                <ol>
-<li>Download and install <a href="https://handbrake.fr">HandBrake</a>. HandBrake is a Free and open source tool for converting video from nearly any format to a selection of modern, widely supported codecs.</li>
-<li>Launch the app</li>
-<li>File - Open - choose the video you want to encode</li>
-<li>From the tabs select <strong>Dimensions</strong><ul>
+                <p>Video encoding or video transcoding is a process of converting a given video input into a digital format that is compatible with most types of web players and mobile devices. </p>
+<p>On this article, we will introduce you to an open source video transcoder tool called <strong>HandBrake</strong>. HandBrake is a multi-Platform (Windows, Mac and Linux) tool for converting video from nearly any format to a selection of modern, widely supported codecs.</p>
+<p>Please follow the following steps to encode your video files. </p>
+<ol>
+<li>Go to  <a href="https://handbrake.fr/">https://handbrake.fr/</a> and press Download HandBrake
+<img alt="Handbrake" src="../img/handbrakeHomePage.jpg" /></li>
+<li>Install and launch the downloaded app</li>
+<li>Got to File -&gt; Open Source -&gt; choose the video you want to encode
+or tap <img alt="Handbrake" src="../img/openSource.jpg" /> button to choose the video. </li>
+<li>
+<p>From the tabs select <strong>Dimensions</strong>
+<img alt="Dimensions Tab" src="../img/dimensionsTab.jpg" /></p>
+<ul>
 <li>Select resolution from Storage Size (Make sure the values on Storage Size are the same as Display Size)</li>
 <li>Anamorpic: Always keep it off </li>
 <li>Cropping: Make sure all values are 0 (choose custom and manually edit the values to 0 if needed)</li>
 </ul>
+<p><img alt="Settings on Dimensions Tab" src="../img/settings.png" /></p>
 </li>
-<li>From the tabs select Video<ul>
-<li>Video Encoder: H.264 (x264) is what supported by most iPads</li>
-<li>Framerate (FPS): 30</li>
-</ul>
+<li>
+<p>From the tabs select Video</p>
 </li>
-<li>Press <strong>Start</strong></li>
 </ol>
+<p><img alt="Video Tab" src="../img/videoTab.jpg" /></p>
+<ul>
+<li>Video Encoder: H.264 (x264) is what supported by most iPads</li>
+<li>
+<p>Framerate (FPS): 30</p>
+<p><img alt="Settings on Video Tab" src="../img/videoSettings.jpg" /><br />
+6. Press <strong>Start</strong> to start encoding the video. </p>
+</li>
+</ul>
+<p><img alt="Start encoding" src="../img/startButton.jpg" /></p>
                 
                   
                 
@@ -1004,6 +1043,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../resolution/" title="Understanding resolution" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Understanding resolution
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../faq/faq/" title="Index" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Index
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
