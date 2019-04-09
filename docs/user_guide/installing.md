@@ -51,7 +51,7 @@ Installing the beta version is only slightly different than installing the store
 !!! example
     Anthony has purchased a set of 360 Video [Starter kits](starter_kit.md) for his construction company. They are building in several cities. Anthony wants to keep himself up-to-date without spending his days traveling. Twice per week his site managers take a set of 360-degree photos and annotate the progress and next tasks. They email a PDF report to Anthony straight from LiveSYNC. They use the beta version because it has some new annotation features they wish to test.
 
-![Enterprise feature](../img/enterpriseFooter.png)
+![Enterprise feature](../img/enterprise_footer.png)
 
 ### Roles
 
@@ -283,7 +283,7 @@ If you have already installed LiveSYNC for your Android phone/tablet, we recomme
  
     ![Oculus Install Wizard](img/install_oculus_wizard_step_0.jpg)
 
-2. The *Settings* screen opens. Select *Keys* page from the left side menu. The wizard will load the introduction page. Click the *Redeem Code* page link to begin.
+2. The *Settings* screen opens. Select *VR Headsets* page from the left side menu. The wizard will load the introduction page. Click the *Redeem Code* page link to begin.
 
     ![Oculus Install Wizard](img/install_oculus_wizard_step_1.jpg)
 
@@ -607,7 +607,7 @@ To avoid confusion, locked features are usually hidden from the app.
 
 Enterprise features are not included in the standard license that you can purchase from the app stores. They are always enabled with a license code or a license file.
 
-![Enterprise feature](../img/enterpriseFooter.png)
+![Enterprise feature](../img/enterprise_footer.png)
 
 ### 360 Video Starter Kit
 

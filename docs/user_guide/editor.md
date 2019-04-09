@@ -9,20 +9,20 @@ The *Editor* is a tab in the controller device, which provides persistence for t
 
 (1) Navigate to the *Editor View*
 
-![Enterprise feature](../img/editorTab.jpg)
+![Enterprise feature](img/editorTab.jpg)
 
 (2) Tap [New] and select <*Create New Project>* to create a project or [Open] to load an existing project.
 
-![Enterprise feature](../img/createProject.jpg)
+![Enterprise feature](img/createProject.jpg)
 
-![New Project](../img/newProject.jpg)
+![New Project](img/newProject.jpg)
 
 !!! tip
     Remember to tap [Save] to keep changes.
     
 (3) Drag a photo/video to presentation area to start adding annotations to the project. 
 
-![Adding content](../img/dragContent.jpg)
+![Adding content](img/dragContent.jpg)
 
  
 ## Adding/editing/removing annotations
@@ -36,11 +36,11 @@ Navigate to *Editor view* and create/open a project to add and edit annotations.
 !!! tip
     You can later long press on the added tag and move around to adjust the position. Properties list to the newly added hotspot will be shown automatically on the right side of the screen.  
 
-![Tag Settings](../img/addNewTag.jpg)
+![Tag Settings](img/addNewTag.jpg)
 
  (2) Use Note type, and edit text, size, visibility, tag size, etc.  
  
- ![Tag Settings](../img/editTag.jpg)
+ ![Tag Settings](img/editTag.jpg)
  
  From the settings, you can choose the type of Tag, add title and description, you can even add attachments and adjust the size of tag using the slider indicated as "Hotspot size".
  
@@ -49,7 +49,7 @@ Navigate to *Editor view* and create/open a project to add and edit annotations.
  
  (3) Tap [Delete] from properties list to remove a hotspot
 
-![Delete Tag](../img/deleteTag.jpg)
+![Delete Tag](img/deleteTag.jpg)
 
 If you wish to delete the added tag, select the tag by tapping it and tap "Delete" button from the properties window seen on the right side. 
 
@@ -62,7 +62,7 @@ If you wish to delete the added tag, select the tag by tapping it and tap "Delet
 !!! tip
     Use 32-bit PNG images (with alpha channel) for transparent icon background. 
  
- Detailed tutorial on tags and hotspots is discussed on [chapter 9](..//user_guide/hotspots.md). 
+ Detailed tutorial on tags and hotspots is discussed on [chapter 9](../user_guide/hotspots.md). 
 
 
 ## Exporting presentation content
@@ -83,4 +83,4 @@ from top menu and Document details dialog view will appear, give document title 
 
 [comment]: <> (What are the files you need to copy when transfering saved projects to another iPad)
 
-![Enterprise feature](../img/enterpriseFooter.png)
+![Enterprise feature](../img/enterprise_footer.png)

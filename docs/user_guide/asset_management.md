@@ -28,7 +28,7 @@ In short, a **presentation's assets are all the files that you will need in your
 - 3D map models
 - Camera path files
 
-![Enterprise feature](../img/enterpriseFooter.png)
+![Enterprise feature](../img/enterprise_footer.png)
 
 You can combine different kinds of assets in your presentation. They can be partially the same as other presentations and partially different.
 

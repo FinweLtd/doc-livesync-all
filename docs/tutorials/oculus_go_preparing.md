@@ -41,7 +41,7 @@ To view a presentation, the headset must join the same channel that the control 
 
     ![Cover](../user_guide/img/config_oculus_audience_step_7.png)
 
-8. The channel configuration is almost complete. This setup page reminds you that the presentation's assets must be copied to the device. This task will be covered in detail in the next chapter [Managing assets](asset_management.md). You can copy the assets in place now, but you can also do that after completing the setup phase. Click *Next* to proceed.
+8. The channel configuration is almost complete. This setup page reminds you that the presentation's assets must be copied to the device. This task will be covered in detail in the next chapter [Managing assets](../user_guide/asset_management.md). You can copy the assets in place now, but you can also do that after completing the setup phase. Click *Next* to proceed.
 
     ![Cover](../user_guide/img/config_oculus_audience_step_8.png)
 

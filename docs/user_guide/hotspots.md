@@ -1,6 +1,6 @@
 ### Adding Tags
 
-[Adding Tags](..//user_guide/presenting.md#adding-tags)
+[Adding Tags](../user_guide/presenting.md#adding-tags)
 
 ### Marking with tags
 
@@ -29,7 +29,7 @@ In LiveSYNC it is possible to add own tags. Make sure the icons are in **.png** 
  
 On the *Editor* tab once you add a hotspot you're able to see properties window on right side. From properties window, you can choose the type of hotspot by tapping on the drop-down arrow under *Type*. Hotspot type can be **Note (default)**, **Action**, **Live Hotspot** or **Calibration Point**. It is also possible to adjust and customize hotspot size and visibility for the same window. 
 
-![Hotspot properties](../img/hotspotProperties.jpg)
+![Hotspot properties](img/hotspotProperties.jpg)
 
 ## Hotspot types
 
@@ -37,32 +37,32 @@ On the *Editor* tab once you add a hotspot you're able to see properties window 
 
 Note is default hotspot action type. With Note type, you have an option to add a title and long description text to your hotspot icons and add multiple attachments by pressing the + Add button. 
 
-![HotspotType Note](../img/hotspotTypeNote.jpg)
+![HotspotType Note](img/hotspotTypeNote.jpg)
 
 !!! note
-    Make sure you tap **Save** every time you make a change. After saving the project choose preview ![Preview Icon](../img/previewIcon.png).  
+    Make sure you tap **Save** every time you make a change. After saving the project choose preview ![Preview Icon](img/previewIcon.png).  
 
 ### Action
 
 With *Action* it is possible to open/redirect to other contents by tapping on the hotspot. Select hotspot -> choose Action from Type -> Add action -> choose the content you want to show when that hotspot is tapped from auto popup project window and you're all set.  
 
-![HotspotType Action](../img/hotspotTypeAction.jpg)
+![HotspotType Action](img/hotspotTypeAction.jpg)
 
-![HotspotType Action](../img/hotspotTypeAction2.jpg)
+![HotspotType Action](img/hotspotTypeAction2.jpg)
 
-**Save** the changes, tap preview ![Preview Icon](../img/previewIcon.png) to test the action you defined.  
+**Save** the changes, tap preview ![Preview Icon](img/previewIcon.png) to test the action you defined.  
 
 ### Live Hotspot
 
 *Live Hotspot* is a feature to fetch hotspot icons from web server without copying them to the device. Note that hotspots need to be provided in JSON format.  
 
-![HotspotType Live Hotspot](../img/LiveHotspot.jpg)
+![HotspotType Live Hotspot](img/LiveHotspot.jpg)
 
 ### Calibration Point
 
 *Calibration point* is used for camera normalization. Normalization converts a camera path's coordinates to another coordinate space with given reference points. Click [here](..//user_guide/workflows.md#camera-path-normalization) to read more about camera path normalization. 
 
-![HotspotType Calibration](../img/hotspotTypeCalibration.jpg)
+![HotspotType Calibration](img/hotspotTypeCalibration.jpg)
 
 ## Hotspot properties
 
@@ -74,7 +74,7 @@ With *Action* it is possible to open/redirect to other contents by tapping on th
 
 **Pauses playback:** (for video file) check the box if you want the video to pause when the hotspot is tapped and a predefined action is executed (for example opening a new content).  
 
-![HotspotType Property](../img/hotspotProperty.jpg)
+![HotspotType Property](img/hotspotProperty.jpg)
 
 ## Tags resolution
  
@@ -86,4 +86,4 @@ With *Action* it is possible to open/redirect to other contents by tapping on th
                                                                                                                           
  [comment]: <> (add link to downloadable hotspots)
 
-  ![Enterprise feature](../img/enterpriseFooter.png)  
+![Enterprise feature](../img/enterprise_footer.png)

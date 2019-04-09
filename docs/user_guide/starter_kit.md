@@ -1,6 +1,6 @@
 # 360° VIDEO STARTER KIT
 
-![360° VIDEO Starter Kit](../img/kit_items.png)
+![360° VIDEO Starter Kit](img/kit_items.png)
 
 ** Starter Kit includes:  **
 
@@ -53,11 +53,11 @@ The accompanying Ricoh Theta mobile app allows **remote operation** and hence hi
 
 (1) Turn the camera on. 
 
-![Recho power button](../img/turnon.png)
+![Recho power button](img/turnon.png)
 
 (2) Press the wireless button to turn the WiFi on.
 
-![Recho wireless indictor](../img/wireless.png)
+![Recho wireless indictor](img/wireless.png)
 
 !!! note
     The WiFi indictor flashes
@@ -66,13 +66,13 @@ The accompanying Ricoh Theta mobile app allows **remote operation** and hence hi
 
 (4) Select the SSID displaying the camera’s serial number, and enter the password.
 
-![Recho serial](../img/serial.png)
+![Recho serial](img/serial.png)
 
 *The serial number is printed at the bottom of the camera. The SSID is “THETA + [Serial number indicated by (B)] + .OSC” (for example, “THETAYL00001017.OSC”). The password is the number indicated by (A) (in this case “00001017”)*
 
 (5) Open the Ricoh Theta app on the tablet to capture & view 360° photos and videos or to access advanced camera functions.
 
-![Recho serial](../img/thetaApp.png)
+![Recho serial](img/thetaApp.png)
 
 
 ### Camera WiFi indicator
@@ -93,7 +93,7 @@ The accompanying Ricoh Theta mobile app allows **remote operation** and hence hi
 
 3. Keep the camera steady and press the big round capture button in the front.
 
-![Capture Button](../img/captureButton.jpg)
+![Capture Button](img/captureButton.jpg)
 
 ### Remote operation mode (with the tablet)
 
@@ -112,8 +112,8 @@ Both the tablet and the camera contain **internal memory only** (tablet: 128GB, 
 1. Turn the camera on and connect the tablet to the camera via WiFi. Start the Ricoh Theta app. The shooting screen is displayed.
 2. Tap [x] in the upper left-hand corner of the screen. A timeline of already transferred images is displayed and [Device images] is selected in the bottom bar.
 3. Select [Cam images] from the bottom bar. A list of images saved in the internal memory of the camera is displayed.
-4. Tap ![Image](../img/i026.png) from top right corner. The selection screen appears.
-5. Select the images to be transferred by tapping them. Multiple images can be selected (a check mark appears for selected images). Tap ![Select all](../img/i005.png)  (Select All button) to select all images. Tap ![Cancel button](../img/i006.png)  (Cancel button) to cancel all selections.
+4. Tap ![Image](img/i026.png) from top right corner. The selection screen appears.
+5. Select the images to be transferred by tapping them. Multiple images can be selected (a check mark appears for selected images). Tap ![Select all](img/i005.png)  (Select All button) to select all images. Tap ![Cancel button](img/i006.png)  (Cancel button) to cancel all selections.
 6. Tap [Transfer]. The transfer will start and progress is displayed on the screen. From the popup notification choose **"Transfer with slant top/bottom correction"** .To cancel the transfer, tap [x] and then tap [Cancel transfer]. Tap [Device images] to view transferred content.
 
 !!! caution
@@ -134,7 +134,7 @@ Both the tablet and the camera contain **internal memory only** (tablet: 128GB, 
 
 (1) Start the Photos app from the application menu.
 
-![Photos App](../img/photosApp.png)
+![Photos App](img/photosApp.png)
 
 (2) Tap [Camera Roll], and then tap [Select] from top right corner.
 
